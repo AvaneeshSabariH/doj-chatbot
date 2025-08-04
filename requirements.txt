@@ -1,0 +1,19 @@
+# Core AI and Language Model Integration
+langchain
+langchain-google-genai
+langchain-community
+google-generativeai
+
+# Vector Database
+chromadb
+
+# Web Server
+Flask
+
+# Data Handling and Web Scraping
+pypdf
+requests
+beautifulsoup4
+
+# Utilities
+python-dotenv
