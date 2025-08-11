@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vacancy Position</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.15/proj4.js"></script>
+<script src="https://cdn.anychart.com/releases/v8/js/anychart-base.min.js"></script>
+<script src="https://cdn.anychart.com/releases/v8/js/anychart-map.min.js"></script>
+<script src="https://cdn.anychart.com/releases/v8/js/anychart-exports.min.js"></script>
+<script src="https://cdn.anychart.com/releases/v8/js/anychart-ui.min.js"></script>
+<script src="https://cdn.anychart.com/geodata/2.1.1/countries/india/india.js"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+  <style>
+    html, body, #container {
+    width: 100%;
+    height: 750px;
+    margin: 0;
+    padding: 0;
+  }
+
+    .chart--container {
+      min-height: 800px;
+      width: 100%;
+      height: 100%;
+    }
+
+    .zc-ref {
+      display: none;
+    }
+  </style>
+  <style>
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #2f4f4f;
+  padding: 5px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #2f4f4f;
+  color: black;
+}
+
+.header a.active {
+  background-color: #2f4f4f;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+
+/*High Chart CSS*/
+.highcharts-figure,
+.highcharts-data-table table {
+  min-width: 1200px;
+  max-width: 1500px;
+  margin: 1em auto;
+}
+
+#container1 {
+  height: 700px;
+}
+
+.highcharts-data-table table {
+  font-family: Verdana, sans-serif;
+  border-collapse: collapse;
+  border: 1px solid #ebebeb;
+  margin: 10px auto;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+.highcharts-data-table caption {
+  padding: 1em 0;
+  font-size: 1.2em;
+  color: #555;
+}
+
+.highcharts-data-table th {
+  font-weight: 600;
+  padding: 0.5em;
+}
+
+.highcharts-data-table td,
+.highcharts-data-table th,
+.highcharts-data-table caption {
+  padding: 0.5em;
+}
+
+.highcharts-data-table thead tr,
+.highcharts-data-table tr:nth-child(even) {
+  background: #f8f8f8;
+}
+
+.highcharts-data-table tr:hover {
+  background: #f1f7ff;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <a href="doj.png" class="logo"><img src="doj.png" width=200px></a>
+  <div class="header-right" style="padding-top:27px;">
+    <a class="active" href="https://dashboard.doj.gov.in/vacancy-position/high_court_benches.php" style="border: 1px solid;">High Court Benches</a>
+    <!-- <a href="#contact">Contact</a>
+    <a href="#about">About</a> -->
+  </div>
+</div>
+
+<section class="content">
+  <h2 style="text-align: center;">Sanctioned Strength, Working Strength and Vacancies of Judges in the High Courts (As on 01.06.2024)</h2>
+  <div class="row">
+        <div class="col-md-12">
+          <div id="container">
+          </div>
+        </div>
+       <!--  <div class="col-md-12" style="padding-left:50px; padding-right:50px;">
+        <p style="font-size:12px;"><b>DISCLAIMER:</b>The information and data depicted in the above infographics on this website is for general information purposes only. The information is provided by the respective High Courts on the Department of Justice MIS portal and while we endeavour to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website. </p>
+      </div>
+    </div> --><!-- /.container-fluid -->
+</section>
+
+<figure class="highcharts-figure">
+  <div id="container1"></div>
+</figure>
+
+
+<script type="text/javascript">
+  
+  anychart.onDocumentReady(function() {
+  // create map
+  var map = anychart.map();
+
+  // create data set
+  var dataSet = anychart.data.set(
+    [ {"id":"IN.AN","value":0, label: 'Andaman and Nicobar', "sanctioned": 72, "working": 45, "vacancy": 27, "fill": '#ff99c2', 'customName': 'CALCUTTA HIGH COURT'},
+
+
+      {"id":"IN.AP","value":1, label: 'Andhra Pradesh', "sanctioned": 37, "working": 30, "vacancy": 7, "fill": '#b3ffff', 'customName': 'ANDHRA PRADESH HIGH COURT'},
+
+
+      {"id":"IN.AR","value":2, label: 'Arunachal Pradesh', "sanctioned": 30, "working": 24, "vacancy": 6, "fill": '#d0e2bc', 'customName': 'GAUHATI HIGH COURT'},
+
+
+      {"id":"IN.AS","value":3, label: 'Assam', "sanctioned": 30, "working": 24, "vacancy": 6, "fill": '#d0e2bc', 'customName': 'GAUHATI HIGH COURT'},
+
+      {"id":"IN.BR","value":4, label: 'Bihar', "sanctioned": 53, "working": 33, "vacancy": 20, "fill": '#f5f5f5', 'customName': 'PATNA HIGH COURT'},
+
+      {"id":"IN.CH","value":5, label: 'Chandigarh', "sanctioned": 85, "working": 54, "vacancy": 31, "fill": '#ddddbb', 'customName': 'PUNJAB & HARYANA HIGH COURT'},
+
+      {"id":"IN.CT","value":6, label: 'Chhattisgarh', "sanctioned": 22, "working": 16, "vacancy": 6, "fill": '#ffff99', 'customName': 'CHHATTISGARH HIGH COURT'},
+
+      {"id":"IN.DN","value":7, label: 'Dadra and Nagar Haveli', "sanctioned": 94, "working": 66, "vacancy": 28, "fill": '#ffad99', 'customName': 'BOMBAY HIGH COURT'},
+
+      {"id":"IN.DD","value":8, label: 'Daman and Diu', "sanctioned": 94, "working": 66, "vacancy": 28, "fill": '#ffad99', 'customName': 'BOMBAY HIGH COURT'},
+
+      {"id":"IN.DL","value":9, label: 'Delhi', "sanctioned": 60, "working": 42, "vacancy": 18, "fill": '#c2d6d6', 'customName': 'DELHI HIGH COURT'},
+
+      {"id":"IN.GA","value":10, label: 'Goa', "sanctioned": 94, "working": 66, "vacancy": 28, "fill": '#ffad99', 'customName': 'BOMBAY HIGH COURT'},
+
+      {"id":"IN.GJ","value":11, label: 'Gujarat', "sanctioned": 52, "working": 29, "vacancy": 23, "fill": '#ffd480', 'customName': 'GUJARAT HIGH COURT'},
+
+      {"id":"IN.HR","value":12, label: 'Haryana', "sanctioned": 85, "working": 54, "vacancy": 31, "fill": '#ddddbb', 'customName': 'PUNJAB & HARYANA HIGH COURT'},
+
+      {"id":"IN.HP","value":13, label: 'Himachal Pradesh', "sanctioned": 17, "working": 12, "vacancy": 5, "fill": '#99ff99', 'customName': 'HIMACHAL PRADESH HIGH COURT'},
+
+      {"id":"IN.JH","value":14, label: 'Jharkhand', "sanctioned": 25, "working": 19, "vacancy": 6, "fill": '#ffcc99', 'customName': 'JHARKHAND HIGH COURT'},
+
+      {"id":"IN.KA","value":15, label: 'Karnataka', "sanctioned": 62, "working": 49, "vacancy": 13, "fill": '#e699ff', 'customName': 'KARNATAKA HIGH COURT'},
+
+      {"id":"IN.KL","value":16, label: 'Kerala', "sanctioned": 47, "working": 42, "vacancy": 5, "fill": '#c2c2d6', 'customName': 'KERALA HIGH COURT'},
+
+      {"id":"IN.LD","value":17, label: 'Lakshadweep', "sanctioned": 47, "working": 42, "vacancy": 5, "fill": '#c2c2d6', 'customName': 'KERALA HIGH COURT'},
+
+      {"id":"IN.MP","value":18, label: 'Madhya Pradesh', "sanctioned": 53, "working": 37, "vacancy": 16, "fill": '#097969', 'customName': 'MADHYA PRADESH HIGH COURT'},
+
+      {"id":"IN.MH","value":19, label: 'Maharashtra', "sanctioned": 94, "working": 66, "vacancy": 28, "fill": '#ffad99', 'customName': 'BOMBAY HIGH COURT'},
+
+      {"id":"IN.MNL","value":20, label: 'Manipur', "sanctioned": 5, "working": 4, "vacancy": 1, "fill": '#99ffff', 'customName': 'MANIPUR HIGH COURT'},
+
+      {"id":"IN.ML","value":21, label: 'Meghalaya', "sanctioned": 4, "working": 4, "vacancy": 0, "fill": '#1ac6ff', 'customName': 'MEGHALAYA HIGH COURT'},
+
+      {"id":"IN.MZ","value":22, label: 'Mizoram', "sanctioned": 30, "working": 24, "vacancy": 6, "fill": '#d0e2bc', 'customName': 'GAUHATI HIGH COURT'},
+
+      {"id":"IN.NL","value":23, label: {x: 1, y: 1, positionMode: "relative", format: 'Nagaland'}, "sanctioned": 30, "working": 24, "vacancy": 6, "fill": '#d0e2bc', 'customName': 'GAUHATI HIGH COURT'},
+
+      {"id":"IN.OR","value":24, label: 'Odisha',  "sanctioned": 33, "working": 21, "vacancy": 12, "fill": '#ff6666', 'customName': 'ORISSA HIGH COURT'},
+
+      {"id":"IN.PY","value":25, label: 'Puducherry', "sanctioned": 75, "working": 64, "vacancy": 11, "fill": '#3366cc', 'customName': 'MADRAS HIGH COURT'},
+
+      {"id":"IN.PB","value":26, label: 'Punjab', "sanctioned": 85, "working": 54, "vacancy": 31, "fill": '#ddddbb', 'customName': 'PUNJAB & HARYANA HIGH COURT'},
+
+      {"id":"IN.RJ","value":27, label: 'Rajasthan', "sanctioned": 50, "working": 32, "vacancy": 18, "fill": '#ff66b3', 'customName': 'RAJASTHAN HIGH COURT'},
+
+      {"id":"IN.SK","value":28, label: 'Sikkim', "sanctioned": 3, "working": 3, "vacancy": 0, "fill": '#ffff99', 'customName': 'SIKKIM HIGH COURT'},
+
+      {"id":"IN.TN","value":29, label: 'Tamil Nadu', "sanctioned": 75, "working": 64, "vacancy": 11, "fill": '#3366cc', 'customName': 'MADRAS HIGH COURT'},
+
+      {"id":"IN.TR","value":30, label: 'Tripura', "sanctioned": 5, "working": 5, "vacancy": 0, "fill": '#ff9900', 'customName': 'TRIPURA HIGH COURT'},
+
+      {"id":"IN.UP","value":31, label: 'Uttar Pradesh', "sanctioned": 160, "working": 87, "vacancy": 73, "fill": '#b3d9ff', 'customName': 'ALLAHABAD HIGH COURT'},
+
+      {"id":"IN.UT","value":32, label: 'Uttarakhand', "sanctioned": 11, "working": 7, "vacancy": 4, "fill": '#9999ff', 'customName': 'UTTARAKHAND HIGH COURT'},
+
+      {"id":"IN.WB","value":33, label: 'West Bengal', "sanctioned": 72, "working": 45, "vacancy": 27, "fill": '#ff99c2', 'customName': 'CALCUTTA HIGH COURT'},
+
+      {"id":"IN.TG","value":34, label: 'Telangana', "sanctioned": 42, "working": 28, "vacancy": 14, "fill": '#99ff99', 'customName': 'TELANGANA HIGH COURT'},
+
+      {"id":"IN.JK","value":35, label: 'Jammu and Kashmir', "sanctioned": 17, "working": 16, "vacancy": 1, "fill": '#ffc299', 'customName': 'HIGH COURT OF JAMMU & KASHMIR and LADAKH'},
+      {"id":"IN.LA","value":36, label: 'Ladakh', "sanctioned": 17, "working": 16, "vacancy": 1, "fill": '#ffc299', 'customName': 'HIGH COURT OF JAMMU & KASHMIR and LADAKH'}]
+  );
+
+  // create choropleth series
+  series = map.choropleth(dataSet);
+
+  // set geoIdField to 'id', this field contains in geo data meta properties
+  series.geoIdField('id');
+
+  // set map color settings
+  series.colorScale(anychart.scales.linearColor('#deebf7', '#3182bd'));
+  series.hovered().fill('#F5F5F5');
+  series.labels(true);
+  series.overlapMode("allow-overlap");
+
+  series.tooltip().format(function() {
+    // here return the desired content
+    return `Sanctioned: ${this.getData('sanctioned')}
+  Working: ${this.getData('working')}
+  Vacancy: ${this.getData('vacancy')}`;
+  });
+
+  series.tooltip().titleFormat(function() {
+    return this.getData('customName');
+  });
+
+
+  // set geo data, you can find this map in our geo maps collection
+  // https://cdn.anychart.com/#maps-collection
+  map.geoData(anychart.maps['india']);
+
+  map.tooltip().titleFormat('{%label}');
+  series.labels().enabled(true).format('{%label}');
+
+
+  //set map container id (div)
+  map.container('container');
+
+  //initiate map drawing
+  map.draw();
+});
+</script>
+
+<script type="text/javascript">
+  Highcharts.chart('container1', {
+  chart: {
+    type: 'column'
+  },
+  title: {
+    text: 'Sanctioned Strength, Working Strength and Vacancies of Judges in the High Courts (As on 01.06.2024)'
+  },
+  subtitle: {
+    /*text: 'Source: WorldClimate.com'*/
+  },
+  xAxis: {
+    categories: [
+      'Allahabad',
+      'Andhra Pradesh',
+      'Bombay',
+      'Calcutta',
+      'Chhatisgarh',
+      'Delhi',
+      'Gauhati',
+      'Gujarat',
+      'Himachal Pradesh',
+      'Jammu & Kashmir & Ladakh',
+      'Jharkhand',
+      'Karnataka',
+      'Kerala',
+      'Madhya Pradesh',
+      'Madras',
+      'Manipur',
+      'Meghalaya',
+      'Orissa',
+      'Patna',
+      'Punjab & Haryana',
+      'Rajasthan',
+      'Sikkim',
+      'Telangana',
+      'Tripura',
+      'Uttarakhand'
+    ],
+    crosshair: true
+  },
+  yAxis: {
+    min: 0,
+    title: {
+      text: 'Sanctioned Strength, Working Strength and Vacancies of Judges in the High Courts (As on 01.06.2024)'
+    }
+  },
+  tooltip: {
+    headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+    pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+      '<td style="padding:0"><b>{point.y:.1f} </b></td></tr>',
+    footerFormat: '</table>',
+    shared: true,
+    useHTML: true
+  },
+  plotOptions: {
+    column: {
+      pointPadding: 0.2,
+      borderWidth: 0
+    }
+  },
+  series: [{
+    name: 'Sanctioned Strength',
+    data: [160, 37, 94, 72, 22, 60, 30, 52, 17, 17, 25, 62, 47, 53, 75, 5, 4, 33, 53, 85, 50, 3, 42, 5, 11]
+
+  }, {
+    name: 'Working Strength',
+    data: [87, 30, 66, 45, 16, 42, 24, 29, 12, 16, 19, 49, 42, 37, 64, 4, 4, 21, 33, 54, 32, 3, 28, 5, 7]
+
+  }, {
+    name: 'Vacancies',
+    data: [73, 7, 28, 27, 6, 18, 6, 23, 5, 1, 6, 13, 5, 16, 11, 1, 0, 12, 20, 31, 18, 0, 14, 0, 4]
+
+  }]
+});
+</script>
+
+</body>
+</html>
+
+</body>
+</html>

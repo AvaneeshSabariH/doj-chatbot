@@ -1,0 +1,5 @@
+Last updated: 13-03-2025
+प्रौद्योगिकी सक्षम प्रोसेस सर्विंग और सम्मन जारी करने के लिए शुरू की गई है । सम्मन की तामील के लिए बेलीफ को एक जीपीएस सक्षम उपकरण दिया जाता है जिससे प्रक्रियाओं की अधिक पारदर्शिता और तेजी से वितरण होता है । यह सेवा के समय प्रोसेस सर्वर के भौगोलिक निर्देशांक की ट्रैकिंग के अलावा समन की तामील का रीयल टाइम स्टेटस अपडेट प्रदान करता है । इसे वर्तमान में 28 राज्यों/केंद्र शासित प्रदेशों में लागू किया गया है ।
+Content Owned by DEPARTMENT OF JUSTICE, Ministry of Law and Justice, GOI
+Developed and hosted byNational Informatics Centre,Ministry of Electronics & Information Technology, Government of India
+अंतिम अद्यतन:Aug 11, 2025

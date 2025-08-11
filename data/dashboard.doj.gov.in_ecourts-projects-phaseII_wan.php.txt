@@ -1,0 +1,10 @@
+Dashboard
+Funds
+Video Conferencing(Jails & Courts)
+Virtual Courts
+Video Conferencing
+WAN
+Plan & Policy Document and Sanction Order
+Total Number of Sites
+Total Number of Sites Commissioned
+*Gujarat High Court is not a part of WAN project as they already have state WAN

@@ -1,0 +1,7 @@
+Print
+Share on Facebook
+Share on X
+Share on Linkedin
+eCourt Services
+As part of eCourt project, 7 platforms have been created to provide real time information on case status, cause lists, judgements etc. to lawyers/Litigants through SMS Push and Pull (4,74,371 SMS sent daily as on 31st December 2023), Email (6,06,818 sent daily as on 31st December 2023), multilingual and tactile eCourts services Portal (35 lakh hits daily), JSC (Judicial Service centres) and Info Kiosks. In addition, Electronic Case Management Tools (ECMT) have been created with eCourts Services Mobile App for litigant & lawyers (total 2.87 cr. downloads as of 31st January 2025) and JustIS app for judges (21,105 downloads till 31st January 2025).
+For more information, please visit https://ecourts.gov.in/ecourts_home/

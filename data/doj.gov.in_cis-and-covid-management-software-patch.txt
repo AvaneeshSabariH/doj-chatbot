@@ -1,0 +1,8 @@
+Print
+Share on Facebook
+Share on X
+Share on Linkedin
+CIS and COVID Management Software Patch
+Case Information Software (CIS) which forms the basis for the e court services is based on customized Free and Open-Source Software (FOSS) which has been developed by NIC.Currently, CIS National Core Version 3.2 is being implemented in District Courts and the CIS National Core Version 1.0 is being implemented for the High Courts.
+Every single case has been provided a Unique Identification code which is called CNR number and QR Code. This has led to the development of National Judicial Data Grid (NJDG) as a new communication pipeline for judicial data transmission
+To ensure smooth functioning of Courts during COVID-19 pandemic, a new software patch has been developed to help in smart scheduling of cases.Courts can now hear urgent cases in scheduled time slots and accommodate the convenience of lawyers to prevent conflicting engagements and has proved to be effective in managing overcrowding in court premises.

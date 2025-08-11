@@ -1,0 +1,45 @@
+Print
+Share on Facebook
+Share on X
+Share on Linkedin
+Contact Us
+TABLES:
+Sl No. Name Designation Email Address Phone Fax Room No
+1 Shri Raj Kumar Goyal Secretary (Justice) secy-jus[at]gov[dot]in 01123383674 01123384516 14
+2 Shri Pramod Kumar PPS to Secretary (Justice) 01123383674 01123384516 14-A
+3 Shri Niraj Kumar Gayagi Joint Secretary (Justice-I, Access to Justice and Legal Aid to Poor) jsa2j-doj[at]gov[dot]in 01123385020 01123385020 01
+4 Shri Pawan Kumar PPS to Joint Secretary (Justice-I, Access to Justice and Legal Aid to Poor)
+5 Shri Jagannath Srinivasan Joint Secretary (Appointments, Administration and Coordination (Additional Charge)) jsapp[-]doj[at]gov[dot]in 01123383037 01123072387 16
+6 Shri Harvinder Singh PPS to Joint Secretary (Appointments, Administration and Coordination (Additional Charge)) harvinder[dot]singh38[at]nic[dot]in 01123383037 16-A
+7 Shri Satya Pratap Singh Joint Secretary (Justice-II, Public Grievances, NMJR-I, NMJR-II and eCourts) jsj2[-]doj[at]nic[dot]in 01123381496 01123381496 25
+8 Shri Chand Veer PPS to Joint Secretary (Justice-II, Public Grievances, NMJR-I, NMJR-II and eCourts) chand[dot]veer[at]nic[dot]in 01123381496 01123381496 25-A
+9 Shri Yashasvi Kumar Director (eCourts, NMJR-II and Public Grievances) dir[-]ecourts[-]doj[at]gov[dot]in 01123072135 28
+10 Shri Anil Sharma Director (Justice-I) sharma[dot]anil[at]nic[dot]in 01123072139 34-A
+11 Ms. Monika Rani Director (Access to Justice and Legal Aid to Poor) dirj1[-]doj[at]gov[dot]in 01123385332 12-D
+12 Shri Narayan Prasad Director (Appointments) n[dot]prasad68[at]gov[dot]in 01123072149 01123072149 12-B
+13 Shri R. C. Ahuja Deputy Secretary (Administration & Coordination) rc[dot]ahuja[at]nic[dot]in 01123382570 26
+14 Shri Biswanath Sahoo Deputy Secretary (Justice-II and Additional Charge of NMJR-I) b[dot]sahoo66[at]nic[dot]in 30
+15 Shri Sanjay Kumar Under Secretary (Admn-I) yadav[dot]sanjay05[at]nic[dot]in 01123072137 01123072137 22-A
+16 Shri A.S. Lungreishang Under Secretary (Admn-II) shanglai[dot]a[at]nic[dot]in
+17 Shri M.S. P. Dara Under Secretary (Coordination) mspaul[dot]dara[at]nic[dot]in 40-B
+18 Ms. Amarjeet Sroa Under Secretary (NMJR-I) amarjeet[dot]sroa[at]nic[dot]in 01123072140 23
+19 Shri Gaurav Kumar Tripathi Under Secretary (NMJR-II and Additional Charge of eCourts) gaurav[dot]tripathi[at]nic[dot]in 01123072140 23
+20 Shri Rang Lal Meena Under Secretary (Public Grievances) ranglal[dot]meena62[at]nic[dot]in
+21 Shri Prem Chand Under Secretary (Appointments-I) prem[dot]chand77[at]nic[dot]in 01123382978 12-A
+22 Shri Anant Kumar Under Secretary (Appointments-II) anant[dot]kumar43[at]gov[dot]in 01123072138 05
+23 Shri Vikash Kumar Under Secretary (Justice-I) vikashkumar[dot]edu[at]nic[dot]in
+24 Ms. Lalita T. Hedaoo Under Secretary (Justice-II) lalita[dot]tejram[at]gov[dot]in 23
+25 Shri Narendra Kumar Under Secretary (Access to Justice and Legal Aid to Poor) nk[dot]tongar[at]gov[dot]in 22-B
+26 Shri Sanjay Kumar Tiwari Section Officer (Admn-I) s[dot]tiwari73[at]gov[dot]in 19
+27 Shri Rahul Chhabra Section Officer (Admn-II) r[dot]chhabra[at]nic[dot]in 29
+28 Shri Akash Kumar Jaiswal Section Officer (NMJR-I) akash[dot]jaiswal88[at]nic[dot]in 01123072141 24
+29 Shri Rajesh Sagar Section Officer (R&I) rajesh[dot]kumar72[at]nic[dot]in 06
+30 Shri Hunny Chugh Section Officer (RTI) hunny[dot]chugh[at]gov[dot]in 06
+31 Shri Narendra Kumar Verma Section Officer (Coordination) narendra[dot]verma78[at]nic[dot]in 01123072140 23
+32 Shri Prawin Kumar Agrawal Section Officer (Cash & DDO) prawin[dot]k[at]gov[dot]in 24
+33 Ms. Chhavi Gulia Section Officer (Appointments) chhavi[dot]gulia[at]gov[dot]in 01123383087 05
+34 Shri Hemendra Singh Section Officer (Justice-I) hemendra[dot]singh65[at]gov[dot]in 01123782465 35
+35 Shri V.K. Chhikara Section Officer (Justice-II) vk[dot]chhikara28[at]gov[dot]in 01123385346 22
+36 Shri Ram Singh Section Officer (Access to Justice) ramsingh[dot]66[at]gov[dot]in 01123072147 36-A
+37 Shri Suresh Kumar Mahan Section Officer (eCourts) suresh[dot]mahan[at]gov[dot]in 01123072552 01123072552 27
+38 Shri Kailash Kumar Section Officer (Legal Aid to Poor)

@@ -1,0 +1,27 @@
+Print
+Share on Facebook
+Share on X
+Share on Linkedin
+Help
+Are you finding it difficult to access/navigate through the content/pages of this Portal? This section attempts to help you have a pleasant experience while browsing this Portal.
+Accessibility
+We are committed to ensure that the site is accessible to all users irrespective of device in use, technology or ability. It has been built, with an aim, to provide maximum accessibility and usability to its visitors.
+Best efforts have been put to ensure that all information on this website is accessible to people with disabilities. For example, a user with visual disability can access this website using assistive technology, such as screen reader. Users with low vision can use high contrast and font size increase options. This website meets level AA of the Web Content Accessibility Guidelines (WCAG) 2.0 laid down by the World Wide Web Consortium (W3C).
+If you have any problem or suggestion regarding the accessibility of this Site, please send a feedback to us.
+Screen Reader Access
+Our visitors with visual impairments can access the site using Assistive Technologies, such as screen readers.
+Following table lists the information about different screen readers:
+Viewing Information in Various File Formats
+The information provided by this Web site is available in various file formats, such as Portable Document Format (PDF), Word, Excel and PowerPoint. To view the information properly, your browser need to have the required plug-ins or software. For example, the Adobe Flash software is required to view the Flash files. In case your system does not have this software, you can download it from the Internet for free. The table lists the required plug-ins needed to view the information in various file formats.
+TABLES:
+Screen Reader Website Free / Commercial
+Screen Access For All (SAFA) https://lists.sourceforge.net/lists/listinfo/safa-developer Free
+Non Visual Desktop Access (NVDA) http://www.nvda-project.org Free
+System Access To Go http://www.satogo.com Free
+Thunder http://www.webbie.org.uk/thunder Free
+WebAnywhere http://webinsight.cs.washington.edu/ Free
+Hal http://www.yourdolphin.co.uk/productdetail.asp?id=5 Commercial
+JAWS http://www.freedomscientific.com/Downloads/JAWS Commercial
+Supernova http://www.yourdolphin.co.uk/productdetail.asp?id=1 Commercial
+Document Type Plug-in for Download
+Portable Document Format (PDF) files Adobe Acrobat Reader (External website that opens in a new window)

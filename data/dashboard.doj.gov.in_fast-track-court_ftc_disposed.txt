@@ -1,0 +1,4 @@
+Dashboard
+No. of  Court Functional
+No. of cases disposed during the Month
+No. of cases pending

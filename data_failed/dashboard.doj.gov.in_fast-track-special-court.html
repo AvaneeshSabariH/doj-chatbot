@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Department of Justice</title>
+  <script src="https://cdn.zingchart.com/zingchart.min.js"></script>
+  <style>
+    html, body, #container {
+    width: 100%;
+    height: 750px;
+    margin: 0;
+    padding: 0;
+}
+    }
+  </style>
+  <style>
+    div.scrollmenu {
+      overflow: auto;
+      white-space: nowrap;
+    }
+
+    div.scrollmenu a {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px;
+      text-decoration: none;
+    }
+
+    div.scrollmenu a:hover {
+      background-color: #777;
+    }
+    .navbar-nav
+    {
+      width: 85%;
+    }
+    .logo-right
+    {
+      text-align: right;
+    }
+    .logo-right img
+    {
+      width: 12%;
+    }
+    .logo-head
+    {
+      margin-left:563px;
+      font-size: 30px;
+
+    }
+    @media only screen and (max-width: 1400px) {
+  .logo-head
+    {
+      margin-left:290px;
+      font-size: 27px;
+
+    }
+}
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.15/proj4.js"></script>
+  <script src="https://cdn.anychart.com/releases/v8/js/anychart-base.min.js"></script>
+  <script src="https://cdn.anychart.com/releases/v8/js/anychart-map.min.js"></script>
+  <script src="https://cdn.anychart.com/releases/v8/js/anychart-exports.min.js"></script>
+  <script src="https://cdn.anychart.com/releases/v8/js/anychart-ui.min.js"></script>
+  <script src="https://cdn.anychart.com/geodata/2.1.1/countries/india/india.js"></script>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+  <script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
+  <script src="https://cdn.amcharts.com/lib/4/themes/dataviz.js"></script>
+  <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="assets/newassets/plugins/fontawesome-free/css/all.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Tempusdominus Bootstrap 4 -->
+  <link rel="stylesheet" href="assets/newassets/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+  <!-- iCheck -->
+  <link rel="stylesheet" href="assets/newassets/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <!-- JQVMap -->
+  <link rel="stylesheet" href="assets/newassets/plugins/jqvmap/jqvmap.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="assets/newassets/dist/css/adminlte.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="assets/newassets/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="assets/newassets/plugins/daterangepicker/daterangepicker.css">
+  <!-- summernote -->
+  <link rel="stylesheet" href="assets/newassets/plugins/summernote/summernote-bs4.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+  <link href="https://dashboard.doj.gov.in/fast-track-special-court/assets/css/stylePhotoGallary.css" rel="stylesheet" type="text/css"/>
+       
+</head>
+<body class="hold-transition sidebar-mini layout-fixed">
+<div class="wrapper">
+
+  <!-- Preloader -->
+  <!-- <div class="preloader flex-column justify-content-center align-items-center">
+    <img class="animation__shake" src="assets/newassets/dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
+  </div> -->
+
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light" style="background: rgb(62, 76, 167); color: #fff; height:100px;">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#" role="button" style="color: #fff;"><i class="fas fa-bars"></i></a>
+      </li>
+      <li>
+        <h1 class="logo-head">Fast Track Special Courts
+      </h1></li>
+     
+    </ul>
+     <div class="logo-right"><img src="assets/newassets/dist/img/ftsc_logo.jpeg" alt="FTSC Logo"></div>
+
+    <!-- Right navbar links -->
+  </nav>
+  <!-- /.navbar -->
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Brand Logo -->
+    <a href="index.php" class="brand-link" style= "background: rgb(62, 76, 167);">
+      <img src="assets/newassets/dist/img/doj_white.png" alt="AdminLTE Logo" style="height: 70px;">
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar" style="background: rgb(62, 76, 167);margin-top: -8px;">
+      <!-- Sidebar user panel (optional) -->
+     <!--  <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+          <img src="assets/newassets/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+        </div>
+        <div class="info">
+          <a href="#" class="d-block">Alexander Pierce</a>
+        </div>
+      </div> -->
+
+      <!-- SidebarSearch Form -->
+      <!-- <div class="form-inline">
+        <div class="input-group" data-widget="sidebar-search">
+          <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
+          <div class="input-group-append">
+            <button class="btn btn-sidebar">
+              <i class="fas fa-search fa-fw"></i>
+            </button>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- Sidebar Menu -->
+     <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false" style="font-size:20px;">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+          <li class="nav-item">
+            <a href="index.php" class="nav-link">
+              <i class="bx bx-grid-alt"></i>
+              <p style="color:#fff;">
+                FTSCs at a Glance
+              </p>
+            </a>
+          </li>
+          <!-- <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="bx bx-list-ul"></i>
+              <p style="color:#fff;">
+                <b>Operationalisation of Fast Track Special Courts (FTSCs)</b>
+              </p>
+            </a>
+          </li> -->
+          <li class="nav-item">
+            <a href="fully_operational" class="nav-link">
+              <i class="bx bx-coin-stack"></i>
+              <p style="color:#fff;">
+                Functional Courts
+              </p>
+            </a>
+          </li>
+          <!-- <li class="nav-item">
+            <a href="partial_operational" class="nav-link">
+             <i class="bx bx-pie-chart-alt-2"></i>
+              <p style="color:#fff;">
+                Partially Operational
+              </p>
+            </a>
+          </li> -->
+          <li class="nav-item">
+            <a href="non_operational" class="nav-link">
+               <i class="bx bx-bookmark"></i>
+              <p style="color:#fff;">
+                Non-Functional Courts
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="cumulative_disposal" class="nav-link">
+              <i class="bx bx-food-menu"></i>
+              <p style="color:#fff;">
+                <b>Disposal – Cumulative Disposal by the FTSCs</b>
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="pendency_by_ftsc" class="nav-link">
+              <i class="bx bx-brightness-half"></i>
+              <p style="color:#fff;">
+                <b>Pendency by the FTSCs</b>
+              </p>
+            </a>
+          </li>
+          <!-- <li class="nav-item">
+            <a href="data_visualisation" class="nav-link">
+              <i class="bx bx-coin-stack"></i>
+              <p style="color:#fff;">
+                <b>Data Visualisation</b>
+              </p>
+            </a>
+          </li> -->
+          <li class="nav-item">
+            <a href="fund_status" class="nav-link">
+              <i class="bx bx-coin-stack"></i>
+              <p style="color:#fff;">
+                <b>Fund Status</b>
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="evaluation_report" class="nav-link">
+              <i class="bx bx-coin-stack"></i>
+              <p style="color:#fff;">
+                <b>Evaluation Report</b>
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="ftsc_resources" class="nav-link">
+              <i class="bx bx-coin-stack"></i>
+              <p style="color:#fff;">
+                <b>Resources</b>
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="ftsc_gallery" class="nav-link">
+              <i class="bx bx-coin-stack"></i>
+              <p style="color:#fff;">
+                <b>Gallery</b>
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="contact_us" class="nav-link">
+              <i class="bx bx-coin-stack"></i>
+              <p style="color:#fff;">
+                <b>Contact Us</b>
+              </p>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper" style="background: #fff;">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-11">
+            <h1 class="m-0">AT A GLANCE</h1>
+          </div><!-- /.col -->
+          <div class="col-sm-1">
+            <a href="signin"><button type="button" class="btn-primary" >Sign In</button></a>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+        <br>
+        <div class="row">
+          <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <a href="https://dashboard.doj.gov.in/fast-track-special-court/fully_operational">
+            <div class="small-box bg-info">
+              <div class="inner" style="background: radial-gradient(346px at 0.3% 100%, rgb(62, 76, 167) 0%, rgb(255, 99, 145) 100.7%);height:130px">
+                <h3>725</h3>
+
+                <h5>Functional Fast Track Special Courts including exclusive POCSO Courts.</h5>
+              </div>
+              <div class="icon">
+                <i class="bx bx-bar-chart cart" style="font-size:50px;"></i>
+              </div>
+            </div></a>
+          </div>
+          <!-- ./col -->
+          <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <a href="https://dashboard.doj.gov.in/fast-track-special-court/epocso_fully_operational">
+            <div class="small-box bg-success">
+              <div class="inner" style="background: radial-gradient(346px at 0.3% 100%, rgb(62, 76, 167) 0%, rgb(255, 99, 145) 100.7%);  
+              box-shadow: 0 5px 10px rgb(0 0 0 / 10%);height:130px">
+                <h3>392</h3>
+
+                <h5>Total Functional exclusive POCSO Courts</h5>
+              </div>
+              <div class="icon">
+                <i class="bx bx-chart cart two" style="font-size:50px;"></i>
+              </div>
+            </div></a>
+          </div>
+          <!-- ./col -->
+          <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <a href="https://dashboard.doj.gov.in/fast-track-special-court/cumulative_disposal">
+            <div class="small-box bg-success">
+              <div class="inner" style="background: radial-gradient(346px at 0.3% 100%, rgb(62, 76, 167) 0%, rgb(255, 99, 145) 100.7%);">
+                <h3>334213</h3>
+
+                <h5>Cumulative Disposal since the inception of the scheme</h5>
+              </div>
+              <div class="icon">
+                <i class="bx bx-pie-chart cart" style="font-size:50px;"></i>
+              </div>
+            </div></a>
+          </div>
+          <!-- ./col -->
+          <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <a href="https://dashboard.doj.gov.in/fast-track-special-court/pendency_by_ftsc">
+            <div class="small-box bg-success">
+              <div class="inner" style="background: radial-gradient(346px at 0.3% 100%, rgb(62, 76, 167) 0%, rgb(255, 99, 145) 100.7%);  
+              box-shadow: 0 5px 10px rgb(0 0 0 / 10%); height:130px">
+                <h3>200349</h3>
+
+                <h5>Pendency in Fast Track Special Courts including exclusive POCSO</h5>
+              </div>
+              <div class="icon">
+                <i class="bx bx-pie-chart-alt-2" style="font-size:50px;"></i>
+              </div>
+            </div></a>
+          </div>
+          <!-- ./col -->
+        </div>
+      </div><!-- /.container-fluid -->
+    </div>
+      <!-- /.content-header -->
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="row">
+        <div id="container">
+        </div>
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-6">
+        <div id="piechart"></div>
+        </div>
+        <div class="col-md-3">
+        </div>
+        
+        <!-- <div class="col-md-6" style="border-right: 10px solid #000; border-top: 10px solid #000; border-bottom: 10px solid #000;">
+          <div id="piechart"></div>
+        </div> -->
+      </div><!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+<footer class="main-footer">
+  <p><b>DISCLAIMER:</b> Setting up and functioning of the FTSCs, Family Courts, Special Courts for MP/MLA and Fast Track Courts falls within the domain of State Govt. in consultation with their respective High Courts which are set up as per their need and resources. Information furnished above is as reported by the concerned High Courts.</p>
+  <strong>Copyright &copy; 2021.</strong>
+  All rights reserved.
+  <div class="float-right d-none d-sm-inline-block">
+    <b>Version</b> 3.1.0
+  </div>
+</footer>
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="assets/newassets/plugins/jquery/jquery.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="assets/newassets/plugins/jquery-ui/jquery-ui.min.js"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+  $.widget.bridge('uibutton', $.ui.button)
+</script>
+<!-- Bootstrap 4 -->
+<script src="assets/newassets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- ChartJS -->
+<script src="assets/newassets/plugins/chart.js/Chart.min.js"></script>
+<!-- Sparkline -->
+<script src="assets/newassets/plugins/sparklines/sparkline.js"></script>
+<!-- JQVMap -->
+<script src="assets/newassets/plugins/jqvmap/jquery.vmap.min.js"></script>
+<script src="assets/newassets/plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+<!-- jQuery Knob Chart -->
+<script src="assets/newassets/plugins/jquery-knob/jquery.knob.min.js"></script>
+<!-- daterangepicker -->
+<script src="assets/newassets/plugins/moment/moment.min.js"></script>
+<script src="assets/newassets/plugins/daterangepicker/daterangepicker.js"></script>
+<!-- Tempusdominus Bootstrap 4 -->
+<script src="assets/newassets/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<!-- Summernote -->
+<script src="assets/newassets/plugins/summernote/summernote-bs4.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="assets/newassets/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="assets/newassets/dist/js/adminlte.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="assets/newassets/dist/js/demo.js"></script>
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<script src="assets/newassets/dist/js/pages/dashboard.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+  
+  anychart.onDocumentReady(function() {
+  // create map
+  var map = anychart.map();
+
+  // create data set
+  var dynamicData = [{"id":"IN.AN","fill":"#ff99c2","label":"Andaman and Nicobar","Functional FTSCs":"0","Cumulative Disposal":"0","Cases Pending":"0"},{"id":"IN.AP","fill":"#b3ffff","label":"Andhra Pradesh","Functional FTSCs":"16","Cumulative Disposal":"7487","Cases Pending":"6303"},{"id":"IN.AR","fill":"#d699ff","label":"Arunachal Pradesh","Functional FTSCs":"0","Cumulative Disposal":"0","Cases Pending":"0"},{"id":"IN.AS","fill":"#c2d6d6","label":"Assam","Functional FTSCs":"17","Cumulative Disposal":"8943","Cases Pending":"6435"},{"id":"IN.BR","fill":"#f5f5f5","label":"Bihar","Functional FTSCs":"46","Cumulative Disposal":"17232","Cases Pending":"18459"},{"id":"IN.CH","fill":"#ddddbb","label":"Chandigarh","Functional FTSCs":"1","Cumulative Disposal":"374","Cases Pending":"214"},{"id":"IN.CT","fill":"#ffff99","label":"Chhattisgarh","Functional FTSCs":"15","Cumulative Disposal":"6428","Cases Pending":"1739"},{"id":"IN.DL","fill":"#c2d6d6","label":"Delhi","Functional FTSCs":"16","Cumulative Disposal":"2718","Cases Pending":"3560"},{"id":"IN.GA","fill":"#ffffff","label":"Goa","Functional FTSCs":"1","Cumulative Disposal":"116","Cases Pending":"155"},{"id":"IN.GJ","fill":"#ffd480","label":"Gujarat","Functional FTSCs":"35","Cumulative Disposal":"16616","Cases Pending":"5315"},{"id":"IN.HR","fill":"#b3ffe6","label":"Haryana","Functional FTSCs":"18","Cumulative Disposal":"8087","Cases Pending":"4420"},{"id":"IN.HP","fill":"#99ff99","label":"Himachal Pradesh","Functional FTSCs":"6","Cumulative Disposal":"1407","Cases Pending":"643"},{"id":"IN.JK","fill":"#00e639","label":"Jammu and Kashmir","Functional FTSCs":"4","Cumulative Disposal":"311","Cases Pending":"497"},{"id":"IN.JH","fill":"#ffcc99","label":"Jharkhand","Functional FTSCs":"0","Cumulative Disposal":"9114","Cases Pending":"0"},{"id":"IN.KA","fill":"#e699ff","label":"Karnataka","Functional FTSCs":"30","Cumulative Disposal":"14031","Cases Pending":"5220"},{"id":"IN.KL","fill":"#c2c2d6","label":"Kerala","Functional FTSCs":"55","Cumulative Disposal":"26202","Cases Pending":"6292"},{"id":"IN.MP","fill":"#097969","label":"Madhya Pradesh","Functional FTSCs":"67","Cumulative Disposal":"32113","Cases Pending":"10713"},{"id":"IN.MH","fill":"#ffad99","label":"Maharashtra","Functional FTSCs":"2","Cumulative Disposal":"20744","Cases Pending":"290"},{"id":"IN.MNL","fill":"#99ffff","label":"Manipur","Functional FTSCs":"2","Cumulative Disposal":"194","Cases Pending":"49"},{"id":"IN.ML","fill":"#1ac6ff","label":"Meghalaya","Functional FTSCs":"5","Cumulative Disposal":"733","Cases Pending":"1097"},{"id":"IN.MZ","fill":"#ff80ff","label":"Mizoram","Functional FTSCs":"3","Cumulative Disposal":"269","Cases Pending":"75"},{"id":"IN.NL","fill":"#d0e2bc","label":"Nagaland","Functional FTSCs":"1","Cumulative Disposal":"68","Cases Pending":"59"},{"id":"IN.OR","fill":"#ff6666","label":"Odisha","Functional FTSCs":"44","Cumulative Disposal":"20254","Cases Pending":"9065"},{"id":"IN.PY","fill":"#3366cc","label":"Puducherry","Functional FTSCs":"1","Cumulative Disposal":"162","Cases Pending":"218"},{"id":"IN.PB","fill":"#ddddbb","label":"Punjab","Functional FTSCs":"12","Cumulative Disposal":"5265","Cases Pending":"1451"},{"id":"IN.RJ","fill":"#ff66b3","label":"Rajasthan","Functional FTSCs":"45","Cumulative Disposal":"19432","Cases Pending":"4892"},{"id":"IN.TN","fill":"#3366cc","label":"Tamil Nadu","Functional FTSCs":"14","Cumulative Disposal":"10199","Cases Pending":"5234"},{"id":"IN.TG","fill":"#99ff99","label":"Telangana","Functional FTSCs":"36","Cumulative Disposal":"11379","Cases Pending":"8782"},{"id":"IN.TR","fill":"#ff9900","label":"Tripura","Functional FTSCs":"3","Cumulative Disposal":"489","Cases Pending":"224"},{"id":"IN.UP","fill":"#b3d9ff","label":"Uttar Pradesh","Functional FTSCs":"218","Cumulative Disposal":"91459","Cases Pending":"92700"},{"id":"IN.UT","fill":"#9999ff","label":"Uttarakhand","Functional FTSCs":"4","Cumulative Disposal":"1930","Cases Pending":"1094"},{"id":"IN.WB","fill":"#ff99c2","label":"West Bengal","Functional FTSCs":"8","Cumulative Disposal":"457","Cases Pending":"5154"}];
+  console.log("dynamicData");
+  var dataSet = anychart.data.set(dynamicData);
+/*[ {"id":"IN.AN",label: 'Andaman and Nicobar', "Functional FTSCs": 0, "Cumulative Disposal": 0, "Cases Pending": 0, "fill": '#ff99c2'}, //andaman & nicobar
+
+
+{"id":"IN.AP","value":1, label: 'Andhra Pradesh',"Functional FTSCs": 16, "Cumulative Disposal": 2897, "Cases Pending": 7546, "fill": '#b3ffff'}, // andhra pradesh
+
+{"id":"IN.AR","value":2, label: 'Arunachal Pradesh', "Functional FTSCs": 0, "Cumulative Disposal": 0, "Cases Pending": 0, "fill": '#d699ff'}, // arunachal pradesh
+
+{"id":"IN.AS","value":3, label: 'Assam', "Functional FTSCs": 17, "Cumulative Disposal": 3783, "Cases Pending": 4721, "fill": '#c2d6d6'}, //assam
+
+{"id":"IN.BR",label: 'Bihar', "Functional FTSCs": 46, "Cumulative Disposal": 7835, "Cases Pending": 16201, "fill": '#f5f5f5'}, //bihar
+
+{"id":"IN.CH","value":5, label: 'Chandigarh', "Functional FTSCs": 1, "Cumulative Disposal": 174, "Cases Pending": 217, "fill": '#ddddbb'}, //chandigarh
+
+{"id":"IN.CT","value":6, label: 'Chhattisgarh', "Functional FTSCs": 15, "Cumulative Disposal": 3619, "Cases Pending": 2473, "fill": '#ffff99'}, //chhattisgrah
+
+{"id":"IN.DN","value":7, label: 'Dadra and Nagar Haveli', "Functional FTSCs": 0, "Cumulative Disposal": 0, "Cases Pending": 0, "fill": '#ffad99'}, // dadra & nagar haveli
+
+{"id":"IN.DD","value":8, label: 'Daman and Diu', "Functional FTSCs": 0, "Cumulative Disposal": 0, "Cases Pending": 0, "fill": '#ffad99'}, //daman diu
+
+{"id":"IN.DL","value":9, label: 'Delhi', "Functional FTSCs": 16, "Cumulative Disposal": 1073, "Cases Pending": 4410, "fill": '#c2d6d6'}, // delhi
+
+{"id":"IN.GA","value":10, label: 'Goa', "Functional FTSCs": 1, "Cumulative Disposal": 30, "Cases Pending": 44, "fill": '#ffffff'}, //goa
+
+{"id":"IN.GJ","value":11, label: 'Gujarat', "Functional FTSCs": 35, "Cumulative Disposal": 8455, "Cases Pending": 6548, "fill": '#ffd480',}, // gujarat
+
+{"id":"IN.HR","value":12, label: 'Haryana', "Functional FTSCs": 16, "Cumulative Disposal": 4209, "Cases Pending": 4215, "fill": '#b3ffe6'}, // haryana
+
+{"id":"IN.HP","value":13, label: 'Himachal Pradesh', "Functional FTSCs": 6, "Cumulative Disposal": 786, "Cases Pending": 938, "fill": '#99ff99'}, // himachal pradesh
+
+{"id":"IN.JH","value":14, label: 'Jharkhand', "Functional FTSCs": 22, "Cumulative Disposal": 4837, "Cases Pending": 4322, "fill": '#ffcc99'}, // jharkhand
+
+{"id":"IN.KA","value":15, label: 'Karnataka', "Functional FTSCs": 31, "Cumulative Disposal": 7041, "Cases Pending": 5269, "fill": '#e699ff'}, // karnataka
+
+{"id":"IN.KL","value":16, label: 'Kerala', "Functional FTSCs": 53, "Cumulative Disposal": 13389, "Cases Pending": 7170, "fill": '#c2c2d6'}, // kerala
+
+{"id":"IN.LD","value":17, label: 'Lakshadweep', "Functional FTSCs": 0, "Cumulative Disposal": 0, "Cases Pending": 0, "fill": '#c2c2d6'}, // lakshadweep
+
+{"id":"IN.MP","value":18, label: 'Madhya Pradesh', "Functional FTSCs": 67, "Cumulative Disposal": 19417, "Cases Pending": 11210, "fill": '#097969'}, // madhya pradesh
+
+{"id":"IN.MH","value":19, label: 'Maharashtra', "Functional FTSCs": 34, "Cumulative Disposal": 15155, "Cases Pending": 5884, "fill": '#ffad99'}, // maharsahtra
+
+{"id":"IN.MNL","value":20, label: 'Manipur', "Functional FTSCs": 2, "Cumulative Disposal": 96, "Cases Pending": 116, "fill": '#99ffff'}, // manipur
+
+{"id":"IN.ML","value":21, label: 'Meghalaya', "Functional FTSCs": 5, "Cumulative Disposal": 299, "Cases Pending": 1009, "fill": '#1ac6ff'}, // meghalaya
+
+{"id":"IN.MZ","value":22, label: 'Mizoram', "Functional FTSCs": 3, "Cumulative Disposal": 132, "Cases Pending": 54, "fill": '#ff80ff'}, // mizoram
+
+{"id":"IN.NL","value":23, label: {x: 1, y: 1, positionMode: "relative", format: 'Nagaland'}, "Functional FTSCs": 1, "Cumulative Disposal": 51, "Cases Pending": 55, "fill": '#d0e2bc'}, // nagaland
+
+{"id":"IN.OR","value":24, label: 'Odisha', "Functional FTSCs": 39, "Cumulative Disposal": 8552, "Cases Pending": 11234, "fill": '#ff6666'}, // orissa
+
+{"id":"IN.PY","value":25, label: 'Puducherry', "Functional FTSCs": 1, "Cumulative Disposal": 0, "Cases Pending": 214, "fill": '#3366cc'}, // puducherry
+
+{"id":"IN.PB","value":26, label: 'Punjab', "Functional FTSCs": 12, "Cumulative Disposal": 2768, "Cases Pending": 1571, "fill": '#ddddbb'}, // punjab
+
+{"id":"IN.RJ","value":27, label: 'Rajasthan', "Functional FTSCs": 45, "Cumulative Disposal": 10529, "Cases Pending": 6852, "fill": '#ff66b3'}, // rajasthan
+
+{"id":"IN.SK","value":28, label: 'Sikkim', "Functional FTSCs": 0, "Cumulative Disposal": 0, "Cases Pending": 0, "fill": '#ffff99'}, // sikkim
+
+{"id":"IN.TN","value":29, label: 'Tamil Nadu', "Functional FTSCs": 14, "Cumulative Disposal": 5316, "Cases Pending": 5072, "fill": '#3366cc'}, // tamil nadu
+
+{"id":"IN.TR","value":30, label: 'Tripura', "Functional FTSCs": 3, "Cumulative Disposal": 253, "Cases Pending": 286, "fill": '#ff9900'}, // tripura
+
+{"id":"IN.UP","value":31, label: 'Uttar Pradesh', "Functional FTSCs": 218, "Cumulative Disposal": 45550, "Cases Pending": 80361, "fill": '#b3d9ff'}, // uttar pradesh
+
+{"id":"IN.UT","value":32, label: 'Uttarakhand', "Functional FTSCs": 4, "Cumulative Disposal": 1164, "Cases Pending": 907, "fill": '#9999ff'}, // uttarakhand
+
+{"id":"IN.WB","value":33, label: 'West Bengal', "Functional FTSCs": 0, "Cumulative Disposal": 0, "Cases Pending": 0, "fill": '#ff99c2'}, // west bengal
+
+{"id":"IN.TG","value":34, label: 'Telangana', "Functional FTSCs": 36, "Cumulative Disposal": 6913, "Cases Pending": 8155, "fill": '#99ff99'}, // telangana
+
+{"id":"IN.JK","value":35, label: 'Jammu and Kashmir', "Functional FTSCs": 4, "Cumulative Disposal": 126, "Cases Pending": 440, "fill": '#00e639'}, // jammu & Kashmir
+
+{"id":"IN.LA","value":36, label: 'Ladakh', "Functional FTSCs": 0, "Cumulative Disposal": 0, "Cases Pending": 0, "fill": '#ffc299'}//ladakh
+] */
+
+  // create choropleth series
+  series = map.choropleth(dataSet);
+
+  // set geoIdField to 'id', this field contains in geo data meta properties
+  series.geoIdField('id');
+
+  // set map color settings
+  series.colorScale(anychart.scales.linearColor('#deebf7', '#3182bd'));
+  series.hovered().fill('#F5F5F5');
+  series.labels(true);
+  series.overlapMode("allow-overlap");
+
+  series.tooltip().format(function() {
+    // here return the desired content
+    return `Functional FTSCs: ${this.getData('Functional FTSCs')}
+  Cumulative Disposal: ${this.getData('Cumulative Disposal')}
+  Cases Pending: ${this.getData('Cases Pending')}`;
+  });
+
+  // set geo data, you can find this map in our geo maps collection
+  // https://cdn.anychart.com/#maps-collection
+  map.geoData(anychart.maps['india']);
+
+   map.tooltip().titleFormat('{%label}');
+  series.labels().enabled(true).format('{%label}');
+
+  //set map container id (div)
+  map.container('container');
+
+  //initiate map drawing
+  map.draw();
+});
+</script>
+
+<!-- <script type="text/javascript">
+// Load google charts
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+
+// Draw the chart and set the chart values
+function drawChart() {
+  var data = google.visualization.arrayToDataTable([
+  ['State', 'Funds'],  
+  ['Cases Disposed', 1.37],
+  ['Cases Pending', 0.29]
+]);
+
+  // Optional; add a title and set the width and height of the chart
+  var options = {'title':'Cumulative Disposal w.r.t disposal of 1.66 Lakh Rape and POCSO Act Cases under FTSCs', 'width':700, 'height':750};
+
+  // Display the chart inside the <div> element with id="piechart"
+  var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+  chart.draw(data, options);
+}
+</script> -->
+</body>
+</html>

@@ -1,0 +1,6 @@
+Last updated: 13-03-2025
+A new ‘Judgment & Order Search’ portal has been inaugurated for the convenience of its stakeholders in searching judgments easily. The new portal for judgments search is set to provide a repository for Judgments and Final Orders of the High Courts. The ‘Judgment Search’ segment could be reached at https://judgments.ecourts.gov.in, which encapsulates the features such as search by Bench, Case Type, Case Number, Year, Petitioner/ Respondent Name, Judge Name, Act, Section, Decision: From Date, To Date and Full Text Search. The most important feature of this portal is using a free text search engine, which finds out judgments based on a given keyword or combination of keywords.
+For more information, please visithttps://judgments.ecourts.gov.in/pdfsearch/index.php
+Content Owned by DEPARTMENT OF JUSTICE, Ministry of Law and Justice, GOI
+Developed and hosted byNational Informatics Centre,Ministry of Electronics & Information Technology, Government of India
+Last Updated:Aug 11, 2025

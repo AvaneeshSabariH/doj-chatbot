@@ -1,0 +1,4 @@
+Appointment Division deals with the appointment, transfer and removal of Chief Justice and Judges of the Supreme Court and High Courts.  Setting up of new High Courts, Benches of Supreme Court and High Courts and increase in Judge strength of the Supreme Court and the High Courts of India are other functions.
+Content Owned by DEPARTMENT OF JUSTICE, Ministry of Law and Justice, GOI
+Developed and hosted byNational Informatics Centre,Ministry of Electronics & Information Technology, Government of India
+Last Updated:Aug 11, 2025

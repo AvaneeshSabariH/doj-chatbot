@@ -1,0 +1,5 @@
+Last updated: 13-03-2025
+A new divyang friendly website for eCommittee, based on S3WaaS platform is live in 13 regional languages including English & Hindi.All other court websites are being upgraded from the existing system to the S3WAAS platform which are secure, scalable and accessible. Content published on the website is accessible so that even Divyang users will be able to access the information using assistive technologies.
+Content Owned by DEPARTMENT OF JUSTICE, Ministry of Law and Justice, GOI
+Developed and hosted byNational Informatics Centre,Ministry of Electronics & Information Technology, Government of India
+Last Updated:Aug 11, 2025

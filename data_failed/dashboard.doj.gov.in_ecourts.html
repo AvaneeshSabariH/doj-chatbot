@@ -1,0 +1,716 @@
+
+
+     
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="Dashboard">
+        <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+        <title>Department of Justice</title>
+
+        <!-- Favicons -->
+        <link href="https://dashboard.doj.gov.in/ecourts/assets/img/favicon.png" rel="icon">
+        <link href="https://dashboard.doj.gov.in/ecourts/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+ <link href="https://dashboard.doj.gov.in/ecourts/assets/img/favicon.png" rel="icon">
+        <link href="https://dashboard.doj.gov.in/ecourts/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+        <!-- Bootstrap core CSS -->
+        <link href="https://dashboard.doj.gov.in/ecourts/assets/css/bootstrap.min.css" rel="stylesheet">
+        <!--external css-->
+         <link href="https://dashboard.doj.gov.in/ecourts/assets/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <!-- Ionicons 2.0.0 -->
+    <link href="https://dashboard.doj.gov.in/ecourts/assets/bower_components/Ionicons/css/ionicons.min.css" rel="stylesheet" type="text/css" />
+        <!-- Custom styles for this template -->
+        <link href="https://dashboard.doj.gov.in/ecourts/assets/css/style.css" rel="stylesheet">
+        <link href="https://dashboard.doj.gov.in/ecourts/assets/css/style-responsive.css" rel="stylesheet">
+ 
+        <script src="https://dashboard.doj.gov.in/ecourts/assets/js/jquery-1.12.4.min.js"></script>
+        <script src="https://dashboard.doj.gov.in/ecourts/assets/js/sql.js"></script>
+       
+        <!-- Bootstrap core CSS -->
+        <link href="https://dashboard.doj.gov.in/ecourts/assets/css/bootstrap.min.css" rel="stylesheet">
+        <!--external css-->
+      
+        <!--<link href="lib/fancybox/jquery.fancybox.css" rel="stylesheet" />-->
+        <!-- Custom styles for this template -->
+        <link href="https://dashboard.doj.gov.in/ecourts/assets/css/style.css" rel="stylesheet">
+        <link href="https://dashboard.doj.gov.in/ecourts/assets/css/style-responsive.css" rel="stylesheet">
+
+
+        
+        <link href="https://dashboard.doj.gov.in/ecourts/assets/css/stylePhotoGallary.css" rel="stylesheet" type="text/css"/>
+        <style>
+            .dropbtn {
+  /*background-color: #4CAF50;whitesmoke*/
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #3e8e41;
+}
+
+#myInput {
+  border-box: box-sizing;
+  background-image: url('https://dashboard.doj.gov.in/ecourts/assets/img/icons8-search-26.png');
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 14px 20px 12px 45px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+#myInput:focus {outline: 3px solid #ddd;}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 230px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+        </style>
+
+        <script src="https://dashboard.doj.gov.in/ecourts/assets/js/sql.js"></script>
+        <script src="https://dashboard.doj.gov.in/ecourts/assets/js/hash.js"></script>
+
+        
+
+        <script type="text/javascript">
+            function resetCaptcha()
+            {
+                document.getElementById('imgCaptcha').src = 'captchaservlet.java?' + Math.random();
+            }
+
+            function homePage()
+            {
+                oFormObject = document.forms['home'];
+                oFormObject.submit();
+            }
+
+            function forgotPassword() {
+                oFormObject = document.forms['frmpassword'];
+                oFormObject.submit();
+            }
+
+            function submit3(a)
+            {
+                if (event.keyCode == 13)
+                {
+                    validatefrm();
+                }
+            }
+
+            function validatefrm()
+            {
+                var y = document.getElementById("loginid1").value;
+
+                if (y == "")
+                {
+                    alert("Please Enter User Name");
+                    document.getElementById("loginid1").focus();
+                    document.getElementById("loginid1").style.backgroundColor = "rgb(250, 255, 189)";
+                    return false;
+                }
+                var z = document.getElementById("pass1").value;
+                if (z == "")
+                {
+                    alert("Please Enter Password........");
+                    document.getElementById("pass1").focus();
+                    document.getElementById("pass1").style.backgroundColor = "rgb(250, 255, 189)";
+                    return false;
+                }
+                if (document.getElementById("chkCaptcha").value == "")
+                {
+                    document.getElementById("chkCaptcha").focus();
+                    alert("Please enter captcha value");
+                    document.getElementById("chkCaptcha").style.backgroundColor = "rgb(250, 255, 189)";
+                    return false;
+                }
+
+                var b = passwordSql("pass1");
+                var d = handleSql("loginid1");
+                if (d == false) {
+                    return false;
+                }
+                if (b == false) {
+                    return false;
+                }
+
+                var a1 = document.getElementById("pass1").value;
+                document.getElementById("pass1").value = hash2(a1, "e79e81f6d2dgg331");
+                document.getElementById("pass").value = hash2(a1, "e79e81f6d2dgg331");
+                document.getElementById("loginid").value = document.getElementById("loginid1").value;
+                document.getElementById("chkCaptchatemp").value = document.getElementById("chkCaptcha").value;
+                document.getElementById("frm1").submit();
+
+
+            }
+
+
+
+        </script>
+     
+    </head>
+
+  
+   <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+/*    .row.content {
+       min-height:600px;
+       max-height: 1000px
+    }*/
+    .bgdiv
+    {
+        background: white;
+    }
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color:white;
+      height: 100%;
+    }
+    /*div.containerborder {
+    z-index: 10;
+    background-color: #ffffff;
+    padding: 0 !important;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    border: 1px solid #ddd;
+    margin-top: 2px;
+    margin-left: 50px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    background-clip: padding-box;
+    opacity: 0.97;
+    filter: alpha(opacity = 97);
+     }*/
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 1200px) {
+      .sidenav {
+        height: auto;
+        padding: 0px;
+      }
+/*      .row.content {height: auto;
+      }*/
+     
+    }
+  </style>
+        <style>
+            body{
+                font-family: 'Roboto', sans-serif;
+                padding: 0;
+                margin: 0;
+                background-color: #ccd1d98f;
+            }
+            .top-bar{
+                background-color: #272727;
+                color: #e8e8e8;
+                padding: 10px 0;
+                font-size: .9em;
+                box-shadow: 0px 2px 3px #999;
+            }
+            .top-bar ul.inline{
+                padding: 0;
+                margin: 0;
+                list-style: none;
+            }
+            .top-bar ul.inline li{
+                display: inline;
+            }
+            .top-bar a{
+                color: #e2e2e2;
+                text-decoration: none;
+            }
+            
+            
+            
+            /**
+            Helper Classes
+            **/
+            .inline{
+                display: inline;
+            }
+            .block{
+                display: block;
+            }
+            .inline-block{
+                display: inline-block;
+            }
+            .left{
+                float: left;
+            }
+            .right{
+                float: right;
+            }
+            .clear{
+                clear: both;
+            }
+            .tp-bg{
+                background-color: rgba(0,0,0,.5) !important;
+            }
+            .bg-orange{
+                background-color: #f36e21 !important;
+            }
+            .bg-grey{
+                background-color: #dadada !important;
+            }
+            
+            .white-text{
+                color: #fff !important;
+            }
+            
+            .padding-5{
+                padding: 5px;
+            }
+            .padding-10{
+                padding: 10px;
+            }
+            .padding-15{
+                padding: 15px;
+            }
+            .padding-20{
+                padding: 20px;
+            }
+            .padding-25{
+                padding: 25px;
+            }
+            .padding-30{
+                padding: 30px;
+            }
+            .no-padding{
+                padding: 0;
+            }
+            .no-margin{
+                margin: 0;
+            }
+            
+            .gap-type-default{
+                height: .75em;
+            }
+            .gap-type-1{
+                height: 5px;
+            }
+            .gap-type-2{
+                height: 10px;
+            }
+            .gap-type-3{
+                height: 15px;
+            }
+            .gap-type-4{
+                height: 20px;
+            }
+            .pn {
+    height: 150px !important;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+        </style> 
+<script language="javascript">
+ 
+function openPage(reg){
+oFormObject = document.forms['frm2'];
+oFormObject.action=reg;
+oFormObject.target="_self";
+oFormObject.submit();
+}
+</script>
+
+   
+
+ <div class="row" style="background-color: black;">
+     <div class="container">
+     
+                    <div class="col-md-1 col-sm-1 ">
+                        
+                            <div style="font-size: 5px;  margin-bottom:0; color:whitesmoke" class="pull-right">
+                                <strong style="float:right">भारत सरकार</strong><br>
+                                <span><B>GOVERNMENT OF INDIA</B></span>
+                            </div>
+                    </div>
+                    <div class="col-md-11 col-sm-12">
+                        
+                            <div style="font-size: 5px;  margin-bottom:0; color:whitesmoke" class="pull-left">
+                                <strong>विधि और न्याय मंत्रालय</strong><br>
+                                <span><B>MINISTRY OF LAW & JUSTICE</B></span>
+                            </div>
+                    </div>
+     </div>
+                
+<!--                 <nav style="background-color: black;">
+        <div class="container">
+            <br>
+            <div class="clear"></div>
+        </div>
+    </nav>-->
+                    </div>
+
+
+
+<!------------------------------------------------->
+<div class="row">
+     <div class="container">
+                    <div class="col-md-1 ">
+                        
+                            <div class="pull-right">
+                            <img src="https://dashboard.doj.gov.in/ecourts/assets/img/emblem-dark.png" height="130px" />
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        
+                            <div class="pull-left">
+                         <!--color: #dfdfe1;-->
+                            <h2 style="margin-left: 0; margin-top: 0;color: #964c36; font-weight: 500;" ><B>Judicial Data</B></h2>
+                            <div style="font-size: 22px; font-weight: 400; margin-bottom:0; color:#272727" >
+                                <strong>न्याय विभाग</strong><br>
+                                Department of<br>
+                                <span><B>JUSTICE</B></span>
+                            </div>
+                            </div>
+                    
+                
+                 
+                    </div>
+                        <div class="col-md-1">
+                            <div class="pull-right" >
+                                <img src="https://dashboard.doj.gov.in/ecourts/assets/img/swachh-bharat-abhiyan.png" height="130px"/>
+                            </div>
+                        </div> 
+                            
+                             <!--<div class="col-md-2"></div>-->
+
+
+<!--------------------------------------------------------->
+<!--    <div style="background-color: #ccd1d9">
+         
+        <div class="container" style="position: relative">
+            
+            
+            <div class="row">
+     <div class="col-md-3" style="margin-left:50px;margin-top:20px;">
+         <div class="col-md-3">
+             <img src="/https://dashboard.doj.gov.in/ecourts/assets/img/emblem-dark.png" alt="">
+         </div>
+         <div class="col-md-6">
+             <strong lang="hi" class="uppertext" style="color:#272727; font-weight: 400;">न्याय विभाग </strong>
+             <span  class="uppertext2" style="color:#272727; font-weight: 400;">DEPARTMENT OF</span><span class="uppertext3"> Justice<span>
+                     </div>
+     </div>
+     <div class="col-md-6" style="padding-left:130px!important;padding-top:12px!important;">
+      <span class="uppertext4" style="color:#272727; font-weight: 400;" >Swachh Nyayalaya</span><br/>
+      <span class="uppertext2" style="color:#272727; font-weight: 400;" > Sanitation in District & Subordinate Court Complexes</span>
+    </div>
+     <div class="col-md-2 pull-right" style="margin-right:50px;margin-bottom:20px;"><img src="/https://dashboard.doj.gov.in/ecourts/assets/img/swachh-bharat-abhiyan.png" alt="" height="100px">
+     </div>
+
+   </div>
+            
+            
+            <div class="containerHeader" style="position: fixed;z-index:1002">
+   <div class="row">
+     <div class="col-md-3" style="margin-left:50px;margin-top:20px;"> <div class="col-md-3"><img src="/https://dashboard.doj.gov.in/ecourts/assets/img/emblem-dark.png" alt=""></div><div class="col-md-6"><strong lang="hi" class="uppertext">न्याय विभाग </strong><span  class="uppertext2">DEPARTMENT OF</span><span class="uppertext3"> Justice<span></div></div>
+     <div class="col-md-6" style="padding-left:130px!important;padding-top:12px!important;">
+      <span class="uppertext4" style="color:#f5a008" >Swachh Nyayalaya</span><br/>
+      <span class="uppertext2" > Sanitation in District & Subordinate Court Complexes</span>
+    </div>
+     <div class="col-md-2 pull-right" style="margin-right:50px;margin-bottom:20px;"><img src="/https://dashboard.doj.gov.in/ecourts/assets/img/swachh-bharat-abhiyan.png" alt=""><a class="logout btn btn-danger" href="" style="margin-top: 7px;">Logout</a></div>
+
+   </div>
+
+ </div>
+            
+            
+            
+            
+           
+                
+                <table style="height: 100px;" border="1" width="1000px">
+              
+                    
+               
+              
+                <BR>
+                    <div class="row">
+                        <div class="col-md-1" >
+                            <div class="pull-right">
+                            <img src="/https://dashboard.doj.gov.in/ecourts/assets/img/emblem-dark.png" height="130px" />
+                        </div>
+                        </div>
+                        
+                        <div class="col-md-5" >
+                             <div class="pull-left">
+                         color: #dfdfe1;
+                            <h2 style="margin-left: 0; margin-top: 0;color: #964c36; font-weight: 500;" ><B>Judicial Data</B></h2>
+                            <div style="font-size: 22px; font-weight: 400; margin-bottom:0; color:#272727" >
+                                <strong>न्याय विभाग</strong><br>
+                                Department of<br>
+                                <span><B>JUSTICE</B></span>
+                            </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <div class="pull-right" >
+                                <img src="/https://dashboard.doj.gov.in/ecourts/assets/img/swachh-bharat-abhiyan.png" height="130px"/>
+                            </div>
+                        </div>  
+                    </div>
+        
+
+            
+    </div>-->
+<!--#4866af-->
+<!--            <nav style="background-color: #ccd1d9;">
+        <div class="container">
+            <br>
+            <div class="clear"></div>
+        </div>
+    </nav>-->
+</div>
+                            <div class="row">
+                                <nav style="background-color: #4866af;">
+                                    <div class="container">
+                                    	<p style="color: #fff; text-align: center; font-size: 25px; margin: 0;">For official use only</p>
+                                        <div class="clear"></div>
+                                    </div>
+                                </nav>
+                            </div>
+
+</header>
+
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- **********************************************************************************************************************************************************
+            MAIN CONTENT
+            *********************************************************************************************************************************************************** -->
+        <div id="login-page">
+            <div class="container">
+
+                <div class="row">
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- /row -->
+
+                        <!-- /col-lg-9 END SECTION MIDDLE -->
+                        <!-- **********************************************************************************************************************************************************
+                            RIGHT SIDEBAR CONTENT
+                            *********************************************************************************************************************************************************** -->
+
+                        <!-- /col-lg-3 -->
+                    </div>
+
+                    <div id="login-page">
+                     <div class="container">
+                    <div class="col-md-12">
+                        <div class="form-login">
+                           
+
+                            <h2 class="form-login-heading">sign in now</h2>
+                               
+                            <div class="login-wrap" >
+                                         <div class="row">
+            <div class="col-md-12">
+                            </div>
+        </div>
+                <form autocomplete="off" action="https://dashboard.doj.gov.in/ecourts/loginMe" method="post">
+          <div class="form-group has-feedback">
+            <input type="text" class="form-control" placeholder="User Name" name="user_name" required />
+            <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+          </div>
+          <div class="form-group has-feedback">
+            <input type="password" class="form-control" placeholder="Password" name="password" required />
+            <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+          </div>
+          <div class="row">
+            <!-- <div class="col-xs-8">   
+            <p id="captImg"></p>
+				<p>Can't read the image? click <a href="https://dashboard.doj.gov.in/ecourts/">here</a> to refresh.</p> 
+             <input type="text" class="form-control" name="captcha" required value=""/>                     
+            </div>  --> <!-- /.col -->
+            <div class="col-xs-4">
+              <input type="submit" class="btn btn-primary btn-block btn-flat" value="Sign In" />
+            </div><!-- /.col -->
+          </div>
+        </form>
+        
+
+                            </div>
+                            <!-- Modal -->
+                            
+                            <!-- modal -->
+                            <!--</form>-->
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                   
+
+
+
+                 
+                                 
+        <script src="https://dashboard.doj.gov.in/ecourts/assets/js/bootstrap.min.js"></script>
+       
+        <script type="text/javascript" src="https://dashboard.doj.gov.in/ecourts/assets/js/scriptPhotoGallary.js"></script>
+    </body>
+    
+
+
+
+  
+
+
+
+    <script>
+
+        $T('slideshow').style.display = 'none';
+        $T('wrapper').style.display = 'block';
+
+        var slideshow = new TINY.slideshow("slideshow");
+        window.onload = function () {
+            slideshow.auto = true;
+            slideshow.speed = 5;
+            slideshow.link = "linkhover";
+            slideshow.info = "information";
+            slideshow.thumbs = "slider";
+            slideshow.left = "slideleft";
+            slideshow.right = "slideright";
+            slideshow.scrollSpeed = 4;
+            slideshow.spacing = 0;
+            slideshow.active = "#fff";
+            slideshow.init("slideshow", "image", "imgprev", "imgnext", "imglink", "slidearea");
+        };
+
+        (function ($) {
+            $(document).ready(function () {
+//                var notification = $(".notification");
+//                if (notification.size() > 0 && notification.hasClass("error")) {
+//                    notification.find("i.fa-close").click(function () {
+//                        notification.hide();
+//                    });
+//                }
+
+
+
+                setTimeout(function () {
+                    $('#span').hide();
+                }, 5000);
+            });
+        })(jQuery);
+        
+        
+        /* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function filterFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+        
+//        $(function() {
+//      //    fancybox
+//      jQuery(".fancybox").fancybox();
+//    });
+    </script>
+
+</html>
+
+
+<!-- <style>
+    footer{
+        background-color: #272727;
+        color: #f2f2f2;
+        font-size: .8em;
+        min-height:10%;
+        height: 2.5rem; 
+        position:relative;
+            bottom:0;
+            margin-top : 255px;
+            width:100%;
+    }
+</style>-->
+<style>
+    .site-footer{
+            background-color: #272727;
+    color: #f2f2f2;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+            
+    }
+</style>
+
+</div>
+
+</BODY>
+<footer class="site-footer">
+    <div class="container" >
+        <div class="padding-10" style="text-align: center;">
+            &copy; Copyright Department of Justice
+        </div>
+        <div class="padding-10" style="text-align: center;">
+            Developed & Maintained by National Informatics Centre
+        </div>
+    </div>
+</footer>
+</HTML>
+

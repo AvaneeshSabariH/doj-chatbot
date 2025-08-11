@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MP/MLAs Special Court | Department of Justice</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.15/proj4.js"></script>
+<script src="https://cdn.anychart.com/releases/v8/js/anychart-base.min.js"></script>
+<script src="https://cdn.anychart.com/releases/v8/js/anychart-map.min.js"></script>
+<script src="https://cdn.anychart.com/releases/v8/js/anychart-exports.min.js"></script>
+<script src="https://cdn.anychart.com/releases/v8/js/anychart-ui.min.js"></script>
+<script src="https://cdn.anychart.com/geodata/2.1.1/countries/india/india.js"></script>
+  <style>
+  html, body, #container {
+    width: 100%;
+    height: 750px;
+    margin: 0;
+    padding: 0;
+}
+  </style>
+   <style>
+    div.scrollmenu {
+      overflow: auto;
+      white-space: nowrap;
+    }
+
+    div.scrollmenu a {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px;
+      text-decoration: none;
+    }
+
+    div.scrollmenu a:hover {
+      background-color: #777;
+    }
+  </style>
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="assets/newassets/plugins/fontawesome-free/css/all.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Tempusdominus Bootstrap 4 -->
+  <link rel="stylesheet" href="assets/newassets/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+  <!-- iCheck -->
+  <link rel="stylesheet" href="assets/newassets/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <!-- JQVMap -->
+  <link rel="stylesheet" href="assets/newassets/plugins/jqvmap/jqvmap.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="assets/newassets/dist/css/adminlte.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="assets/newassets/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="assets/newassets/plugins/daterangepicker/daterangepicker.css">
+  <!-- summernote -->
+  <link rel="stylesheet" href="assets/newassets/plugins/summernote/summernote-bs4.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+</head>
+<body class="hold-transition sidebar-mini layout-fixed">
+<div class="wrapper">
+
+  <!-- Preloader -->
+<!--   <div class="preloader flex-column justify-content-center align-items-center">
+    <img class="animation__shake" src="assets/newassets/dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
+  </div> -->
+
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light" style="background-image: linear-gradient(to right, tomato, #541CDD); color: #fff; height: 100px;">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" style="color: #fff;" data-widget="pushmenu" href="#" role="button" style="color: #fff;"><i class="fas fa-bars"></i></a>
+      </li>
+      <li>
+        <h1 style="margin-left: 550px;">MP-MLA Special Courts</h>
+      </li>
+    </ul>
+
+    <!-- Right navbar links -->
+  </nav>
+  <!-- /.navbar -->
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4" style="background:tomato; font-size:18px;">
+    <!-- Brand Logo -->
+    <a href="index.php" class="brand-link" style= "background:tomato;">
+      <img src="assets/newassets/dist/img/doj_white.png" alt="AdminLTE Logo" style="height: 70px;">
+      <!-- <span class="brand-text font-weight-light">Reports</span> -->
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user panel (optional) -->
+     <!--  <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+          <img src="assets/newassets/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+        </div>
+        <div class="info">
+          <a href="#" class="d-block">Alexander Pierce</a>
+        </div>
+      </div> -->
+
+      <!-- SidebarSearch Form -->
+      <!-- <div class="form-inline">
+        <div class="input-group" data-widget="sidebar-search">
+          <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
+          <div class="input-group-append">
+            <button class="btn btn-sidebar">
+              <i class="fas fa-search fa-fw"></i>
+            </button>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+          <li class="nav-item">
+            <a href="index.php" class="nav-link" style="color: #fff;">
+              <i class='bx bx-grid-alt' ></i>
+              <p>
+                Dashboard
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="mp_functional" class="nav-link" style="color: #fff;">
+              <i class='bx bx-list-ul' ></i>
+              <p>
+                No. of  Court Functional
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="mp_disposed" class="nav-link" style="color: #fff;">
+              <i class='bx bx-pie-chart-alt-2' ></i>
+              <p>
+                No. of cases disposed during the Month
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="mp_pending" class="nav-link" style="color: #fff;">
+              <i class='bx bx-coin-stack' ></i>
+              <p>
+                No. of cases pending
+              </p>
+            </a>
+          </li>
+          <!-- <li class="nav-item">
+            <a href="https://doj.gov.in/gn/assets/documents/gn-act.pdf" class="nav-link" style="color: #fff;">
+              <i class='bx bx-book-alt' ></i>
+              <p>
+                Gram Nyayalaya Act 2008
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://doj.gov.in/gn/assets/documents/gn%20guidlines.pdf" class="nav-link" style="color: #fff;">
+              <i class='bx bx-log-out' ></i>
+              <p>
+                Guidelines of Gram Nyayalaya Schemes
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://doj.gov.in/other-programmes/gram-nyayalayas" class="nav-link" style="color: #fff;">
+             <i class='bx bx-message' ></i>
+              <p>
+                Gram Nyayalaya Related Orders
+              </p>
+            </a>
+          </li>
+ -->
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper" style="background: #fff;">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 class="m-0">Dashboard</h1>
+          </div><!-- /.col -->
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <a href="signin"><button type="button" class="btn-primary" >Sign In</button></a>
+            </ol>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+        <!-- Small boxes (Stat box) -->
+
+        <!-- /.row -->
+        <div id="container">
+        </div>
+        <p><b>DISCLAIMER:</b> Setting up and functioning of the FTSCs, Family Courts, Special Courts for MP/MLA and Fast Track Courts falls within the domain of State Govt. in consultation with their respective High Courts which are set up as per their need and resources. Information furnished above is as reported by the concerned High Courts.</p>
+
+
+        
+      </div><!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+<footer class="main-footer">
+    <strong>Copyright &copy; 2023.</strong>
+    All rights reserved.
+    <div class="float-right d-none d-sm-inline-block">
+      <b>Version</b> 3.1.0
+    </div>
+  </footer>
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="assets/newassets/plugins/jquery/jquery.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="assets/newassets/plugins/jquery-ui/jquery-ui.min.js"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+  $.widget.bridge('uibutton', $.ui.button)
+</script>
+<!-- Bootstrap 4 -->
+<script src="assets/newassets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- ChartJS -->
+<script src="assets/newassets/plugins/chart.js/Chart.min.js"></script>
+<!-- Sparkline -->
+<script src="assets/newassets/plugins/sparklines/sparkline.js"></script>
+<!-- JQVMap -->
+<script src="assets/newassets/plugins/jqvmap/jquery.vmap.min.js"></script>
+<script src="assets/newassets/plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+<!-- jQuery Knob Chart -->
+<script src="assets/newassets/plugins/jquery-knob/jquery.knob.min.js"></script>
+<!-- daterangepicker -->
+<script src="assets/newassets/plugins/moment/moment.min.js"></script>
+<script src="assets/newassets/plugins/daterangepicker/daterangepicker.js"></script>
+<!-- Tempusdominus Bootstrap 4 -->
+<script src="assets/newassets/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<!-- Summernote -->
+<script src="assets/newassets/plugins/summernote/summernote-bs4.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="assets/newassets/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="assets/newassets/dist/js/adminlte.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="assets/newassets/dist/js/demo.js"></script>
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<script src="assets/newassets/dist/js/pages/dashboard.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<script type="text/javascript">
+  
+  anychart.onDocumentReady(function() {
+  // create map
+  var map = anychart.map();
+
+  // create data set
+  var dynamicData = [{"id":"IN.AN","fill":"#ff99c2","label":"Andaman and Nicobar","No of Court Functional":"1","No of Cases Disposed":"0","No of Cases Pending":"80"},{"id":"IN.AP","fill":"#b3ffff","label":"Andhra Pradesh","No of Court Functional":"1","No of Cases Disposed":"1","No of Cases Pending":"64"},{"id":"IN.DL","fill":"#c2d6d6","label":"Delhi","No of Court Functional":"2","No of Cases Disposed":"6","No of Cases Pending":"38"},{"id":"IN.KA","fill":"#e699ff","label":"Karnataka","No of Court Functional":"1","No of Cases Disposed":"2","No of Cases Pending":"84"},{"id":"IN.MP","fill":"#097969","label":"Madhya Pradesh","No of Court Functional":"1","No of Cases Disposed":"5","No of Cases Pending":"319"},{"id":"IN.MH","fill":"#ffad99","label":"Maharashtra","No of Court Functional":"1","No of Cases Disposed":"0","No of Cases Pending":"15"},{"id":"IN.TN","fill":"#3366cc","label":"Tamil Nadu","No of Court Functional":"1","No of Cases Disposed":"0","No of Cases Pending":"39"},{"id":"IN.TG","fill":"#99ff99","label":"Telangana","No of Court Functional":"1","No of Cases Disposed":"7","No of Cases Pending":"201"},{"id":"IN.UP","fill":"#b3d9ff","label":"Uttar Pradesh","No of Court Functional":"1","No of Cases Disposed":"0","No of Cases Pending":"7"},{"id":"IN.WB","fill":"#ff99c2","label":"West Bengal","No of Court Functional":"1","No of Cases Disposed":"0","No of Cases Pending":"9"}];
+  console.log("dynamicData");
+  var dataSet = anychart.data.set(dynamicData);
+    /*[
+{"id":"IN.AP","value":1, "court_functional": 1, "cases_disposed": 6, "cases_pending": 87, "fill": '#b3ffff'}, // andhra pradesh
+
+      {"id":"IN.DL","value":9, "court_functional": 2, "cases_disposed": 9, "cases_pending": 113, "fill": 'red'}, // delhi
+
+      {"id":"IN.KA","value":15, "court_functional": 1, "cases_disposed": 17, "cases_pending": 244, "fill": '#e699ff'}, // karnataka
+
+      {"id":"IN.MP","value":18, "court_functional": 1, "cases_disposed":11, "cases_pending": 324, "fill": '#097969'}, // madhya pradesh
+
+      {"id":"IN.MH","value":19, "court_functional": 1, "cases_disposed": 11, "cases_pending": 427, "fill": '#ffad99'}, // maharsahtra
+
+      {"id":"IN.TN","value":29, "court_functional": 1, "cases_disposed": 8, "cases_pending": 233, "fill": '#3366cc'}, // tamil nadu
+
+      {"id":"IN.TG","value":34, "court_functional": 1, "cases_disposed": 2, "cases_pending": 55, "fill": '#99ff99'}, // teleangana
+
+      {"id":"IN.UP","value":31, "court_functional": 1, "cases_disposed": 35, "cases_pending": 1121, "fill": '#b3d9ff'}, // uttar pradesh
+
+      {"id":"IN.WB","value":33, "court_functional": 1, "cases_disposed": 1, "cases_pending": 14, "fill": '#ff99c2'},] // west bengal
+
+);*/
+
+
+  // create choropleth series
+  series = map.choropleth(dataSet);
+
+  // set geoIdField to 'id', this field contains in geo data meta properties
+  series.geoIdField('id');
+
+  // set map color settings
+  series.colorScale(anychart.scales.linearColor('#deebf7', '#3182bd'));
+  series.hovered().fill('#F5F5F5');
+  series.labels(true);
+  series.overlapMode("allow-overlap");
+
+  series.tooltip().format(function() {
+    // here return the desired content
+    return `No of Court Functional: ${this.getData('No of Court Functional')}
+  No of Cases Disposed: ${this.getData('No of Cases Disposed')}
+  No of Cases Pending: ${this.getData('No of Cases Pending')}`;
+  });
+
+  // set geo data, you can find this map in our geo maps collection
+  // https://cdn.anychart.com/#maps-collection
+  map.geoData(anychart.maps['india']);
+
+  map.tooltip().titleFormat('{%label}');
+  series.labels().enabled(true).format('{%label}');
+
+  //set map container id (div)
+  map.container('container');
+
+  //initiate map drawing
+  map.draw();
+});
+</script>
+</body>
+</html>

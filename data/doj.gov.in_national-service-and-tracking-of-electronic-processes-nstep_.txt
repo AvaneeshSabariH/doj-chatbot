@@ -1,0 +1,5 @@
+Last updated: 13-03-2025
+National Service and Tracking of Electronic Processes (NSTEP) has been launched for technology enabled process serving and issuing of summons. A GPS enabled device is given to the Bailiff for the service of summons leading to greater transparency and speedy delivery of processes. It provides real time status update of service of summons besides tracking of geographical coordinates of the process server at the time of serving. It has currently been implemented in 28 States/ UTs.
+Content Owned by DEPARTMENT OF JUSTICE, Ministry of Law and Justice, GOI
+Developed and hosted byNational Informatics Centre,Ministry of Electronics & Information Technology, Government of India
+Last Updated:Aug 11, 2025

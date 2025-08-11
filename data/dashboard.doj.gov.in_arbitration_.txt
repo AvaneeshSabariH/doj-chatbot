@@ -1,0 +1,301 @@
+Severity: 8192
+Message:  Creation of dynamic property CI_URI::$config is deprecated
+Filename: core/URI.php
+Line Number: 101
+Backtrace:
+File: /var/www/html/arbitration/index.phpLine: 316Function: require_once
+Severity: 8192
+Message:  Creation of dynamic property CI_Router::$uri is deprecated
+Filename: core/Router.php
+Line Number: 127
+Backtrace:
+File: /var/www/html/arbitration/index.phpLine: 316Function: require_once
+Severity: 8192
+Message:  Creation of dynamic property Login::$benchmark is deprecated
+Filename: core/Controller.php
+Line Number: 75
+Backtrace:
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 6Function: __construct
+File: /var/www/html/arbitration/index.phpLine: 316Function: require_once
+Severity: 8192
+Message:  Creation of dynamic property Login::$hooks is deprecated
+Filename: core/Controller.php
+Line Number: 75
+Backtrace:
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 6Function: __construct
+File: /var/www/html/arbitration/index.phpLine: 316Function: require_once
+Severity: 8192
+Message:  Creation of dynamic property Login::$config is deprecated
+Filename: core/Controller.php
+Line Number: 75
+Backtrace:
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 6Function: __construct
+File: /var/www/html/arbitration/index.phpLine: 316Function: require_once
+Severity: 8192
+Message:  Creation of dynamic property Login::$log is deprecated
+Filename: core/Controller.php
+Line Number: 75
+Backtrace:
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 6Function: __construct
+File: /var/www/html/arbitration/index.phpLine: 316Function: require_once
+Severity: 8192
+Message:  Creation of dynamic property Login::$utf8 is deprecated
+Filename: core/Controller.php
+Line Number: 75
+Backtrace:
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 6Function: __construct
+File: /var/www/html/arbitration/index.phpLine: 316Function: require_once
+Severity: 8192
+Message:  Creation of dynamic property Login::$uri is deprecated
+Filename: core/Controller.php
+Line Number: 75
+Backtrace:
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 6Function: __construct
+File: /var/www/html/arbitration/index.phpLine: 316Function: require_once
+Severity: 8192
+Message:  Creation of dynamic property Login::$exceptions is deprecated
+Filename: core/Controller.php
+Line Number: 75
+Backtrace:
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 6Function: __construct
+File: /var/www/html/arbitration/index.phpLine: 316Function: require_once
+Severity: 8192
+Message:  Creation of dynamic property Login::$router is deprecated
+Filename: core/Controller.php
+Line Number: 75
+Backtrace:
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 6Function: __construct
+File: /var/www/html/arbitration/index.phpLine: 316Function: require_once
+Severity: 8192
+Message:  Creation of dynamic property Login::$output is deprecated
+Filename: core/Controller.php
+Line Number: 75
+Backtrace:
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 6Function: __construct
+File: /var/www/html/arbitration/index.phpLine: 316Function: require_once
+Severity: 8192
+Message:  Creation of dynamic property Login::$security is deprecated
+Filename: core/Controller.php
+Line Number: 75
+Backtrace:
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 6Function: __construct
+File: /var/www/html/arbitration/index.phpLine: 316Function: require_once
+Severity: 8192
+Message:  Creation of dynamic property Login::$input is deprecated
+Filename: core/Controller.php
+Line Number: 75
+Backtrace:
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 6Function: __construct
+File: /var/www/html/arbitration/index.phpLine: 316Function: require_once
+Severity: 8192
+Message:  Creation of dynamic property Login::$lang is deprecated
+Filename: core/Controller.php
+Line Number: 75
+Backtrace:
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 6Function: __construct
+File: /var/www/html/arbitration/index.phpLine: 316Function: require_once
+Severity: 8192
+Message:  Creation of dynamic property Login::$load is deprecated
+Filename: core/Controller.php
+Line Number: 78
+Backtrace:
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 6Function: __construct
+File: /var/www/html/arbitration/index.phpLine: 316Function: require_once
+Severity: 8192
+Message:  Creation of dynamic property Login::$db is deprecated
+Filename: core/Loader.php
+Line Number: 396
+Backtrace:
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 6Function: __construct
+File: /var/www/html/arbitration/index.phpLine: 316Function: require_once
+Severity: 8192
+Message:  Creation of dynamic property CI_DB_mysqli_driver::$failover is deprecated
+Filename: database/DB_driver.php
+Line Number: 371
+Backtrace:
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 6Function: __construct
+File: /var/www/html/arbitration/index.phpLine: 316Function: require_once
+Severity: 8192
+Message:  Return type of CI_Session_database_driver::open($save_path, $name) should either be compatible with SessionHandlerInterface::open(string $path, string $name): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+Filename: drivers/Session_database_driver.php
+Line Number: 129
+Backtrace:
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 6Function: __construct
+File: /var/www/html/arbitration/index.phpLine: 316Function: require_once
+Severity: 8192
+Message:  Return type of CI_Session_database_driver::close() should either be compatible with SessionHandlerInterface::close(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+Filename: drivers/Session_database_driver.php
+Line Number: 280
+Backtrace:
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 6Function: __construct
+File: /var/www/html/arbitration/index.phpLine: 316Function: require_once
+Severity: 8192
+Message:  Return type of CI_Session_database_driver::read($session_id) should either be compatible with SessionHandlerInterface::read(string $id): string|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+Filename: drivers/Session_database_driver.php
+Line Number: 151
+Backtrace:
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 6Function: __construct
+File: /var/www/html/arbitration/index.phpLine: 316Function: require_once
+Severity: 8192
+Message:  Return type of CI_Session_database_driver::write($session_id, $session_data) should either be compatible with SessionHandlerInterface::write(string $id, string $data): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+Filename: drivers/Session_database_driver.php
+Line Number: 208
+Backtrace:
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 6Function: __construct
+File: /var/www/html/arbitration/index.phpLine: 316Function: require_once
+Severity: 8192
+Message:  Return type of CI_Session_database_driver::destroy($session_id) should either be compatible with SessionHandlerInterface::destroy(string $id): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+Filename: drivers/Session_database_driver.php
+Line Number: 297
+Backtrace:
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 6Function: __construct
+File: /var/www/html/arbitration/index.phpLine: 316Function: require_once
+Severity: 8192
+Message:  Return type of CI_Session_database_driver::gc($maxlifetime) should either be compatible with SessionHandlerInterface::gc(int $max_lifetime): int|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+Filename: drivers/Session_database_driver.php
+Line Number: 335
+Backtrace:
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 6Function: __construct
+File: /var/www/html/arbitration/index.phpLine: 316Function: require_once
+Severity: 8192
+Message:  Creation of dynamic property Login::$session is deprecated
+Filename: core/Loader.php
+Line Number: 1283
+Backtrace:
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 6Function: __construct
+File: /var/www/html/arbitration/index.phpLine: 316Function: require_once
+Severity: 8192
+Message:  Creation of dynamic property Login::$login_model is deprecated
+Filename: core/Loader.php
+Line Number: 358
+Backtrace:
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 7Function: model
+File: /var/www/html/arbitration/index.phpLine: 316Function: require_once
+Severity: 8192
+Message:  Creation of dynamic property CI_Loader::$benchmark is deprecated
+Filename: core/Loader.php
+Line Number: 931
+Backtrace:
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 72Function: view
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 13Function: isLoggedIn
+File: /var/www/html/arbitration/index.phpLine: 316Function: require_once
+Severity: 8192
+Message:  Creation of dynamic property CI_Loader::$hooks is deprecated
+Filename: core/Loader.php
+Line Number: 931
+Backtrace:
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 72Function: view
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 13Function: isLoggedIn
+File: /var/www/html/arbitration/index.phpLine: 316Function: require_once
+Severity: 8192
+Message:  Creation of dynamic property CI_Loader::$config is deprecated
+Filename: core/Loader.php
+Line Number: 931
+Backtrace:
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 72Function: view
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 13Function: isLoggedIn
+File: /var/www/html/arbitration/index.phpLine: 316Function: require_once
+Severity: 8192
+Message:  Creation of dynamic property CI_Loader::$log is deprecated
+Filename: core/Loader.php
+Line Number: 931
+Backtrace:
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 72Function: view
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 13Function: isLoggedIn
+File: /var/www/html/arbitration/index.phpLine: 316Function: require_once
+Severity: 8192
+Message:  Creation of dynamic property CI_Loader::$utf8 is deprecated
+Filename: core/Loader.php
+Line Number: 931
+Backtrace:
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 72Function: view
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 13Function: isLoggedIn
+File: /var/www/html/arbitration/index.phpLine: 316Function: require_once
+Severity: 8192
+Message:  Creation of dynamic property CI_Loader::$uri is deprecated
+Filename: core/Loader.php
+Line Number: 931
+Backtrace:
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 72Function: view
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 13Function: isLoggedIn
+File: /var/www/html/arbitration/index.phpLine: 316Function: require_once
+Severity: 8192
+Message:  Creation of dynamic property CI_Loader::$exceptions is deprecated
+Filename: core/Loader.php
+Line Number: 931
+Backtrace:
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 72Function: view
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 13Function: isLoggedIn
+File: /var/www/html/arbitration/index.phpLine: 316Function: require_once
+Severity: 8192
+Message:  Creation of dynamic property CI_Loader::$router is deprecated
+Filename: core/Loader.php
+Line Number: 931
+Backtrace:
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 72Function: view
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 13Function: isLoggedIn
+File: /var/www/html/arbitration/index.phpLine: 316Function: require_once
+Severity: 8192
+Message:  Creation of dynamic property CI_Loader::$output is deprecated
+Filename: core/Loader.php
+Line Number: 931
+Backtrace:
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 72Function: view
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 13Function: isLoggedIn
+File: /var/www/html/arbitration/index.phpLine: 316Function: require_once
+Severity: 8192
+Message:  Creation of dynamic property CI_Loader::$security is deprecated
+Filename: core/Loader.php
+Line Number: 931
+Backtrace:
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 72Function: view
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 13Function: isLoggedIn
+File: /var/www/html/arbitration/index.phpLine: 316Function: require_once
+Severity: 8192
+Message:  Creation of dynamic property CI_Loader::$input is deprecated
+Filename: core/Loader.php
+Line Number: 931
+Backtrace:
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 72Function: view
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 13Function: isLoggedIn
+File: /var/www/html/arbitration/index.phpLine: 316Function: require_once
+Severity: 8192
+Message:  Creation of dynamic property CI_Loader::$lang is deprecated
+Filename: core/Loader.php
+Line Number: 931
+Backtrace:
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 72Function: view
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 13Function: isLoggedIn
+File: /var/www/html/arbitration/index.phpLine: 316Function: require_once
+Severity: 8192
+Message:  Creation of dynamic property CI_Loader::$load is deprecated
+Filename: core/Loader.php
+Line Number: 931
+Backtrace:
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 72Function: view
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 13Function: isLoggedIn
+File: /var/www/html/arbitration/index.phpLine: 316Function: require_once
+Severity: 8192
+Message:  Creation of dynamic property CI_Loader::$db is deprecated
+Filename: core/Loader.php
+Line Number: 931
+Backtrace:
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 72Function: view
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 13Function: isLoggedIn
+File: /var/www/html/arbitration/index.phpLine: 316Function: require_once
+Severity: 8192
+Message:  Creation of dynamic property CI_Loader::$session is deprecated
+Filename: core/Loader.php
+Line Number: 931
+Backtrace:
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 72Function: view
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 13Function: isLoggedIn
+File: /var/www/html/arbitration/index.phpLine: 316Function: require_once
+Severity: 8192
+Message:  Creation of dynamic property CI_Loader::$login_model is deprecated
+Filename: core/Loader.php
+Line Number: 931
+Backtrace:
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 72Function: view
+File: /var/www/html/arbitration/application/controllers/Login.phpLine: 13Function: isLoggedIn
+File: /var/www/html/arbitration/index.phpLine: 316Function: require_once

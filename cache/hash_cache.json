@@ -1,0 +1,1484 @@
+{
+  "https://doj.gov.in": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "cb8f508d36128580c0b771ce9e890d34d1603111f60dcbd19e5a1f5184215ddf",
+    "path": "cache\\raw\\doj.gov.in.html"
+  },
+  "https://doj.gov.in/visitor-summary": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "140691e50c6aaeee59abe582a62663f9b7413866146efafa8fad85e6739996bb",
+    "path": "cache\\raw\\doj.gov.in_visitor-summary.html"
+  },
+  "https://doj.gov.in/web-information-manager": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "6999b868476e053604772ffa6bc03ef6b31ca19dcde48e3c6d958eabb93c811e",
+    "path": "cache\\raw\\doj.gov.in_web-information-manager.html"
+  },
+  "https://doj.gov.in/faq": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "2513a86efce9eb3b6d942ef2a9aca046270c8dd5e19a7d67ce24e4bf566b5fc0",
+    "path": "cache\\raw\\doj.gov.in_faq.html"
+  },
+  "https://doj.gov.in/help": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "7fb9ea424f57f795aa9a0a9271edb13cfe33a5bb5d40adc5469277c831989df6",
+    "path": "cache\\raw\\doj.gov.in_help.html"
+  },
+  "https://doj.gov.in/contact-us": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "930b08e21e4ebc562ca2aa729ed2e1483810c5a4c1e6e6c02931d563a2d3af90",
+    "path": "cache\\raw\\doj.gov.in_contact-us.html"
+  },
+  "https://doj.gov.in/feedback": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "e5f96c88feb1acd083b42e01e2c0277609912bbe0c221860866eb8d39863ae8d",
+    "path": "cache\\raw\\doj.gov.in_feedback.html"
+  },
+  "https://doj.gov.in/terms-and-conditions": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "4b4ca048c00e7d523b2c50e24cae18b577c01c3cf9fad264bbbb9c4aee16a3a5",
+    "path": "cache\\raw\\doj.gov.in_terms-and-conditions.html"
+  },
+  "https://doj.gov.in/privacy-policy": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "5c5724179da82eb292768489fa92e8b6cbc3469edffce208d888daba2b503250",
+    "path": "cache\\raw\\doj.gov.in_privacy-policy.html"
+  },
+  "https://doj.gov.in/copyright-policy": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "5dd2f5400e01468ffbd0063e5672b076a025a7dcb4bb896dd60d6ebb20d3515a",
+    "path": "cache\\raw\\doj.gov.in_copyright-policy.html"
+  },
+  "https://doj.gov.in/hyperlinking-policy": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "3629e6c3fa7c0defa8c2df39df52d0b80b3a329160bd88e8f95197981198d70a",
+    "path": "cache\\raw\\doj.gov.in_hyperlinking-policy.html"
+  },
+  "https://doj.gov.in/website-policies": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "a13799af011541a28e2c86f04fc20f933c80e8663e953c4223b4f96719d4bd9e",
+    "path": "cache\\raw\\doj.gov.in_website-policies.html"
+  },
+  "https://doj.gov.in/ecourts-mission-mode-project-2": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "c432ed2b70289a40dff56fa6d7a3e6648037367b1c8a14f2cc9870482a445322",
+    "path": "cache\\raw\\doj.gov.in_ecourts-mission-mode-project-2.html"
+  },
+  "https://doj.gov.in/justice-ii": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "5da6e113b37f9c4d3392511812ee68a51f68d53894f7e0017b88871a578b8ee5",
+    "path": "cache\\raw\\doj.gov.in_justice-ii.html"
+  },
+  "https://doj.gov.in/justice-i": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "33425bfd90f5f32e49f9b87546c7cef98fc6c865ae85009277d29ef8aa1ccabe",
+    "path": "cache\\raw\\doj.gov.in_justice-i.html"
+  },
+  "https://doj.gov.in/national-mission-judicial-reforms": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "354828250025045606118f6655990928d97286ba85f08cc12b77d14e5bac7d69",
+    "path": "cache\\raw\\doj.gov.in_national-mission-judicial-reforms.html"
+  },
+  "https://doj.gov.in/desk-side": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "6a71514399aed641039a2b3de81c3ade3dde58fcefa9535edcffcd9be2701213",
+    "path": "cache\\raw\\doj.gov.in_desk-side.html"
+  },
+  "https://doj.gov.in/national-legal-services-authority": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "cf329e85e46fe18930922bedab557b3513b05fd0cb50ecf8c07072f82714b49d",
+    "path": "cache\\raw\\doj.gov.in_national-legal-services-authority.html"
+  },
+  "https://doj.gov.in/legal-literacy-and-legal-awareness-programme-lllp": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "230ed9bb27ba2a1f5af3842db21d634f7e4127bfef94d232c966863dd2bfff3a",
+    "path": "cache\\raw\\doj.gov.in_legal-literacy-and-legal-awareness-programme-lllp.html"
+  },
+  "https://doj.gov.in/schemes": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "81046b79a14d384d4c2df0d74e9e15fdbb21bbda7b125a06208104bf714ec712",
+    "path": "cache\\raw\\doj.gov.in_schemes.html"
+  },
+  "https://doj.gov.in/pfms-orders": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "360d18092e78a0ebc897f7d6ec64694a312b2a5e66dbe8d553a86d8f71354008",
+    "path": "cache\\raw\\doj.gov.in_pfms-orders.html"
+  },
+  "https://doj.gov.in/right-to-information-rti": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "7a81517e9a90744f94947ace29351f720dd16c7236da8444795f7df939eb421a",
+    "path": "cache\\raw\\doj.gov.in_right-to-information-rti.html"
+  },
+  "https://doj.gov.in/notice-category/tenders": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "7c907631d03a3242b32b10c84964fd44fbbbb56c4c917cfdebbc9d32a86cdbc4",
+    "path": "cache\\raw\\doj.gov.in_notice-category_tenders.html"
+  },
+  "https://doj.gov.in/notice-category/recruitments": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "39ff20a6ffdf9bd70348b1a4db5273856d7cb18b37b00785c936ed03aec365fd",
+    "path": "cache\\raw\\doj.gov.in_notice-category_recruitments.html"
+  },
+  "https://doj.gov.in/parliament-questions": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "e8dddcb183bc5af52edbe474dc88a749acd811ad1e9d5bace1b61236a6ddc585",
+    "path": "cache\\raw\\doj.gov.in_parliament-questions.html"
+  },
+  "https://doj.gov.in/national-legal-services-authority-nalsa": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "14ba40b66e932a6cf9a96a3d39ab903726e68a90e6fad3160079a8f4f8b76efb",
+    "path": "cache\\raw\\doj.gov.in_national-legal-services-authority-nalsa.html"
+  },
+  "https://doj.gov.in/events": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "f4a5182145e75f9e3551285738d22d529a471437981f04e2e613a532ce1e7458",
+    "path": "cache\\raw\\doj.gov.in_events.html"
+  },
+  "https://doj.gov.in/video-gallery": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "ab1f9e0ef9dcc34c6dc9fe9d029c462446ab7fcbd799b0a7445e21dedc8f9001",
+    "path": "cache\\raw\\doj.gov.in_video-gallery.html"
+  },
+  "https://doj.gov.in/photo-gallery": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "205728613beff59ba158a0096d48fbc8d2eab945d3427fe2f706fdc73e8ca5ef",
+    "path": "cache\\raw\\doj.gov.in_photo-gallery.html"
+  },
+  "https://doj.gov.in/category/press-release": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "af6d910afe66708e49ec14fcc5d027ce48215ca765250ab76748bb0d8c25d01b",
+    "path": "cache\\raw\\doj.gov.in_category_press-release.html"
+  },
+  "https://doj.gov.in/videos-2": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "329a773c09cead035d1543ca99a819697371ee1715b677f5c14a216b7ea31df0",
+    "path": "cache\\raw\\doj.gov.in_videos-2.html"
+  },
+  "https://doj.gov.in/photos": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "e0c0cd9b3a36b6fb0d050e57a18c6a44ce2cbd7409f5ba364c66aecd265a520c",
+    "path": "cache\\raw\\doj.gov.in_photos.html"
+  },
+  "https://doj.gov.in/gallery/hamara-samvidhan-hamara-samman-4th-regional-event-at-prayagraj-uttar-pradesh-24th-january-2025": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "6936cd75c41c9c03a7ecb8721172ec6ba6b98e2c76eb1646bd19cbf205296ade",
+    "path": "cache\\raw\\doj.gov.in_gallery_hamara-samvidhan-hamara-samman-4th-regional-event-at-prayagraj-uttar-pradesh-24th-january-2025.html"
+  },
+  "https://doj.gov.in/media-4": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "13b3ee15da4a51d44090cf0d70b648de09aa32effe90ba7aec7be4fbba24ce33",
+    "path": "cache\\raw\\doj.gov.in_media-4.html"
+  },
+  "https://doj.gov.in/overview-2": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "b66175a6709beed33451c483ea2497bb0e1f774c823b2b899de81cc4278abe90",
+    "path": "cache\\raw\\doj.gov.in_overview-2.html"
+  },
+  "https://doj.gov.in/gallery/hamara-samvidhan-hamara-samman-3rd-regional-event-at-guwahati-assam-19th-november-2024": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "92572a3260ec3acea3067354f56733c79b5fdb5518317656bcb34edb96b94cdb",
+    "path": "cache\\raw\\doj.gov.in_gallery_hamara-samvidhan-hamara-samman-3rd-regional-event-at-guwahati-assam-19th-november-2024.html"
+  },
+  "https://doj.gov.in/media-3": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "0728a3f2c5a88fa182e60992d0bf06650757fad14a235a5137cbdde374039759",
+    "path": "cache\\raw\\doj.gov.in_media-3.html"
+  },
+  "https://doj.gov.in/3rd-regional-event-overview": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "f005975ab3a20a207fed110c52ce3406615b480f09a65a9594c4ac44b0d70fa2",
+    "path": "cache\\raw\\doj.gov.in_3rd-regional-event-overview.html"
+  },
+  "https://doj.gov.in/gallery/hamara-samvidhan-hamara-samman-2nd-regional-event-at-prayagraj-uttar-pradesh-16th-july-2024": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "8bcdd72b7b1ba819eea29bbeb9d5a31f6715a0663a085e812f29788f40e106fe",
+    "path": "cache\\raw\\doj.gov.in_gallery_hamara-samvidhan-hamara-samman-2nd-regional-event-at-prayagraj-uttar-pradesh-16th-july-2024.html"
+  },
+  "https://doj.gov.in/media-2": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "da03ffcce11de4182461f596af7d942aabf9f0799eefb3914e3cadc7a9eda2e5",
+    "path": "cache\\raw\\doj.gov.in_media-2.html"
+  },
+  "https://doj.gov.in/2nd-regional-event-overview": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "36e613ff9d503d58d7eb121693dfa40a0149e8ce14ac6acad1aaf811e5afce88",
+    "path": "cache\\raw\\doj.gov.in_2nd-regional-event-overview.html"
+  },
+  "https://doj.gov.in/gallery/hamara-samman-hamara-samvidhan-event-at-maharaja-ganga-singh-university-bikaner-9th-march-2024": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "1b93dcd6b8609e92883ed0ef61a145ea4feb553630d3824ea09e3f3833f8589b",
+    "path": "cache\\raw\\doj.gov.in_gallery_hamara-samman-hamara-samvidhan-event-at-maharaja-ganga-singh-university-bikaner-9th-march-2024.html"
+  },
+  "https://doj.gov.in/1st-regional-event-overview": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "5615b881b604a0eff39836e0101ac7b6820ea141f2cd2028a7a7eb88075ab188",
+    "path": "cache\\raw\\doj.gov.in_1st-regional-event-overview.html"
+  },
+  "https://doj.gov.in/gallery/inauguration-of-the-campaign-hamara-samman-hamara-samvidhan-at-international-ambedkar-centre-24th-jan-2024": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "ecad5ad9f9279d2600e8206a903cf836fb868cd3193b696f4264d1026fefbcef",
+    "path": "cache\\raw\\doj.gov.in_gallery_inauguration-of-the-campaign-hamara-samman-hamara-samvidhan-at-international-ambedkar-centre-24th-jan-2024.html"
+  },
+  "https://doj.gov.in/media": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "355327b3f648d46c20a64abfcf1b75fe52e5fcfd33fc6847dda8543419d4fcc5",
+    "path": "cache\\raw\\doj.gov.in_media.html"
+  },
+  "https://doj.gov.in/national-event-overview": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "5c1111e4f457823a7e55870bf0e06e583a85e6d170e64855aafa32b88655159d",
+    "path": "cache\\raw\\doj.gov.in_national-event-overview.html"
+  },
+  "https://doj.gov.in/guidelines-for-submission": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "4e68e2f20e57969bdf3aa519641ffe8a1e51be33e31d0d537689fbbdabaededa",
+    "path": "cache\\raw\\doj.gov.in_guidelines-for-submission.html"
+  },
+  "https://doj.gov.in/samvidhan-katta-about": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "5c9bc4f777d31913ee110c47646959488a9ca2b8edac544dd3b2a5040ad313fa",
+    "path": "cache\\raw\\doj.gov.in_samvidhan-katta-about.html"
+  },
+  "https://doj.gov.in/vidhi-jagriti-abhiyan-overview": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "9d33bce33af3c3acf1f661fb2b4bfac71d604652a0d3b1e35366436e9fe39ec4",
+    "path": "cache\\raw\\doj.gov.in_vidhi-jagriti-abhiyan-overview.html"
+  },
+  "https://doj.gov.in/nav-bharat-nav-sankalp-overview": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "7524ee72b9bece746228e9a3a653db9b591a9aaa85b1c1e6411ea9f7a476fe49",
+    "path": "cache\\raw\\doj.gov.in_nav-bharat-nav-sankalp-overview.html"
+  },
+  "https://doj.gov.in/overview": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "0044932a9b750e91fb7d307c82bf914e4fd06f7ecf7146bfc27e4d0f846dd970",
+    "path": "cache\\raw\\doj.gov.in_overview.html"
+  },
+  "https://doj.gov.in/about-hamara-samvidhan-hamara-samman": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "1e7ee25b5c5d7ce59ed07ff44ad77e1b16bb8ee7f2a5020c587a00932c29b02f",
+    "path": "cache\\raw\\doj.gov.in_about-hamara-samvidhan-hamara-samman.html"
+  },
+  "https://doj.gov.in/access-to-justice-for-the-marginalized": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "629c7cce1e5d1e54477f78bb096b330e294809751210208d7a1d293bf7c5533a",
+    "path": "cache\\raw\\doj.gov.in_access-to-justice-for-the-marginalized.html"
+  },
+  "https://doj.gov.in/videos": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "6d3b4f032bd202d64ae20370b88ee3bd5c4852ea4f5bd90ed91a50707f85367e",
+    "path": "cache\\raw\\doj.gov.in_videos.html"
+  },
+  "https://doj.gov.in/digital-library": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "028056d1467f06f6c6ad4e8616143164750458d7e719dfccdffab9f60d508eb1",
+    "path": "cache\\raw\\doj.gov.in_digital-library.html"
+  },
+  "https://doj.gov.in/webinar": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "8ff776bd1733180bc6748dc871c3561902a39137731f214039b79c2f3e3da306",
+    "path": "cache\\raw\\doj.gov.in_webinar.html"
+  },
+  "https://doj.gov.in/legal-literacy-legal-awareness": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "0f8d59c0d1ca61a7da31bf0f23567daaf428d760ac27e4bf6aa71bad2bf10b38",
+    "path": "cache\\raw\\doj.gov.in_legal-literacy-legal-awareness.html"
+  },
+  "https://doj.gov.in/nyaya-bandhu-activities": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "997e1c8352b7e44b8e6ec7d502a2fe6f505fa3797802b26f9a221b849af1b1e7",
+    "path": "cache\\raw\\doj.gov.in_nyaya-bandhu-activities.html"
+  },
+  "https://doj.gov.in/designing-innovative-solutions-for-holistic-access-to-justice-disha": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "cc8e67757b99902ae59cfd7c17c8d23aef104d7a4e5e565aa895cb88f94c5b90",
+    "path": "cache\\raw\\doj.gov.in_designing-innovative-solutions-for-holistic-access-to-justice-disha.html"
+  },
+  "https://doj.gov.in/training-and-awareness-programs": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "2c2f2917357af9f72c4711264e515d218d564c02198e784b653c2da7ced94598",
+    "path": "cache\\raw\\doj.gov.in_training-and-awareness-programs.html"
+  },
+  "https://dashboard.doj.gov.in/ecourts": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "1bb21c62ece8af075ef15fb0f1176dd415377a59a18068a039a5118ea8121e77",
+    "path": "cache\\raw\\dashboard.doj.gov.in_ecourts.html"
+  },
+  "https://doj.gov.in/awards-and-recognition": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "84efefd0493c4686def1c6fbb16ed1a8e316d125438d3c1922bdc17e60c14ed4",
+    "path": "cache\\raw\\doj.gov.in_awards-and-recognition.html"
+  },
+  "https://doj.gov.in/information-education-communication-iec": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "2cd03165172b7718b1648ab505383d34078288b3dc98ac256e8aa79010712dab",
+    "path": "cache\\raw\\doj.gov.in_information-education-communication-iec.html"
+  },
+  "https://doj.gov.in/digitization-of-records": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "3be6d428cd17ce86e00133f6490d41423494cd0c0b651fe7a358732f402ad2a1",
+    "path": "cache\\raw\\doj.gov.in_digitization-of-records.html"
+  },
+  "https://doj.gov.in/secure-scalable-sugamya-website-as-a-service-s3waas": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "5af2260857d861354344356755bc6d5ed60101b083aa0739ad9c126f1620a920",
+    "path": "cache\\raw\\doj.gov.in_secure-scalable-sugamya-website-as-a-service-s3waas.html"
+  },
+  "https://doj.gov.in/justice-clock": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "a0b5e1b3d9148b4cb4417a30c4dba70556966f9fb8f0f5f654f7f08423c29205",
+    "path": "cache\\raw\\doj.gov.in_justice-clock.html"
+  },
+  "https://doj.gov.in/national-service-and-tracking-of-electronic-processes-nstep": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "8e3678c63760c72bef02532b6dc1ec15685041fd0129225c5b2cec95e9542302",
+    "path": "cache\\raw\\doj.gov.in_national-service-and-tracking-of-electronic-processes-nstep.html"
+  },
+  "https://doj.gov.in/judgment-search-portal": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "35e53ddff303e4cc95045fc87e5bb46202539abd97d4647b5824c2c7c6a1272d",
+    "path": "cache\\raw\\doj.gov.in_judgment-search-portal.html"
+  },
+  "https://doj.gov.in/ecourt-services": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "3b307effc487559282a6b9044e53b7d05c9467432358e1527ed276f70a86fc5d",
+    "path": "cache\\raw\\doj.gov.in_ecourt-services.html"
+  },
+  "https://doj.gov.in/esewa-kendra": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "b5ed597645584831cd121995d93f3c4a30b5099200a44f70421a5fa80b240d5f",
+    "path": "cache\\raw\\doj.gov.in_esewa-kendra.html"
+  },
+  "https://doj.gov.in/e-payments": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "57b5f99440745bd41c2db85dda4339a9a34649f4ac74918fbd5903e308fe1ad2",
+    "path": "cache\\raw\\doj.gov.in_e-payments.html"
+  },
+  "https://doj.gov.in/efiling": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "9f225f795e99f492d0f9e33f3ad147b3fa0d83f8405f9c9a1dd8c8f58e0f6a7b",
+    "path": "cache\\raw\\doj.gov.in_efiling.html"
+  },
+  "https://doj.gov.in/live-streaming": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "06c412c995b48651332851792483e24a3c118078bbde130f7eee8056c2572e0c",
+    "path": "cache\\raw\\doj.gov.in_live-streaming.html"
+  },
+  "https://doj.gov.in/video-conferencing": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "91ed6a17712e6bbb8349524ff848b7302db9c17c5dce5972072e01a2fab38b47",
+    "path": "cache\\raw\\doj.gov.in_video-conferencing.html"
+  },
+  "https://doj.gov.in/virtual-courts": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "8f6c3ac720cb6ef423722bc785b17a0e9be5706f5a761e6b33b202ff185aa0a3",
+    "path": "cache\\raw\\doj.gov.in_virtual-courts.html"
+  },
+  "https://doj.gov.in/the-national-judicial-data-grid-njdg": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "5a17025dd6fe1f1b62c366ba0cbcd68de11da66dd1e28b2f370c4a0bb0d1147b",
+    "path": "cache\\raw\\doj.gov.in_the-national-judicial-data-grid-njdg.html"
+  },
+  "https://doj.gov.in/cis-and-covid-management-software-patch": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "c8d408259eff69f1b284f9e87d24b8052a9585b08867a673f23d08d22f4ef367",
+    "path": "cache\\raw\\doj.gov.in_cis-and-covid-management-software-patch.html"
+  },
+  "https://doj.gov.in/ecourts-mmp-ecourts-achievements-computerization-and-wan-connectivity": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "d9781ec52c70dd6ac4f38c7eb833cad3f1843419d047d33cf451701032180cd4",
+    "path": "cache\\raw\\doj.gov.in_ecourts-mmp-ecourts-achievements-computerization-and-wan-connectivity.html"
+  },
+  "https://doj.gov.in/phase-iii": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "0d674dbfae1eefcf35c8c3aee59958572f2a02179a6639024d02b9c45d262cd9",
+    "path": "cache\\raw\\doj.gov.in_phase-iii.html"
+  },
+  "https://dashboard.doj.gov.in/ecourts-projects-phaseII/index.php": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "ea383b6e25f3e0df01ed4d54b41fc8e62279a9c7550a892684ed13f285816c34",
+    "path": "cache\\raw\\dashboard.doj.gov.in_ecourts-projects-phaseII_index.php.php"
+  },
+  "https://dashboard.doj.gov.in/ecourts-projects-phaseI/index.php": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "12a16512bfa85c18443aa56fa2ade6df59ad3df2fb67fdb1561880d67fececb6",
+    "path": "cache\\raw\\dashboard.doj.gov.in_ecourts-projects-phaseI_index.php.php"
+  },
+  "https://doj.gov.in/scheme-for-action-research-and-studies-on-judicial-reforms-5": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "5522e880ef7bda50175d7c4a2b9ce2d150b1b81d80d2d68f99b3ddaf3d706eec",
+    "path": "cache\\raw\\doj.gov.in_scheme-for-action-research-and-studies-on-judicial-reforms-5.html"
+  },
+  "https://dashboard.doj.gov.in/gn": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "314fe15add8dae19ed8a6becc011e8ff85fb419ea3b7f2871528c06422ac8806",
+    "path": "cache\\raw\\dashboard.doj.gov.in_gn.html"
+  },
+  "https://dashboard.doj.gov.in/eodb": {
+    "etag": null,
+    "last_modified": "Tue, 10 Jun 2025 10:51:23 GMT",
+    "sha256": "b278ec06a4ba296a6bfbfcd04df1aa8124de3e34ab32f5f7d7a40ae5891339c8",
+    "path": "cache\\raw\\dashboard.doj.gov.in_eodb.html"
+  },
+  "https://doj.gov.in/advisory-council": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "0f668fadbd03ed63ce774586331ac03c665e0bd728fca3dc9d59b59f0c34d04b",
+    "path": "cache\\raw\\doj.gov.in_advisory-council.html"
+  },
+  "https://doj.gov.in/vision-document": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "c62f6fd90c887111e2ad2871e2f17f83a70cdb1d67ef86e711839c1aa95826e8",
+    "path": "cache\\raw\\doj.gov.in_vision-document.html"
+  },
+  "https://doj.gov.in/national-judicial-academy-5": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "dd9cd4da9a2ae1352666f93b411ce884967d755840b965c6b9232407321fc79b",
+    "path": "cache\\raw\\doj.gov.in_national-judicial-academy-5.html"
+  },
+  "https://dashboard.doj.gov.in/family-court-cases": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "b6c3291ed011e5c53a26fae0591d59994bdef700894864403c6d2dbea9fc0ddd",
+    "path": "cache\\raw\\dashboard.doj.gov.in_family-court-cases.html"
+  },
+  "https://doj.gov.in/family-court": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "92ad31c6ec15a857b3a1d56d961d9c5c329a3444e687d3bb883ecf54f6958bd6",
+    "path": "cache\\raw\\doj.gov.in_family-court.html"
+  },
+  "https://dashboard.doj.gov.in/fast-track-court": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "85712a8814ba241aa1aae939d6c0fcd9d26f67069e4f3122f3a70fd93d27c282",
+    "path": "cache\\raw\\dashboard.doj.gov.in_fast-track-court.html"
+  },
+  "https://doj.gov.in/fast-track-courts": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "aafd791d10684fc737026295045ef323ac35b1cdb65d247fc8f67826398b1347",
+    "path": "cache\\raw\\doj.gov.in_fast-track-courts.html"
+  },
+  "https://doj.gov.in/sanctions-2": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "87bcb2eab444544ddcd6dc64aa44e7590752dc291082fe77c754a51427f72ffb",
+    "path": "cache\\raw\\doj.gov.in_sanctions-2.html"
+  },
+  "https://dashboard.doj.gov.in/mp-mla-special-court": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "38f13b2583d515af5da14390c6fefb3b6166bb9a7bcfdf009c2bbbc700c4befb",
+    "path": "cache\\raw\\dashboard.doj.gov.in_mp-mla-special-court.html"
+  },
+  "https://doj.gov.in/special-courts-for-mp-mla": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "343a5ac683007d64283fbc4cf5785a875f2dd0c9abf1a746bafeab5dd322e0d7",
+    "path": "cache\\raw\\doj.gov.in_special-courts-for-mp-mla.html"
+  },
+  "https://dashboard.doj.gov.in/fast-track-special-court": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "76073340cba8381972534ec6040bbf3c80e558b32dfa56581ea6538319ee80fb",
+    "path": "cache\\raw\\dashboard.doj.gov.in_fast-track-special-court.html"
+  },
+  "https://doj.gov.in/fast-track-special-court-ftscs": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "7939a3cebab52176d016e3a66b6c17d2dcf15f9952d49167bdc6ea920e6635cc",
+    "path": "cache\\raw\\doj.gov.in_fast-track-special-court-ftscs.html"
+  },
+  "https://doj.gov.in/guidelines-of-grievances": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "0cf86250807586d91b5bcbb9397476e9625c341b8b1ff06a71d64e6e06fd7722",
+    "path": "cache\\raw\\doj.gov.in_guidelines-of-grievances.html"
+  },
+  "https://doj.gov.in/redressal-of-public-grievances": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "a801ddedd66e420a50f127962f4af7e5a9fa165f54ac74134c588ddcfd2ab37d",
+    "path": "cache\\raw\\doj.gov.in_redressal-of-public-grievances.html"
+  },
+  "https://doj.gov.in/use-of-hindi-and-regional-languages": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "bd3eb9a317de8cd166e413562961436685a6c88fd9370f08dd87275576e4e0db",
+    "path": "cache\\raw\\doj.gov.in_use-of-hindi-and-regional-languages.html"
+  },
+  "https://doj.gov.in/pecuniary-jurisdiction-of-delhi-district-courts": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "55c70a78a3aaad1241fe3b6b5a5975f1116ed8185821d21e63e68230e62089a5",
+    "path": "cache\\raw\\doj.gov.in_pecuniary-jurisdiction-of-delhi-district-courts.html"
+  },
+  "https://doj.gov.in/mou-signed-with-other-countries": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "77bcc4f577d34811f34706166c41d231b3bbbdaef66222f82d7507e266e0c440",
+    "path": "cache\\raw\\doj.gov.in_mou-signed-with-other-countries.html"
+  },
+  "https://doj.gov.in/second-national-judicial-pay-commission": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "1e1970c13889227d5e4d7b272810de84a85cbb8a7f07c72bcdb2c09bc3561171",
+    "path": "cache\\raw\\doj.gov.in_second-national-judicial-pay-commission.html"
+  },
+  "https://doj.gov.in/first-national-judicial-pay-commission": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "8f43c22f178a433824399f786cc4ccf7696ddc3b298af5a92be4ce919b1bd272",
+    "path": "cache\\raw\\doj.gov.in_first-national-judicial-pay-commission.html"
+  },
+  "https://doj.gov.in/pay-allowance": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "eba1ae020d5b6ba4f784eee23ba8821f79a5b1667dba64a76416ee55632fdc74",
+    "path": "cache\\raw\\doj.gov.in_pay-allowance.html"
+  },
+  "https://dashboard.doj.gov.in/vacancy-position/high_court_benches.php": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "c1c094e84f3604fa8a647ec6aa215edfb87cf95775ceebe615b843eacbc32984",
+    "path": "cache\\raw\\dashboard.doj.gov.in_vacancy-position_high_court_benches.php.php"
+  },
+  "https://doj.gov.in/vacancy-position": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "a4e27e9c1fb157dc2aef210cc9743594186c722c75fc8d128d14065133ad15d8",
+    "path": "cache\\raw\\doj.gov.in_vacancy-position.html"
+  },
+  "https://doj.gov.in/list-of-high-court-judges": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "4f9a784ae855baa5f8fd5baefe397da82873e0602e585c8879f4d0758d04fa70",
+    "path": "cache\\raw\\doj.gov.in_list-of-high-court-judges.html"
+  },
+  "https://doj.gov.in/memorandum-of-procedure-of-appointment-of-high-court-judges": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "9208477610c5e0745be2cad3ec6167f2c7cb12d4328b92a120e0fd7dca6665d3",
+    "path": "cache\\raw\\doj.gov.in_memorandum-of-procedure-of-appointment-of-high-court-judges.html"
+  },
+  "https://doj.gov.in/memorandum-of-procedure-of-appointment-of-supreme-court-judges": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "5115b4c92bbe0f721db6cdf1a476793d0ba71ab0e89f9114a601a29d72b9b595",
+    "path": "cache\\raw\\doj.gov.in_memorandum-of-procedure-of-appointment-of-supreme-court-judges.html"
+  },
+  "https://doj.gov.in/latest-orders-of-appointment-transfer-etc": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "37399fa5be1705b0a1d82b38662075f6421f748f8d640ff688d6e783e661f2f9",
+    "path": "cache\\raw\\doj.gov.in_latest-orders-of-appointment-transfer-etc.html"
+  },
+  "https://doj.gov.in/website-information-manager": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "593a49119ff74c92aa1a0258ef8d886393f731b1cf5da14dfb4e35c0a8d14647",
+    "path": "cache\\raw\\doj.gov.in_website-information-manager.html"
+  },
+  "https://doj.gov.in/acts-and-rules": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "1249d34cddc2b43b63dfde19010e157569953bbed4e6f9e5859c27875bc03165",
+    "path": "cache\\raw\\doj.gov.in_acts-and-rules.html"
+  },
+  "https://doj.gov.in/citizens-charter": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "f0f41d3f2bedf1782abf32ef0678f4db8b4788618cfcbb011b6f5030a3b2acc0",
+    "path": "cache\\raw\\doj.gov.in_citizens-charter.html"
+  },
+  "https://doj.gov.in/monthly-achievements-month-wise": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "93b30a359a6fd9ca943864421fd033096dd28c024ed55fe094121d4251389782",
+    "path": "cache\\raw\\doj.gov.in_monthly-achievements-month-wise.html"
+  },
+  "https://doj.gov.in/whos-who": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "711050f781ff9398ae02d3babbeb1b57a1d62d586f78af435935255d76932f26",
+    "path": "cache\\raw\\doj.gov.in_whos-who.html"
+  },
+  "https://doj.gov.in/about-department/administrative-setup": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "1c9d817763e4ec05ea68873fcd0d2ba583f84c23729d1dc299d66e7ab72cd4bf",
+    "path": "cache\\raw\\doj.gov.in_about-department_administrative-setup.html"
+  },
+  "https://doj.gov.in/organization-chart": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "91adc9fb29b3c88f3f1b0c48b454f8628019849fecfe7eadb28822dedab98654",
+    "path": "cache\\raw\\doj.gov.in_organization-chart.html"
+  },
+  "https://doj.gov.in/about-department/function-of-department": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "a66074b114a5b519b3dc23153a39693f83ad189f7d9fcec63c2191e555558d3a",
+    "path": "cache\\raw\\doj.gov.in_about-department_function-of-department.html"
+  },
+  "https://doj.gov.in/about-department/vision-and-mission": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "851e221f5df74ed7b2e4fcb87b001d18e2c89d03961909ac89498003e519718a",
+    "path": "cache\\raw\\doj.gov.in_about-department_vision-and-mission.html"
+  },
+  "https://doj.gov.in/about-department": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "b032bd5f39fcc1cbf5136379515715c756f4ba79c95089634107faa9980671bb",
+    "path": "cache\\raw\\doj.gov.in_about-department.html"
+  },
+  "https://doj.gov.in/history": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "a6450965c22dfe2c5c8487871a53666a9e4c7ea4db1dc0b85c116ef983bbdd54",
+    "path": "cache\\raw\\doj.gov.in_history.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%85%e0%a4%95%e0%a5%8d%e0%a4%b8%e0%a4%b0-%e0%a4%aa%e0%a5%82%e0%a4%9b%e0%a5%87-%e0%a4%9c%e0%a4%be%e0%a4%a8%e0%a5%87-%e0%a4%b5%e0%a4%be%e0%a4%b2%e0%a5%87-%e0%a4%aa%e0%a5%8d%e0%a4%b0%e0%a4%b6": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "d24f166a0e2d5413a01dd8e9806d54a0d73c5908d7daa7dfacbc860740de330e",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_85_e0_a4_95_e0_a5_8d_e0_a4_b8_e0_a4_b0-_e0_a4_aa_e0_a5_82_e0_a4_9b_e0_a5_87-_e0_a4_9c_e0_a4_be_e0_a4_a8_e0_a5_87-_e0_a4_b5_e0_a4_be_e0_a4_b2_e0_a5_87-_e0_a4_aa_e0_a5_8d_e0_a4_b0_e0_a4_b6.html"
+  },
+  "https://doj.gov.in/sitemap": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "27a7399a01c7790b5b2273c7208eb1d96dc5e106141da3bb42052fb2d8f969ab",
+    "path": "cache\\raw\\doj.gov.in_sitemap.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%b5%e0%a5%87%e0%a4%ac-%e0%a4%b8%e0%a5%82%e0%a4%9a%e0%a4%a8%e0%a4%be-%e0%a4%aa%e0%a5%8d%e0%a4%b0%e0%a4%ac%e0%a4%82%e0%a4%a7%e0%a4%95": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "e577a43b7dda822229fe92a8c54e4b6e3c59d56a4824f0d26e3cca2de2ca5464",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_b5_e0_a5_87_e0_a4_ac-_e0_a4_b8_e0_a5_82_e0_a4_9a_e0_a4_a8_e0_a4_be-_e0_a4_aa_e0_a5_8d_e0_a4_b0_e0_a4_ac_e0_a4_82_e0_a4_a7_e0_a4_95.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%86%e0%a4%97%e0%a4%82%e0%a4%a4%e0%a5%81%e0%a4%95-%e0%a4%b8%e0%a4%be%e0%a4%b0%e0%a4%be%e0%a4%82%e0%a4%b6": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "26ed74618c703d09c371a37436799011c85f6e5c98d10d0577227f03c16a841d",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_86_e0_a4_97_e0_a4_82_e0_a4_a4_e0_a5_81_e0_a4_95-_e0_a4_b8_e0_a4_be_e0_a4_b0_e0_a4_be_e0_a4_82_e0_a4_b6.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%b8%e0%a4%b9%e0%a4%be%e0%a4%af%e0%a4%a4%e0%a4%be": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "42d138cb3f6aa7bb955db4f4972d188507d5530f8af45d3641f058a42f90b718",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_b8_e0_a4_b9_e0_a4_be_e0_a4_af_e0_a4_a4_e0_a4_be.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%b9%e0%a4%ae%e0%a4%b8%e0%a5%87-%e0%a4%b8%e0%a4%82%e0%a4%aa%e0%a4%b0%e0%a5%8d%e0%a4%95-%e0%a4%95%e0%a4%b0%e0%a5%87%e0%a4%82": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "95f5a7b08eb84709d0a5894cae9f6b4d61241d403c6a63ae2142ae8e781bba21",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_b9_e0_a4_ae_e0_a4_b8_e0_a5_87-_e0_a4_b8_e0_a4_82_e0_a4_aa_e0_a4_b0_e0_a5_8d_e0_a4_95-_e0_a4_95_e0_a4_b0_e0_a5_87_e0_a4_82.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%aa%e0%a5%8d%e0%a4%b0%e0%a4%a4%e0%a4%bf%e0%a4%95%e0%a5%8d%e0%a4%b0%e0%a4%bf%e0%a4%af%e0%a4%be": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "a865db11045dc7190e467bdf9cadbd700adb1753a39d6643218a1f45f82af05e",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_aa_e0_a5_8d_e0_a4_b0_e0_a4_a4_e0_a4_bf_e0_a4_95_e0_a5_8d_e0_a4_b0_e0_a4_bf_e0_a4_af_e0_a4_be.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%a8%e0%a4%bf%e0%a4%af%e0%a4%ae-%e0%a4%94%e0%a4%b0-%e0%a4%b6%e0%a4%b0%e0%a5%8d%e0%a4%a4%e0%a5%87%e0%a4%82": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "7333fccac6d28af4183e1bc0e0a9aba6b00fecd8505491f336ed87d60ce528bd",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_a8_e0_a4_bf_e0_a4_af_e0_a4_ae-_e0_a4_94_e0_a4_b0-_e0_a4_b6_e0_a4_b0_e0_a5_8d_e0_a4_a4_e0_a5_87_e0_a4_82.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%b5%e0%a5%87%e0%a4%ac%e0%a4%b8%e0%a4%be%e0%a4%87%e0%a4%9f-%e0%a4%a8%e0%a5%80%e0%a4%a4%e0%a4%bf%e0%a4%af%e0%a4%be%e0%a4%82": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "344b67aa14afc5bfd2f3018235649d7f01e4363902cdf09f94260391bcc8760f",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_b5_e0_a5_87_e0_a4_ac_e0_a4_b8_e0_a4_be_e0_a4_87_e0_a4_9f-_e0_a4_a8_e0_a5_80_e0_a4_a4_e0_a4_bf_e0_a4_af_e0_a4_be_e0_a4_82.html"
+  },
+  "https://doj.gov.in/hi": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "afdcf3df64da192f77d2e06c374fe44e3f029305fb24b980c011ec7e9b9497e6",
+    "path": "cache\\raw\\doj.gov.in_hi.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%af%e0%a5%8b%e0%a4%9c%e0%a4%a8%e0%a4%be-%e0%a4%b8%e0%a4%ae%e0%a5%87%e0%a4%95%e0%a4%bf%e0%a4%a4-%e0%a4%a6%e0%a4%bf%e0%a4%b6%e0%a4%be%e0%a4%a8%e0%a4%bf%e0%a4%b0%e0%a5%8d%e0%a4%a6": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "14cc3f447dfb17050b99a3f3c7b0b49a891e02b08771ce89e6c19e0017dacfb9",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_af_e0_a5_8b_e0_a4_9c_e0_a4_a8_e0_a4_be-_e0_a4_b8_e0_a4_ae_e0_a5_87_e0_a4_95_e0_a4_bf_e0_a4_a4-_e0_a4_a6_e0_a4_bf_e0_a4_b6_e0_a4_be_e0_a4_a8_e0_a4_bf_e0_a4_b0_e0_a5_8d_e0_a4_a6.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%aa%e0%a5%80%e0%a4%8f%e0%a5%9e%e0%a4%8f%e0%a4%ae%e0%a4%8f%e0%a4%b8-%e0%a4%86%e0%a4%a6%e0%a5%87%e0%a4%b6": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "2e649485f8065f73c34db68899983cfab0cff7b7423c711bcac68f60286e073d",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_aa_e0_a5_80_e0_a4_8f_e0_a5_9e_e0_a4_8f_e0_a4_ae_e0_a4_8f_e0_a4_b8-_e0_a4_86_e0_a4_a6_e0_a5_87_e0_a4_b6.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%86%e0%a4%b0%e0%a4%9f%e0%a5%80%e0%a4%86%e0%a4%88": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "1eee4083f56eb51f56b7ec989f37387f1dc61e7a1623327c1d1739e85a12c77e",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_86_e0_a4_b0_e0_a4_9f_e0_a5_80_e0_a4_86_e0_a4_88.html"
+  },
+  "https://doj.gov.in/hi/notice-category/%e0%a4%a8%e0%a4%bf%e0%a4%b5%e0%a4%bf%e0%a4%a6%e0%a4%be%e0%a4%8f%e0%a4%82": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "579cb0363d1dbaf66fd1092ee1f998a29b773762ee89f623d277d32dcca8e3ae",
+    "path": "cache\\raw\\doj.gov.in_hi_notice-category__e0_a4_a8_e0_a4_bf_e0_a4_b5_e0_a4_bf_e0_a4_a6_e0_a4_be_e0_a4_8f_e0_a4_82.html"
+  },
+  "https://doj.gov.in/hi/notice-category/%e0%a4%a8%e0%a4%bf%e0%a4%af%e0%a5%81%e0%a4%95%e0%a5%8d%e0%a4%a4%e0%a4%bf": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "18837441beff1d2faa29bc7c6ec4188d14b992c8d61009b5c6aecc16f53771fa",
+    "path": "cache\\raw\\doj.gov.in_hi_notice-category__e0_a4_a8_e0_a4_bf_e0_a4_af_e0_a5_81_e0_a4_95_e0_a5_8d_e0_a4_a4_e0_a4_bf.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%b8%e0%a4%82%e0%a4%b8%e0%a4%a6%e0%a5%80%e0%a4%af-%e0%a4%aa%e0%a5%8d%e0%a4%b0%e0%a4%b6%e0%a5%8d%e0%a4%a8": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "26437c0148bbf753f1df36b80645f35574d3782bd210e64922cd18f056b90078",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_b8_e0_a4_82_e0_a4_b8_e0_a4_a6_e0_a5_80_e0_a4_af-_e0_a4_aa_e0_a5_8d_e0_a4_b0_e0_a4_b6_e0_a5_8d_e0_a4_a8.html"
+  },
+  "https://doj.gov.in/audio-gallery": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "85a1f5f4a18f9c931bed2fe877730c3e392e26a1976f76e3af12023a07d74e96",
+    "path": "cache\\raw\\doj.gov.in_audio-gallery.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%b0%e0%a4%be%e0%a4%b7%e0%a5%8d%e0%a4%9f%e0%a5%8d%e0%a4%b0%e0%a5%80%e0%a4%af-%e0%a4%b5%e0%a4%bf%e0%a4%a7%e0%a4%bf%e0%a4%95-%e0%a4%b8%e0%a5%87%e0%a4%b5%e0%a4%be-%e0%a4%aa%e0%a5%8d%e0%a4%b0": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "ebd0fb07bd03043647b5aa661977774e05eed27985fbe7ddd425eddceb474f60",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_b0_e0_a4_be_e0_a4_b7_e0_a5_8d_e0_a4_9f_e0_a5_8d_e0_a4_b0_e0_a5_80_e0_a4_af-_e0_a4_b5_e0_a4_bf_e0_a4_a7_e0_a4_bf_e0_a4_95-_e0_a4_b8_e0_a5_87_e0_a4_b5_e0_a4_be-_e0_a4_aa_e0_a5_8d_e0_a4_b0.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%aa%e0%a4%bf%e0%a4%9b%e0%a4%b2%e0%a5%80-%e0%a4%98%e0%a4%9f%e0%a4%a8%e0%a4%be%e0%a4%8f%e0%a4%82": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "a706cf606e63a32b205fe5d7f29683aeb540bb03c63e03b77f2d9dc40c3f32d3",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_aa_e0_a4_bf_e0_a4_9b_e0_a4_b2_e0_a5_80-_e0_a4_98_e0_a4_9f_e0_a4_a8_e0_a4_be_e0_a4_8f_e0_a4_82.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%b5%e0%a5%80%e0%a4%a1%e0%a4%bf%e0%a4%af%e0%a5%8b-%e0%a4%97%e0%a5%88%e0%a4%b2%e0%a4%b0%e0%a5%80": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "fa0aa66e1551efe3c004e3ddb722ae6a908d06451b22a2df5aee8b299af5c9ac",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_b5_e0_a5_80_e0_a4_a1_e0_a4_bf_e0_a4_af_e0_a5_8b-_e0_a4_97_e0_a5_88_e0_a4_b2_e0_a4_b0_e0_a5_80.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%ab%e0%a5%8b%e0%a4%9f%e0%a5%8b-%e0%a4%97%e0%a5%88%e0%a4%b2%e0%a4%b0%e0%a5%80": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "0d9ffab12f44f7a83c523eb5eb54b6e0c2f89058907219cf3bb638b59c649534",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_ab_e0_a5_8b_e0_a4_9f_e0_a5_8b-_e0_a4_97_e0_a5_88_e0_a4_b2_e0_a4_b0_e0_a5_80.html"
+  },
+  "https://doj.gov.in/hi/category/%e0%a4%aa%e0%a5%8d%e0%a4%b0%e0%a5%87%e0%a4%b8-%e0%a4%b5%e0%a4%bf%e0%a4%9c%e0%a5%8d%e0%a4%9e%e0%a4%aa%e0%a5%8d%e0%a4%a4%e0%a4%bf": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "911a27b1a5b05c222562d7d38ab4b3ce74bbc9454ded1896e72a7d0f09532de8",
+    "path": "cache\\raw\\doj.gov.in_hi_category__e0_a4_aa_e0_a5_8d_e0_a4_b0_e0_a5_87_e0_a4_b8-_e0_a4_b5_e0_a4_bf_e0_a4_9c_e0_a5_8d_e0_a4_9e_e0_a4_aa_e0_a5_8d_e0_a4_a4_e0_a4_bf.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%b5%e0%a5%80%e0%a4%a1%e0%a4%bf%e0%a4%af%e0%a5%8b-2": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "efcf4cd2163df96a0d4ff24ebc17fc971903c8511ff290e346505f518fce9b39",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_b5_e0_a5_80_e0_a4_a1_e0_a4_bf_e0_a4_af_e0_a5_8b-2.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%ab%e0%a5%8b%e0%a4%9f%e0%a5%8b-%e0%a4%97%e0%a5%88%e0%a4%b2%e0%a4%b0%e0%a5%80-2": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "cccb89f81910caee652fd2aa82b05321d1c32a5a991f1b0da3397b44cf737870",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_ab_e0_a5_8b_e0_a4_9f_e0_a5_8b-_e0_a4_97_e0_a5_88_e0_a4_b2_e0_a4_b0_e0_a5_80-2.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%ae%e0%a4%bf%e0%a4%a1%e0%a4%bf%e0%a4%af%e0%a4%be": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "e3d865603aba459fe7c3b3b00e587e203d0d5f147a8b8b12c7895135aa7da4af",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_ae_e0_a4_bf_e0_a4_a1_e0_a4_bf_e0_a4_af_e0_a4_be.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%b5%e0%a4%bf%e0%a4%a7%e0%a4%bf-%e0%a4%9c%e0%a4%be%e0%a4%97%e0%a5%83%e0%a4%a4%e0%a4%bf-%e0%a4%85%e0%a4%ad%e0%a4%bf%e0%a4%af%e0%a4%be%e0%a4%a8-%e0%a4%85%e0%a4%b5%e0%a4%b2%e0%a5%8b%e0%a4%95": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "dac29318f9324d4f365a062533b4ad1d346d7788c05ab58dfe20e3478b32c125",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_b5_e0_a4_bf_e0_a4_a7_e0_a4_bf-_e0_a4_9c_e0_a4_be_e0_a4_97_e0_a5_83_e0_a4_a4_e0_a4_bf-_e0_a4_85_e0_a4_ad_e0_a4_bf_e0_a4_af_e0_a4_be_e0_a4_a8-_e0_a4_85_e0_a4_b5_e0_a4_b2_e0_a5_8b_e0_a4_95.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%a8%e0%a4%b5-%e0%a4%ad%e0%a4%be%e0%a4%b0%e0%a4%a4-%e0%a4%a8%e0%a4%b5-%e0%a4%b8%e0%a4%82%e0%a4%95%e0%a4%b2%e0%a5%8d%e0%a4%aa-%e0%a4%85%e0%a4%b5%e0%a4%b2%e0%a5%8b%e0%a4%95%e0%a4%a8": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "82c38d4acd07e38703c80a0e83bbd7627a25ccbf72671bbaffec50ed0ff3facd",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_a8_e0_a4_b5-_e0_a4_ad_e0_a4_be_e0_a4_b0_e0_a4_a4-_e0_a4_a8_e0_a4_b5-_e0_a4_b8_e0_a4_82_e0_a4_95_e0_a4_b2_e0_a5_8d_e0_a4_aa-_e0_a4_85_e0_a4_b5_e0_a4_b2_e0_a5_8b_e0_a4_95_e0_a4_a8.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%b8%e0%a4%ac%e0%a4%95%e0%a5%8b-%e0%a4%a8%e0%a5%8d%e0%a4%af%e0%a4%be%e0%a4%af-%e0%a4%b9%e0%a4%b0-%e0%a4%98%e0%a4%b0-%e0%a4%a8%e0%a5%8d%e0%a4%af%e0%a4%be%e0%a4%af-%e0%a4%85%e0%a4%b5%e0%a4%b2": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "613ffcded41e265da5b5c7f8ce64f5c35dc40c8882b5efed85d115c041889570",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_b8_e0_a4_ac_e0_a4_95_e0_a5_8b-_e0_a4_a8_e0_a5_8d_e0_a4_af_e0_a4_be_e0_a4_af-_e0_a4_b9_e0_a4_b0-_e0_a4_98_e0_a4_b0-_e0_a4_a8_e0_a5_8d_e0_a4_af_e0_a4_be_e0_a4_af-_e0_a4_85_e0_a4_b5_e0_a4_b2.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%b9%e0%a4%ae%e0%a4%be%e0%a4%b0%e0%a4%be-%e0%a4%b8%e0%a4%82%e0%a4%b5%e0%a4%bf%e0%a4%a7%e0%a4%be%e0%a4%a8-%e0%a4%b9%e0%a4%ae%e0%a4%be%e0%a4%b0%e0%a4%be-%e0%a4%b8%e0%a4%ae%e0%a5%8d%e0%a4%ae": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "0e350eb341d44c45561ada7c5fa76abface3ee0482c5f5069cc8e503c5f06a7e",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_b9_e0_a4_ae_e0_a4_be_e0_a4_b0_e0_a4_be-_e0_a4_b8_e0_a4_82_e0_a4_b5_e0_a4_bf_e0_a4_a7_e0_a4_be_e0_a4_a8-_e0_a4_b9_e0_a4_ae_e0_a4_be_e0_a4_b0_e0_a4_be-_e0_a4_b8_e0_a4_ae_e0_a5_8d_e0_a4_ae.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%ac%e0%a4%be%e0%a4%b0%e0%a5%87-%e0%a4%ae%e0%a5%87%e0%a4%82-3": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "e5a03b9609d7cf4c493d3447de3440677da08ca327595272b7aa6863bc9c7a43",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_ac_e0_a4_be_e0_a4_b0_e0_a5_87-_e0_a4_ae_e0_a5_87_e0_a4_82-3.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%b5%e0%a5%80%e0%a4%a1%e0%a4%bf%e0%a4%af%e0%a5%8b": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "b6fa0c3e314ead9b002085b2fe95c8b3e4263f9a3950bc445e1177f69a648c39",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_b5_e0_a5_80_e0_a4_a1_e0_a4_bf_e0_a4_af_e0_a5_8b.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%b5%e0%a4%bf%e0%a4%ad%e0%a4%bf%e0%a4%a8%e0%a5%8d%e0%a4%a8-%e0%a4%ad%e0%a4%be%e0%a4%b7%e0%a4%be%e0%a4%93%e0%a4%82-%e0%a4%ae%e0%a5%87%e0%a4%82-%e0%a4%9c%e0%a4%be%e0%a4%a8%e0%a4%95%e0%a4%be": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "385858926aad0b05c5f680a553225421f4de3c1d4f3fa619aad46387edb83922",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_b5_e0_a4_bf_e0_a4_ad_e0_a4_bf_e0_a4_a8_e0_a5_8d_e0_a4_a8-_e0_a4_ad_e0_a4_be_e0_a4_b7_e0_a4_be_e0_a4_93_e0_a4_82-_e0_a4_ae_e0_a5_87_e0_a4_82-_e0_a4_9c_e0_a4_be_e0_a4_a8_e0_a4_95_e0_a4_be.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%b5%e0%a5%87%e0%a4%ac%e0%a4%bf%e0%a4%a8%e0%a4%be%e0%a4%b0": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "0c4bf17593e85d10566bdfc1cdd31095d367b28cd3722b527030bd7adbf1a7aa",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_b5_e0_a5_87_e0_a4_ac_e0_a4_bf_e0_a4_a8_e0_a4_be_e0_a4_b0.html"
+  },
+  "https://doj.gov.in/hi/a2j-nejk-project-hindi": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "e2b9c5bc27adc073b9b5d67d48da3e67be90a1b12ed2a8a84a93e88cff2335af",
+    "path": "cache\\raw\\doj.gov.in_hi_a2j-nejk-project-hindi.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%a8%e0%a5%8d%e0%a4%af%e0%a4%be%e0%a4%af-%e0%a4%ac%e0%a4%82%e0%a4%a7%e0%a5%81-%e0%a4%97%e0%a4%a4%e0%a4%bf%e0%a4%b5%e0%a4%bf%e0%a4%a7%e0%a4%bf%e0%a4%af%e0%a4%be%e0%a4%82": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "d6db4b278b3991b517183997248ae4a9ae11bd32bf6e183a8538ba4d0b0cdb19",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_a8_e0_a5_8d_e0_a4_af_e0_a4_be_e0_a4_af-_e0_a4_ac_e0_a4_82_e0_a4_a7_e0_a5_81-_e0_a4_97_e0_a4_a4_e0_a4_bf_e0_a4_b5_e0_a4_bf_e0_a4_a7_e0_a4_bf_e0_a4_af_e0_a4_be_e0_a4_82.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%a1%e0%a4%bf%e0%a4%9c%e0%a4%be%e0%a4%87%e0%a4%a8%e0%a4%bf%e0%a4%82%e0%a4%97-%e0%a4%87%e0%a4%a8%e0%a5%8b%e0%a4%b5%e0%a5%87%e0%a4%9f%e0%a4%bf%e0%a4%b5-%e0%a4%b8%e0%a5%8b%e0%a4%b2%e0%a5%8d%e0%a4%af": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "aa36b6c38c62eae1692f8f98dfdeaecd082d3be2f38a4e6e577b9a13208693aa",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_a1_e0_a4_bf_e0_a4_9c_e0_a4_be_e0_a4_87_e0_a4_a8_e0_a4_bf_e0_a4_82_e0_a4_97-_e0_a4_87_e0_a4_a8_e0_a5_8b_e0_a4_b5_e0_a5_87_e0_a4_9f_e0_a4_bf_e0_a4_b5-_e0_a4_b8_e0_a5_8b_e0_a4_b2_e0_a5_8d_e0_a4_af.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%aa%e0%a5%8d%e0%a4%b0%e0%a4%b6%e0%a4%bf%e0%a4%95%e0%a5%8d%e0%a4%b7%e0%a4%a3-%e0%a4%94%e0%a4%b0-%e0%a4%9c%e0%a4%be%e0%a4%97%e0%a4%b0%e0%a5%82%e0%a4%95%e0%a4%a4%e0%a4%be-%e0%a4%95%e0%a4%be": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "6f2dca7b00d7cd456bdbbd5186f4a6f27fabfcc7a4f0a2bcdf1fada7d9370ca0",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_aa_e0_a5_8d_e0_a4_b0_e0_a4_b6_e0_a4_bf_e0_a4_95_e0_a5_8d_e0_a4_b7_e0_a4_a3-_e0_a4_94_e0_a4_b0-_e0_a4_9c_e0_a4_be_e0_a4_97_e0_a4_b0_e0_a5_82_e0_a4_95_e0_a4_a4_e0_a4_be-_e0_a4_95_e0_a4_be.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%aa%e0%a5%81%e0%a4%b0%e0%a4%b8%e0%a5%8d%e0%a4%95%e0%a4%be%e0%a4%b0-%e0%a4%94%e0%a4%b0-%e0%a4%ae%e0%a4%be%e0%a4%a8%e0%a5%8d%e0%a4%af%e0%a4%a4%e0%a4%be": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "c9d037d489b444fb86e1c1f266903fb652677d6ee5775fc8c2cfc1570b7a5286",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_aa_e0_a5_81_e0_a4_b0_e0_a4_b8_e0_a5_8d_e0_a4_95_e0_a4_be_e0_a4_b0-_e0_a4_94_e0_a4_b0-_e0_a4_ae_e0_a4_be_e0_a4_a8_e0_a5_8d_e0_a4_af_e0_a4_a4_e0_a4_be.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%b8%e0%a5%82%e0%a4%9a%e0%a4%a8%e0%a4%be-%e0%a4%b6%e0%a4%bf%e0%a4%95%e0%a5%8d%e0%a4%b7%e0%a4%be-%e0%a4%94%e0%a4%b0-%e0%a4%b8%e0%a4%82%e0%a4%9a%e0%a4%be%e0%a4%b0-%e0%a4%86%e0%a4%88%e0%a4%88": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "52d3ca0cf4c4184ab425c7cec4511ea237256c663326a78f79b9293a68b0eec1",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_b8_e0_a5_82_e0_a4_9a_e0_a4_a8_e0_a4_be-_e0_a4_b6_e0_a4_bf_e0_a4_95_e0_a5_8d_e0_a4_b7_e0_a4_be-_e0_a4_94_e0_a4_b0-_e0_a4_b8_e0_a4_82_e0_a4_9a_e0_a4_be_e0_a4_b0-_e0_a4_86_e0_a4_88_e0_a4_88.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%85%e0%a4%ad%e0%a4%bf%e0%a4%b2%e0%a5%87%e0%a4%96%e0%a5%8b%e0%a4%82-%e0%a4%95%e0%a4%be-%e0%a4%a1%e0%a4%bf%e0%a4%9c%e0%a4%bf%e0%a4%9f%e0%a5%80%e0%a4%95%e0%a4%b0%e0%a4%a3": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "e9c79ab359615a0de31637d4cebb4a59348398c40a7a85b5aae1d3425122f405",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_85_e0_a4_ad_e0_a4_bf_e0_a4_b2_e0_a5_87_e0_a4_96_e0_a5_8b_e0_a4_82-_e0_a4_95_e0_a4_be-_e0_a4_a1_e0_a4_bf_e0_a4_9c_e0_a4_bf_e0_a4_9f_e0_a5_80_e0_a4_95_e0_a4_b0_e0_a4_a3.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%b8%e0%a5%87%e0%a4%b5%e0%a4%be-%e0%a4%95%e0%a5%87-%e0%a4%b0%e0%a5%82%e0%a4%aa-%e0%a4%ae%e0%a5%87%e0%a4%82-%e0%a4%b8%e0%a5%81%e0%a4%b0%e0%a4%95%e0%a5%8d%e0%a4%b7%e0%a4%bf%e0%a4%a4-%e0%a4%b8": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "4040046cd42dd2fa63ef623f017c5f1b94fdd2f9a0f1bb0c6549bd2eca9cbd49",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_b8_e0_a5_87_e0_a4_b5_e0_a4_be-_e0_a4_95_e0_a5_87-_e0_a4_b0_e0_a5_82_e0_a4_aa-_e0_a4_ae_e0_a5_87_e0_a4_82-_e0_a4_b8_e0_a5_81_e0_a4_b0_e0_a4_95_e0_a5_8d_e0_a4_b7_e0_a4_bf_e0_a4_a4-_e0_a4_b8.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%9c%e0%a4%b8%e0%a5%8d%e0%a4%9f%e0%a4%bf%e0%a4%b8-%e0%a4%95%e0%a5%8d%e0%a4%b2%e0%a5%89%e0%a4%95": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "e93d6c95f71f5fadb0ac37d1d2cf7026313b26cd15061df1e6c9afe2bb193860",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_9c_e0_a4_b8_e0_a5_8d_e0_a4_9f_e0_a4_bf_e0_a4_b8-_e0_a4_95_e0_a5_8d_e0_a4_b2_e0_a5_89_e0_a4_95.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%a8%e0%a5%87%e0%a4%b6%e0%a4%a8%e0%a4%b2-%e0%a4%b8%e0%a4%b0%e0%a5%8d%e0%a4%b5%e0%a4%bf%e0%a4%b8-%e0%a4%8f%e0%a4%82%e0%a4%a1-%e0%a4%9f%e0%a5%8d%e0%a4%b0%e0%a5%88%e0%a4%95%e0%a4%bf%e0%a4%82": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "884c5b945d8894c9785b6763662fc6cc4736a2d5953a031031a128ba300af2aa",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_a8_e0_a5_87_e0_a4_b6_e0_a4_a8_e0_a4_b2-_e0_a4_b8_e0_a4_b0_e0_a5_8d_e0_a4_b5_e0_a4_bf_e0_a4_b8-_e0_a4_8f_e0_a4_82_e0_a4_a1-_e0_a4_9f_e0_a5_8d_e0_a4_b0_e0_a5_88_e0_a4_95_e0_a4_bf_e0_a4_82.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%9c%e0%a4%9c%e0%a4%ae%e0%a5%87%e0%a4%82%e0%a4%9f-%e0%a4%b8%e0%a4%b0%e0%a5%8d%e0%a4%9a-%e0%a4%aa%e0%a5%8b%e0%a4%b0%e0%a5%8d%e0%a4%9f%e0%a4%b2": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "04856a577f11e4b13c90b3c5efef559acf0d23ff1c72f3f0dbeb3bc1dd27fac9",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_9c_e0_a4_9c_e0_a4_ae_e0_a5_87_e0_a4_82_e0_a4_9f-_e0_a4_b8_e0_a4_b0_e0_a5_8d_e0_a4_9a-_e0_a4_aa_e0_a5_8b_e0_a4_b0_e0_a5_8d_e0_a4_9f_e0_a4_b2.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%88-%e0%a4%95%e0%a5%8b%e0%a4%b0%e0%a5%8d%e0%a4%9f-%e0%a4%b8%e0%a5%87%e0%a4%b5%e0%a4%be%e0%a4%8f%e0%a4%81": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "6d314ba8718720cc7e9344301f180a7b508dd6a711df711b324ef70bfb972769",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_88-_e0_a4_95_e0_a5_8b_e0_a4_b0_e0_a5_8d_e0_a4_9f-_e0_a4_b8_e0_a5_87_e0_a4_b5_e0_a4_be_e0_a4_8f_e0_a4_81.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%88-%e0%a4%b8%e0%a5%87%e0%a4%b5%e0%a4%be-%e0%a4%95%e0%a5%87%e0%a4%82%e0%a4%a6%e0%a5%8d%e0%a4%b0": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "2b07655db7d0a54edc7419053f58c58cb6678ca7a4c068cfb292ac2cff2f2764",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_88-_e0_a4_b8_e0_a5_87_e0_a4_b5_e0_a4_be-_e0_a4_95_e0_a5_87_e0_a4_82_e0_a4_a6_e0_a5_8d_e0_a4_b0.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%88-%e0%a4%aa%e0%a5%87%e0%a4%ae%e0%a5%87%e0%a4%82%e0%a4%9f": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "819e8a22260ebd887a0fa343158c0e077d5022a0eb9ea56274f5828c1c6df0df",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_88-_e0_a4_aa_e0_a5_87_e0_a4_ae_e0_a5_87_e0_a4_82_e0_a4_9f.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%88-%e0%a4%ab%e0%a4%be%e0%a4%87%e0%a4%b2%e0%a4%bf%e0%a4%82%e0%a4%97": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "0d332dfbfb2479c06171f0a2394427f110801bff6e195b366c1e3c7c6e712363",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_88-_e0_a4_ab_e0_a4_be_e0_a4_87_e0_a4_b2_e0_a4_bf_e0_a4_82_e0_a4_97.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%b2%e0%a4%be%e0%a4%87%e0%a4%b5-%e0%a4%b8%e0%a5%8d%e0%a4%9f%e0%a5%8d%e0%a4%b0%e0%a5%80%e0%a4%ae%e0%a4%bf%e0%a4%82%e0%a4%97": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "73af19c5ec84c5d0879c1bcc22dfd7d3d6e3377afd51d9883dade911b6e0f5c2",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_b2_e0_a4_be_e0_a4_87_e0_a4_b5-_e0_a4_b8_e0_a5_8d_e0_a4_9f_e0_a5_8d_e0_a4_b0_e0_a5_80_e0_a4_ae_e0_a4_bf_e0_a4_82_e0_a4_97.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%b5%e0%a5%80%e0%a4%a1%e0%a4%bf%e0%a4%af%e0%a5%8b-%e0%a4%95%e0%a5%89%e0%a4%a8%e0%a5%8d%e0%a4%ab%e0%a5%8d%e0%a4%b0%e0%a5%87%e0%a4%82%e0%a4%b8%e0%a4%bf%e0%a4%82%e0%a4%97": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "9dbb4ce929beb6b427fbcdf4e1349b60dc071babf473e18b752386115cd0c458",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_b5_e0_a5_80_e0_a4_a1_e0_a4_bf_e0_a4_af_e0_a5_8b-_e0_a4_95_e0_a5_89_e0_a4_a8_e0_a5_8d_e0_a4_ab_e0_a5_8d_e0_a4_b0_e0_a5_87_e0_a4_82_e0_a4_b8_e0_a4_bf_e0_a4_82_e0_a4_97.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%b5%e0%a4%b0%e0%a5%8d%e0%a4%9a%e0%a5%81%e0%a4%85%e0%a4%b2-%e0%a4%85%e0%a4%a6%e0%a4%be%e0%a4%b2%e0%a4%a4%e0%a5%87%e0%a4%82": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "8f3f72934295096580b8da490bbc0d8c5ae8c410dbb7c9d96311f0a16fefaa6c",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_b5_e0_a4_b0_e0_a5_8d_e0_a4_9a_e0_a5_81_e0_a4_85_e0_a4_b2-_e0_a4_85_e0_a4_a6_e0_a4_be_e0_a4_b2_e0_a4_a4_e0_a5_87_e0_a4_82.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%b0%e0%a4%be%e0%a4%b7%e0%a5%8d%e0%a4%9f%e0%a5%8d%e0%a4%b0%e0%a5%80%e0%a4%af-%e0%a4%a8%e0%a5%8d%e0%a4%af%e0%a4%be%e0%a4%af%e0%a4%bf%e0%a4%95-%e0%a4%a1%e0%a4%be%e0%a4%9f%e0%a4%be-%e0%a4%97": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "87d8665c00382a29b1287dd5743b257ec68c9e0d6cc37946eba05f8afd4fdc44",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_b0_e0_a4_be_e0_a4_b7_e0_a5_8d_e0_a4_9f_e0_a5_8d_e0_a4_b0_e0_a5_80_e0_a4_af-_e0_a4_a8_e0_a5_8d_e0_a4_af_e0_a4_be_e0_a4_af_e0_a4_bf_e0_a4_95-_e0_a4_a1_e0_a4_be_e0_a4_9f_e0_a4_be-_e0_a4_97.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%b8%e0%a5%80%e0%a4%86%e0%a4%88%e0%a4%8f%e0%a4%b8-%e0%a4%94%e0%a4%b0-%e0%a4%95%e0%a5%8b%e0%a4%b5%e0%a4%bf%e0%a4%a1-%e0%a4%aa%e0%a5%8d%e0%a4%b0%e0%a4%ac%e0%a4%82%e0%a4%a7%e0%a4%a8-%e0%a4%aa": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "5ab6db2db999e69f5a68f5c36464a3ba19ec87562772b900f6025580c51bc140",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_b8_e0_a5_80_e0_a4_86_e0_a4_88_e0_a4_8f_e0_a4_b8-_e0_a4_94_e0_a4_b0-_e0_a4_95_e0_a5_8b_e0_a4_b5_e0_a4_bf_e0_a4_a1-_e0_a4_aa_e0_a5_8d_e0_a4_b0_e0_a4_ac_e0_a4_82_e0_a4_a7_e0_a4_a8-_e0_a4_aa.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%95%e0%a4%ae%e0%a5%8d%e0%a4%aa%e0%a5%8d%e0%a4%af%e0%a5%82%e0%a4%9f%e0%a4%b0%e0%a5%80%e0%a4%95%e0%a4%b0%e0%a4%a3-%e0%a4%94%e0%a4%b0-%e0%a4%b5%e0%a5%88%e0%a4%a8-%e0%a4%95%e0%a4%a8%e0%a5%87": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "a69b334bf3bf993963086581be8b3a0154f00a6296d6275d3354c03c32dc2714",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_95_e0_a4_ae_e0_a5_8d_e0_a4_aa_e0_a5_8d_e0_a4_af_e0_a5_82_e0_a4_9f_e0_a4_b0_e0_a5_80_e0_a4_95_e0_a4_b0_e0_a4_a3-_e0_a4_94_e0_a4_b0-_e0_a4_b5_e0_a5_88_e0_a4_a8-_e0_a4_95_e0_a4_a8_e0_a5_87.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%aa%e0%a4%b0%e0%a4%bf%e0%a4%af%e0%a5%8b%e0%a4%9c%e0%a4%a8%e0%a4%be-iii": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "3bbd3ca819267b404537112be4c57023d4d79f77515a1cfd03cabf57fe58527c",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_aa_e0_a4_b0_e0_a4_bf_e0_a4_af_e0_a5_8b_e0_a4_9c_e0_a4_a8_e0_a4_be-iii.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%a8%e0%a5%8d%e0%a4%af%e0%a4%be%e0%a4%af%e0%a4%bf%e0%a4%95-%e0%a4%b8%e0%a5%81%e0%a4%a7%e0%a4%be%e0%a4%b0-%e0%a4%aa%e0%a4%b0-%e0%a4%95%e0%a4%be%e0%a4%b0%e0%a5%8d%e0%a4%af-%e0%a4%85%e0%a4%a8": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "dc40e320b0fa61117df9c0fcc9b5ae49f435fc578dba8d5d765121821c317530",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_a8_e0_a5_8d_e0_a4_af_e0_a4_be_e0_a4_af_e0_a4_bf_e0_a4_95-_e0_a4_b8_e0_a5_81_e0_a4_a7_e0_a4_be_e0_a4_b0-_e0_a4_aa_e0_a4_b0-_e0_a4_95_e0_a4_be_e0_a4_b0_e0_a5_8d_e0_a4_af-_e0_a4_85_e0_a4_a8.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%b8%e0%a4%b2%e0%a4%be%e0%a4%b9%e0%a4%95%e0%a4%be%e0%a4%b0-%e0%a4%aa%e0%a4%b0%e0%a4%bf%e0%a4%b7%e0%a4%a6": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "53694ceb387cc1c4bc8124798614adf4f51a3af339ebb0b1501108ce489050d9",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_b8_e0_a4_b2_e0_a4_be_e0_a4_b9_e0_a4_95_e0_a4_be_e0_a4_b0-_e0_a4_aa_e0_a4_b0_e0_a4_bf_e0_a4_b7_e0_a4_a6.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%b5%e0%a4%bf%e0%a4%9c%e0%a4%a8-%e0%a4%a6%e0%a4%b8%e0%a5%8d%e0%a4%a4%e0%a4%be%e0%a4%b5%e0%a5%87%e0%a4%9c": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "640f56fe2b268fe74b838e9764743ad16f56a53f6073a412030d806116f2eaed",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_b5_e0_a4_bf_e0_a4_9c_e0_a4_a8-_e0_a4_a6_e0_a4_b8_e0_a5_8d_e0_a4_a4_e0_a4_be_e0_a4_b5_e0_a5_87_e0_a4_9c.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%b0%e0%a4%be%e0%a4%b7%e0%a5%8d%e0%a4%9f%e0%a5%8d%e0%a4%b0%e0%a5%80%e0%a4%af-%e0%a4%a8%e0%a5%8d%e0%a4%af%e0%a4%be%e0%a4%af%e0%a4%bf%e0%a4%95-%e0%a4%85%e0%a4%95%e0%a4%be%e0%a4%a6%e0%a4%ae-2": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "b3e89dc5ee29b935997bdcba4229c0024d9112363ca8c24ab399ca1d4611058a",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_b0_e0_a4_be_e0_a4_b7_e0_a5_8d_e0_a4_9f_e0_a5_8d_e0_a4_b0_e0_a5_80_e0_a4_af-_e0_a4_a8_e0_a5_8d_e0_a4_af_e0_a4_be_e0_a4_af_e0_a4_bf_e0_a4_95-_e0_a4_85_e0_a4_95_e0_a4_be_e0_a4_a6_e0_a4_ae-2.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%95%e0%a5%81%e0%a4%9f%e0%a5%81%e0%a4%82%e0%a4%ac-%e0%a4%a8%e0%a5%8d%e0%a4%af%e0%a4%be%e0%a4%af%e0%a4%be%e0%a4%b2%e0%a4%af": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "9dc63ffaac6b4c8e0e3a9b05b28978f3b6a61eb9e4e63c496a8deddb120aa951",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_95_e0_a5_81_e0_a4_9f_e0_a5_81_e0_a4_82_e0_a4_ac-_e0_a4_a8_e0_a5_8d_e0_a4_af_e0_a4_be_e0_a4_af_e0_a4_be_e0_a4_b2_e0_a4_af.html"
+  },
+  "https://doj.gov.in/hi/fast-track-courts-hindi": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "1156fe66151ea7632dd2944d11125fffcbdc7f844e1d39ed26bb738ebdebe477",
+    "path": "cache\\raw\\doj.gov.in_hi_fast-track-courts-hindi.html"
+  },
+  "https://doj.gov.in/hi/special-courts-for-mp-mla-hindi": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "340f0b965950b5412a1715d6d004f242275c975570ece8a3d7112a410abf82bc",
+    "path": "cache\\raw\\doj.gov.in_hi_special-courts-for-mp-mla-hindi.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%ab%e0%a4%be%e0%a4%b8%e0%a5%8d%e0%a4%9f-%e0%a4%9f%e0%a5%8d%e0%a4%b0%e0%a5%88%e0%a4%95-%e0%a4%b8%e0%a5%8d%e0%a4%aa%e0%a5%87%e0%a4%b6%e0%a4%b2-%e0%a4%95%e0%a5%8b%e0%a4%b0%e0%a5%8d%e0%a4%9f": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "af89ac2fc88f8fdda33f5b786f78b975b55600c0b227092586c34297ad6e28ea",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_ab_e0_a4_be_e0_a4_b8_e0_a5_8d_e0_a4_9f-_e0_a4_9f_e0_a5_8d_e0_a4_b0_e0_a5_88_e0_a4_95-_e0_a4_b8_e0_a5_8d_e0_a4_aa_e0_a5_87_e0_a4_b6_e0_a4_b2-_e0_a4_95_e0_a5_8b_e0_a4_b0_e0_a5_8d_e0_a4_9f.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%b2%e0%a5%8b%e0%a4%95-%e0%a4%b6%e0%a4%bf%e0%a4%95%e0%a4%be%e0%a4%af%e0%a4%a4-%e0%a4%95%e0%a4%be-%e0%a4%a8%e0%a4%bf%e0%a4%b5%e0%a4%be%e0%a4%b0%e0%a4%a3": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "ccdc641cf0ab85a7be23147ef30738a316887ac6a9bcf20a5e4eac53c46bead3",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_b2_e0_a5_8b_e0_a4_95-_e0_a4_b6_e0_a4_bf_e0_a4_95_e0_a4_be_e0_a4_af_e0_a4_a4-_e0_a4_95_e0_a4_be-_e0_a4_a8_e0_a4_bf_e0_a4_b5_e0_a4_be_e0_a4_b0_e0_a4_a3.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%b9%e0%a4%bf%e0%a4%a8%e0%a5%8d%e0%a4%a6%e0%a5%80-%e0%a4%94%e0%a4%b0-%e0%a4%95%e0%a5%8d%e0%a4%b7%e0%a5%87%e0%a4%a4%e0%a5%8d%e0%a4%b0%e0%a5%80%e0%a4%af-%e0%a4%ad%e0%a4%be%e0%a4%b7%e0%a4%be": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "dfc6d07ed35c5ed5dafd14508ed5be590d7a3aaf658c4e59d8cd3ba9a3c2c213",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_b9_e0_a4_bf_e0_a4_a8_e0_a5_8d_e0_a4_a6_e0_a5_80-_e0_a4_94_e0_a4_b0-_e0_a4_95_e0_a5_8d_e0_a4_b7_e0_a5_87_e0_a4_a4_e0_a5_8d_e0_a4_b0_e0_a5_80_e0_a4_af-_e0_a4_ad_e0_a4_be_e0_a4_b7_e0_a4_be.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%a6%e0%a4%bf%e0%a4%b2%e0%a5%8d%e0%a4%b2%e0%a5%80-%e0%a4%9c%e0%a4%bf%e0%a4%b2%e0%a4%be-%e0%a4%a8%e0%a5%8d%e0%a4%af%e0%a4%be%e0%a4%af%e0%a4%be%e0%a4%b2%e0%a4%af%e0%a5%8b%e0%a4%82-%e0%a4%95": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "538a03621d4eaa1a219e5bb2e5e1463e0d6a7ad7337d00272e6fb3ba9343b776",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_a6_e0_a4_bf_e0_a4_b2_e0_a5_8d_e0_a4_b2_e0_a5_80-_e0_a4_9c_e0_a4_bf_e0_a4_b2_e0_a4_be-_e0_a4_a8_e0_a5_8d_e0_a4_af_e0_a4_be_e0_a4_af_e0_a4_be_e0_a4_b2_e0_a4_af_e0_a5_8b_e0_a4_82-_e0_a4_95.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%85%e0%a4%a8%e0%a5%8d%e0%a4%af-%e0%a4%a6%e0%a5%87%e0%a4%b6%e0%a5%8b%e0%a4%82-%e0%a4%95%e0%a5%87-%e0%a4%b8%e0%a4%be%e0%a4%a5-%e0%a4%b9%e0%a4%b8%e0%a5%8d%e0%a4%a4%e0%a4%be%e0%a4%95%e0%a5%8d": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "3f5fc6f5fd259eb8ca98c3cb8a1e5daa9a20577d936728699497594695b43208",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_85_e0_a4_a8_e0_a5_8d_e0_a4_af-_e0_a4_a6_e0_a5_87_e0_a4_b6_e0_a5_8b_e0_a4_82-_e0_a4_95_e0_a5_87-_e0_a4_b8_e0_a4_be_e0_a4_a5-_e0_a4_b9_e0_a4_b8_e0_a5_8d_e0_a4_a4_e0_a4_be_e0_a4_95_e0_a5_8d.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%a6%e0%a5%82%e0%a4%b8%e0%a4%b0%e0%a4%be-%e0%a4%b0%e0%a4%be%e0%a4%b7%e0%a5%8d%e0%a4%9f%e0%a5%8d%e0%a4%b0%e0%a5%80%e0%a4%af-%e0%a4%a8%e0%a5%8d%e0%a4%af%e0%a4%be%e0%a4%af%e0%a4%bf%e0%a4%95": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "adfa935e4f114c504ac06050d1735894b41e15a4a1e3f41a0f53d723ffcb0845",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_a6_e0_a5_82_e0_a4_b8_e0_a4_b0_e0_a4_be-_e0_a4_b0_e0_a4_be_e0_a4_b7_e0_a5_8d_e0_a4_9f_e0_a5_8d_e0_a4_b0_e0_a5_80_e0_a4_af-_e0_a4_a8_e0_a5_8d_e0_a4_af_e0_a4_be_e0_a4_af_e0_a4_bf_e0_a4_95.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%aa%e0%a4%b9%e0%a4%b2%e0%a4%be-%e0%a4%b0%e0%a4%be%e0%a4%b7%e0%a5%8d%e0%a4%9f%e0%a5%8d%e0%a4%b0%e0%a5%80%e0%a4%af-%e0%a4%a8%e0%a5%8d%e0%a4%af%e0%a4%be%e0%a4%af%e0%a4%bf%e0%a4%95-%e0%a4%b5": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "b524af2da3dc50174fe20f25dc326a8bab54c58fb7df9e18ba57601b2eae5adb",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_aa_e0_a4_b9_e0_a4_b2_e0_a4_be-_e0_a4_b0_e0_a4_be_e0_a4_b7_e0_a5_8d_e0_a4_9f_e0_a5_8d_e0_a4_b0_e0_a5_80_e0_a4_af-_e0_a4_a8_e0_a5_8d_e0_a4_af_e0_a4_be_e0_a4_af_e0_a4_bf_e0_a4_95-_e0_a4_b5.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%b5%e0%a5%87%e0%a4%a4%e0%a4%a8-%e0%a4%ad%e0%a4%a4%e0%a5%8d%e0%a4%a4%e0%a4%be-%e0%a4%94%e0%a4%b0-%e0%a4%aa%e0%a5%87%e0%a4%82%e0%a4%b6%e0%a4%a8": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "9b5de0f43f8b5f2f356e78e365a0797c10a56f74950833e51f48f5aa8a7449e2",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_b5_e0_a5_87_e0_a4_a4_e0_a4_a8-_e0_a4_ad_e0_a4_a4_e0_a5_8d_e0_a4_a4_e0_a4_be-_e0_a4_94_e0_a4_b0-_e0_a4_aa_e0_a5_87_e0_a4_82_e0_a4_b6_e0_a4_a8.html"
+  },
+  "https://dashboard.doj.gov.in/vacancy-position": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "1c42d559532450a44450622bf1f2ffaa3664f431c556fc1f14af7b88bf6c1688",
+    "path": "cache\\raw\\dashboard.doj.gov.in_vacancy-position.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%b0%e0%a4%bf%e0%a4%95%e0%a5%8d%e0%a4%a4%e0%a4%bf%e0%a4%af%e0%a5%8b%e0%a4%82-%e0%a4%95%e0%a5%80-%e0%a4%b8%e0%a5%8d%e0%a4%a5%e0%a4%bf%e0%a4%a4%e0%a4%bf-2": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "e8b3af331e019266f0bab45ffa1ed5de6b7e55c1a51b0b4fa40d8f33d89c7a83",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_b0_e0_a4_bf_e0_a4_95_e0_a5_8d_e0_a4_a4_e0_a4_bf_e0_a4_af_e0_a5_8b_e0_a4_82-_e0_a4_95_e0_a5_80-_e0_a4_b8_e0_a5_8d_e0_a4_a5_e0_a4_bf_e0_a4_a4_e0_a4_bf-2.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%89%e0%a4%9a%e0%a5%8d%e0%a4%9a-%e0%a4%a8%e0%a5%8d%e0%a4%af%e0%a4%be%e0%a4%af%e0%a4%be%e0%a4%b2%e0%a4%af-%e0%a4%95%e0%a5%87-%e0%a4%a8%e0%a5%8d%e0%a4%af%e0%a4%be%e0%a4%af%e0%a4%be%e0%a4%a7-2": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "45499db9801bdc008d7a0cfa5748e61a14c84fbc2a8fad6acf8cb73a3f4aa874",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_89_e0_a4_9a_e0_a5_8d_e0_a4_9a-_e0_a4_a8_e0_a5_8d_e0_a4_af_e0_a4_be_e0_a4_af_e0_a4_be_e0_a4_b2_e0_a4_af-_e0_a4_95_e0_a5_87-_e0_a4_a8_e0_a5_8d_e0_a4_af_e0_a4_be_e0_a4_af_e0_a4_be_e0_a4_a7-2.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%89%e0%a4%9a%e0%a5%8d%e0%a4%9a-%e0%a4%a8%e0%a5%8d%e0%a4%af%e0%a4%be%e0%a4%af%e0%a4%be%e0%a4%b2%e0%a4%af-%e0%a4%95%e0%a5%87-%e0%a4%a8%e0%a5%8d%e0%a4%af%e0%a4%be%e0%a4%af%e0%a4%be%e0%a4%a7": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "7811b5776bfc920c254a31b1a5845d8eee8bb06ebe93bbe389e7e46ed0bb9fe9",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_89_e0_a4_9a_e0_a5_8d_e0_a4_9a-_e0_a4_a8_e0_a5_8d_e0_a4_af_e0_a4_be_e0_a4_af_e0_a4_be_e0_a4_b2_e0_a4_af-_e0_a4_95_e0_a5_87-_e0_a4_a8_e0_a5_8d_e0_a4_af_e0_a4_be_e0_a4_af_e0_a4_be_e0_a4_a7.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%89%e0%a4%9a%e0%a5%8d%e0%a4%9a%e0%a4%a4%e0%a4%ae-%e0%a4%a8%e0%a5%8d%e0%a4%af%e0%a4%be%e0%a4%af%e0%a4%be%e0%a4%b2%e0%a4%af-%e0%a4%95%e0%a5%87-%e0%a4%a8%e0%a5%8d%e0%a4%af%e0%a4%be%e0%a4%af": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "b9c7c8422511e72c6b7463964566ce99cb25f46d6b157e57ee071a86e9cec6ee",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_89_e0_a4_9a_e0_a5_8d_e0_a4_9a_e0_a4_a4_e0_a4_ae-_e0_a4_a8_e0_a5_8d_e0_a4_af_e0_a4_be_e0_a4_af_e0_a4_be_e0_a4_b2_e0_a4_af-_e0_a4_95_e0_a5_87-_e0_a4_a8_e0_a5_8d_e0_a4_af_e0_a4_be_e0_a4_af.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%a8%e0%a4%bf%e0%a4%af%e0%a5%81%e0%a4%95%e0%a5%8d%e0%a4%a4%e0%a4%bf-%e0%a4%8f%e0%a4%b5%e0%a4%82-%e0%a4%b8%e0%a5%8d%e0%a4%a5%e0%a4%be%e0%a4%a8%e0%a4%be%e0%a4%82%e0%a4%a4%e0%a4%b0%e0%a4%a3": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "ccfde1553c70e3df0135fd8975281a5f06ccfe6fa119a12ceebb95f7e285559c",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_a8_e0_a4_bf_e0_a4_af_e0_a5_81_e0_a4_95_e0_a5_8d_e0_a4_a4_e0_a4_bf-_e0_a4_8f_e0_a4_b5_e0_a4_82-_e0_a4_b8_e0_a5_8d_e0_a4_a5_e0_a4_be_e0_a4_a8_e0_a4_be_e0_a4_82_e0_a4_a4_e0_a4_b0_e0_a4_a3.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%b5%e0%a5%87%e0%a4%ac%e0%a4%b8%e0%a4%be%e0%a4%87%e0%a4%9f-%e0%a4%b8%e0%a5%82%e0%a4%9a%e0%a4%a8%e0%a4%be-%e0%a4%aa%e0%a5%8d%e0%a4%b0%e0%a4%ac%e0%a4%82%e0%a4%a7%e0%a4%95-2": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "5b1b208ec594c9bb1898c0b5df56174a7b01928281d572692d67b5362770e77f",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_b5_e0_a5_87_e0_a4_ac_e0_a4_b8_e0_a4_be_e0_a4_87_e0_a4_9f-_e0_a4_b8_e0_a5_82_e0_a4_9a_e0_a4_a8_e0_a4_be-_e0_a4_aa_e0_a5_8d_e0_a4_b0_e0_a4_ac_e0_a4_82_e0_a4_a7_e0_a4_95-2.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%b8%e0%a4%bf%e0%a4%9f%e0%a5%80%e0%a4%9c%e0%a4%a8-%e0%a4%9a%e0%a4%be%e0%a4%b0%e0%a5%8d%e0%a4%9f%e0%a4%b0": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "b19eb857baffd9994b4428162bc1cce03b56be07a7202f8e699ffee208949e5a",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_b8_e0_a4_bf_e0_a4_9f_e0_a5_80_e0_a4_9c_e0_a4_a8-_e0_a4_9a_e0_a4_be_e0_a4_b0_e0_a5_8d_e0_a4_9f_e0_a4_b0.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%a8%e0%a4%bf%e0%a4%af%e0%a4%ae-%e0%a4%94%e0%a4%b0-%e0%a4%85%e0%a4%a7%e0%a4%bf%e0%a4%a8%e0%a4%bf%e0%a4%af%e0%a4%ae": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "ca7b3db4351ec1430cd90a8f42dadceb34f9ad7f4da1953a393d89da85bafb22",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_a8_e0_a4_bf_e0_a4_af_e0_a4_ae-_e0_a4_94_e0_a4_b0-_e0_a4_85_e0_a4_a7_e0_a4_bf_e0_a4_a8_e0_a4_bf_e0_a4_af_e0_a4_ae.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%ae%e0%a4%be%e0%a4%b8%e0%a4%bf%e0%a4%95-%e0%a4%89%e0%a4%aa%e0%a4%b2%e0%a4%ac%e0%a5%8d%e0%a4%a7%e0%a4%bf%e0%a4%af%e0%a4%be%e0%a4%82": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "6203557eb35546a2d005c1e63b641d39e732e97efa9bb9970957303e3f7e5865",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_ae_e0_a4_be_e0_a4_b8_e0_a4_bf_e0_a4_95-_e0_a4_89_e0_a4_aa_e0_a4_b2_e0_a4_ac_e0_a5_8d_e0_a4_a7_e0_a4_bf_e0_a4_af_e0_a4_be_e0_a4_82.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%95%e0%a5%8c%e0%a4%a8-%e0%a4%95%e0%a5%8d%e0%a4%af%e0%a4%be-%e0%a4%b9%e0%a5%88": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "3e4a0b630f869681306358aaceb8c219201638c63a577629ca7484f27e906576",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_95_e0_a5_8c_e0_a4_a8-_e0_a4_95_e0_a5_8d_e0_a4_af_e0_a4_be-_e0_a4_b9_e0_a5_88.html"
+  },
+  "https://doj.gov.in/hi/about-department/%e0%a4%aa%e0%a5%8d%e0%a4%b0%e0%a4%b6%e0%a4%be%e0%a4%b8%e0%a4%a8%e0%a4%bf%e0%a4%95-%e0%a4%b8%e0%a5%87%e0%a4%9f%e0%a4%85%e0%a4%aa": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "ac863f71357eef922b0633ff4e26d4d8f8c67461b6cb80d0d2a5ef50909ddbe6",
+    "path": "cache\\raw\\doj.gov.in_hi_about-department__e0_a4_aa_e0_a5_8d_e0_a4_b0_e0_a4_b6_e0_a4_be_e0_a4_b8_e0_a4_a8_e0_a4_bf_e0_a4_95-_e0_a4_b8_e0_a5_87_e0_a4_9f_e0_a4_85_e0_a4_aa.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%b8%e0%a4%82%e0%a4%97%e0%a4%a0%e0%a4%a8-%e0%a4%9a%e0%a4%be%e0%a4%b0%e0%a5%8d%e0%a4%9f": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "7810b01dc9c89d5294e48355a2cb288cc0845299bedf9582ada3feb46f50a845",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_b8_e0_a4_82_e0_a4_97_e0_a4_a0_e0_a4_a8-_e0_a4_9a_e0_a4_be_e0_a4_b0_e0_a5_8d_e0_a4_9f.html"
+  },
+  "https://doj.gov.in/hi/about-department/%e0%a4%95%e0%a4%be%e0%a4%b0%e0%a5%8d%e0%a4%af": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "d74d59dbd90acd77949da5b29a33ecaf6a8acf8717c7879f170303f4b31ee917",
+    "path": "cache\\raw\\doj.gov.in_hi_about-department__e0_a4_95_e0_a4_be_e0_a4_b0_e0_a5_8d_e0_a4_af.html"
+  },
+  "https://doj.gov.in/hi/about-department/%e0%a4%aa%e0%a5%8d%e0%a4%b0%e0%a4%b8%e0%a5%8d%e0%a4%a4%e0%a4%be%e0%a4%b5%e0%a4%a8%e0%a4%be": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "a401e97cdf6d8f8ce25827ee91ad37ba09ae60aeea48c3a0ce8b62e6dfca8ba3",
+    "path": "cache\\raw\\doj.gov.in_hi_about-department__e0_a4_aa_e0_a5_8d_e0_a4_b0_e0_a4_b8_e0_a5_8d_e0_a4_a4_e0_a4_be_e0_a4_b5_e0_a4_a8_e0_a4_be.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%b5%e0%a4%bf%e0%a4%ad%e0%a4%be%e0%a4%97-%e0%a4%95%e0%a5%87-%e0%a4%ac%e0%a4%be%e0%a4%b0%e0%a5%87-%e0%a4%ae%e0%a5%87%e0%a4%82": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "0043ff890c8c27ca778f0085be9562e208c0e55b2e0a50cc80fb4520f1474c99",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_b5_e0_a4_bf_e0_a4_ad_e0_a4_be_e0_a4_97-_e0_a4_95_e0_a5_87-_e0_a4_ac_e0_a4_be_e0_a4_b0_e0_a5_87-_e0_a4_ae_e0_a5_87_e0_a4_82.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%87%e0%a4%a4%e0%a4%bf%e0%a4%b9%e0%a4%be%e0%a4%b8": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "1cc9ba0d55b36e82448fb0f651e886a9ead98ae3f9f77eb18580561c6fc0628b",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_87_e0_a4_a4_e0_a4_bf_e0_a4_b9_e0_a4_be_e0_a4_b8.html"
+  },
+  "https://doj.gov.in/hi/\u0938\u0939\u093e\u092f\u0924\u093e": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "42d138cb3f6aa7bb955db4f4972d188507d5530f8af45d3641f058a42f90b718",
+    "path": "cache\\raw\\doj.gov.in_hi.html"
+  },
+  "https://doj.gov.in/hi/\u0938\u093e\u0907\u091f\u092e\u0948\u092a": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "e9c895e8ba607d00b19baf577ebe2a2ab540439b8d7ab5e7e262aba18105a9e8",
+    "path": "cache\\raw\\doj.gov.in_hi.html"
+  },
+  "https://doj.gov.in/chairman-parliamentary-standing-committee": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "2a8baf6ae6ab5927e91bf446ce623e7c0161ae51591b16696e4d76b9ecb7ecdc",
+    "path": "cache\\raw\\doj.gov.in_chairman-parliamentary-standing-committee.html"
+  },
+  "https://doj.gov.in/division/administration": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "4293489ad3a0cd30def013ccea1ab34ffbe2e26f99a31b3fc7d123f33cb1983b",
+    "path": "cache\\raw\\doj.gov.in_division_administration.html"
+  },
+  "https://doj.gov.in/division/justice-ii": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "57c9a5abdf22824e5ce6e719bd5cbc62850f60543478b9b04f03b000dab5566c",
+    "path": "cache\\raw\\doj.gov.in_division_justice-ii.html"
+  },
+  "https://doj.gov.in/hi/division/%e0%a4%a8%e0%a5%8d%e0%a4%af%e0%a4%be%e0%a4%af-ii-2": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "0b44f0bbad9d58651c751f51693179ed81c3d1f86e56e4cf420fb18c0780060b",
+    "path": "cache\\raw\\doj.gov.in_hi_division__e0_a4_a8_e0_a5_8d_e0_a4_af_e0_a4_be_e0_a4_af-ii-2.html"
+  },
+  "https://doj.gov.in/division/justice-i": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "7f81619289d2eabced8b63950a54e5a9996f08fed0954f55059259c0f9606d6e",
+    "path": "cache\\raw\\doj.gov.in_division_justice-i.html"
+  },
+  "https://doj.gov.in/division/ecourts": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "61255c63f441070570e49be0a11fa726d53508aac1c96c16b4542145c17835ca",
+    "path": "cache\\raw\\doj.gov.in_division_ecourts.html"
+  },
+  "https://doj.gov.in/division/access-to-justice": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "fa272a1a662a413bd7488802f7e3674bdd3be305d6712ef798bab774df996bc0",
+    "path": "cache\\raw\\doj.gov.in_division_access-to-justice.html"
+  },
+  "https://doj.gov.in/division/national-mission-for-justice-delivery-and-legal-reforms": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "e30090d3d87ac55b894c3c776107f764fb0beede083e1311ac69f3c8c02eff97",
+    "path": "cache\\raw\\doj.gov.in_division_national-mission-for-justice-delivery-and-legal-reforms.html"
+  },
+  "https://doj.gov.in/division/appointments": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "890c3932e8425516b8a9043c759573f6d98f6f7aef08594d9d9d8c59f0d6ced4",
+    "path": "cache\\raw\\doj.gov.in_division_appointments.html"
+  },
+  "https://doj.gov.in/law-commission-reports-having-doj-interface": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "b55241fdddf9a8270490dd4777880ede0be3943fdacc45fd58349a08f95f1254",
+    "path": "cache\\raw\\doj.gov.in_law-commission-reports-having-doj-interface.html"
+  },
+  "https://doj.gov.in/budget-information": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "3a5a84efab243a316e55f7f8f98f8c929d91536a4363df47a3903c9cb27aa6c8",
+    "path": "cache\\raw\\doj.gov.in_budget-information.html"
+  },
+  "https://doj.gov.in/annual-reports": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "7cec861600d3f78c717600b64213257d2e0974e6c87e8d50c03c5c7ddf7418f0",
+    "path": "cache\\raw\\doj.gov.in_annual-reports.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%a6%e0%a4%b8%e0%a5%8d%e0%a4%a4%e0%a4%be%e0%a4%b5%e0%a5%87%e0%a4%9c%e0%a4%bc": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "70f671a1666233b893656d5eaac41fc63131710bac2246c113e57510d1d40d28",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_a6_e0_a4_b8_e0_a5_8d_e0_a4_a4_e0_a4_be_e0_a4_b5_e0_a5_87_e0_a4_9c_e0_a4_bc.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%a6%e0%a4%b8%e0%a5%8d%e0%a4%a4%e0%a4%be%e0%a4%b5%e0%a5%87%e0%a4%9c%e0%a4%bc/page/2": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "e90371fd58f81b93cb310c5e142009e88376bc57a47556b3a0302f638ffd142d",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_a6_e0_a4_b8_e0_a5_8d_e0_a4_a4_e0_a4_be_e0_a4_b5_e0_a5_87_e0_a4_9c_e0_a4_bc_page_2.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%a6%e0%a4%b8%e0%a5%8d%e0%a4%a4%e0%a4%be%e0%a4%b5%e0%a5%87%e0%a4%9c%e0%a4%bc/page/3": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "b8771d6c032bdf326f88e6becd5850f648e5b4a591777851fb4d773201148178",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_a6_e0_a4_b8_e0_a5_8d_e0_a4_a4_e0_a4_be_e0_a4_b5_e0_a5_87_e0_a4_9c_e0_a4_bc_page_3.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%a6%e0%a4%b8%e0%a5%8d%e0%a4%a4%e0%a4%be%e0%a4%b5%e0%a5%87%e0%a4%9c%e0%a4%bc/page/4": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "bae7aef93ad8c9f7dc32ea592e4d8ba5c0d129ca0b8b80a6521b56071ccbaa5b",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_a6_e0_a4_b8_e0_a5_8d_e0_a4_a4_e0_a4_be_e0_a4_b5_e0_a5_87_e0_a4_9c_e0_a4_bc_page_4.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%a6%e0%a4%b8%e0%a5%8d%e0%a4%a4%e0%a4%be%e0%a4%b5%e0%a5%87%e0%a4%9c%e0%a4%bc/page/1": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "70f671a1666233b893656d5eaac41fc63131710bac2246c113e57510d1d40d28",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_a6_e0_a4_b8_e0_a5_8d_e0_a4_a4_e0_a4_be_e0_a4_b5_e0_a5_87_e0_a4_9c_e0_a4_bc_page_1.html"
+  },
+  "https://doj.gov.in/live-streaming-of-court-cases": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "12d59c3a432d02ef5a94bf37af0e646bdc7768ad392e16d659f032c51aa130ef",
+    "path": "cache\\raw\\doj.gov.in_live-streaming-of-court-cases.html"
+  },
+  "https://doj.gov.in/national-judicial-data-grid-2": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "2161d3fc07fd34e9b2e3ec2d6814525f3d6c0affec3c36e60d62d7ad98a93aeb",
+    "path": "cache\\raw\\doj.gov.in_national-judicial-data-grid-2.html"
+  },
+  "https://doj.gov.in/document/order-of-appointment-of-shri-virinder-aggarwal-and-9-other-jos-as-addl-judge-of-ph-high-court-01-08-2025-2": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "ebef6149303ee2fa54a31c4b46fde7ebf81d879d2f16e255c9d2cd7625cd135a",
+    "path": "cache\\raw\\doj.gov.in_document_order-of-appointment-of-shri-virinder-aggarwal-and-9-other-jos-as-addl-judge-of-ph-high-court-01-08-2025-2.html"
+  },
+  "https://doj.gov.in/document/order-of-appointment-of-shri-tuhin-kumar-advocate-as-an-addl-judge-of-andhra-pradesh-high-court-01-08-2025": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "e9a7f308c9fb5da4bce2fb585c4df1aa08a07a55185ba0081099cdd1f932ef0b",
+    "path": "cache\\raw\\doj.gov.in_document_order-of-appointment-of-shri-tuhin-kumar-advocate-as-an-addl-judge-of-andhra-pradesh-high-court-01-08-2025.html"
+  },
+  "https://doj.gov.in/document/corrigendum-to-notification-dated-04-03-2025-regarding-appointment-of-smt-manjusha-ajay-deshpande-addl-judge-of-bombay-hc-01-08-2025": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "5cf856712d543965ab4de447021e8e047168b3fbd4ce395e17916a922c71a4af",
+    "path": "cache\\raw\\doj.gov.in_document_corrigendum-to-notification-dated-04-03-2025-regarding-appointment-of-smt-manjusha-ajay-deshpande-addl-judge-of-bombay-hc-01-08-2025.html"
+  },
+  "https://doj.gov.in/document/order-of-appointment-of-shri-pramod-kumar-srivastava-and-04-other-jos-as-judge-of-allahabad-high-court-04-08-2025": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "702df775d09c4b675c403f6d437632e633b2be950fc697b8b94a7bc2a8c50e41",
+    "path": "cache\\raw\\doj.gov.in_document_order-of-appointment-of-shri-pramod-kumar-srivastava-and-04-other-jos-as-judge-of-allahabad-high-court-04-08-2025.html"
+  },
+  "https://doj.gov.in/document/order-of-appointment-of-shri-vimal-kumar-judicial-officer-as-a-judge-of-delhi-high-court-08-08-2025": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "9e0feb7ede2abc548d972f0ca1c8f548c5b0a20a2641cc1a9a582a3f44b93c17",
+    "path": "cache\\raw\\doj.gov.in_document_order-of-appointment-of-shri-vimal-kumar-judicial-officer-as-a-judge-of-delhi-high-court-08-08-2025.html"
+  },
+  "https://doj.gov.in/document/order-of-appointment-of-shri-justice-ravindra-kumar-agrawal-addl-judge-as-a-permanent-judge-of-chhattisgarh-high-court-08-08-2025": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "c91bc7cac4132667625e840ec5447b3eedd1601ef9dffa773934aa2de1ba4bbe",
+    "path": "cache\\raw\\doj.gov.in_document_order-of-appointment-of-shri-justice-ravindra-kumar-agrawal-addl-judge-as-a-permanent-judge-of-chhattisgarh-high-court-08-08-2025.html"
+  },
+  "https://doj.gov.in/document/order-of-appointment-of-shri-g-basavaraja-addl-judge-as-a-permanent-judge-of-karnataka-high-court-08-08-2025": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "e1fdb29c2664991e8c6d734face66acd6303b27f2601913d977cf2bd56ae4014",
+    "path": "cache\\raw\\doj.gov.in_document_order-of-appointment-of-shri-g-basavaraja-addl-judge-as-a-permanent-judge-of-karnataka-high-court-08-08-2025.html"
+  },
+  "https://doj.gov.in/document/order-of-appointment-of-shri-justice-harinath-nunepally-and-03-other-addl-judges-as-permanent-judges-of-andhra-pradesh-high-court-08-08-2025": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "8611d7996234a9adcda5b3decc1cde85994b119f567393092c58956c3c13db58",
+    "path": "cache\\raw\\doj.gov.in_document_order-of-appointment-of-shri-justice-harinath-nunepally-and-03-other-addl-judges-as-permanent-judges-of-andhra-pradesh-high-court-08-08-2025.html"
+  },
+  "https://doj.gov.in/document/order-of-appointment-of-shri-justice-biswaroop-chowdhury-and-06-others-addl-judges-as-addl-judges-of-calcutta-hc-for-a-fresh-term-of-one-year-08-08-2025": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "f60aa7c1acb53cf303f0cf7fe600471b6c30ebb2b430fc69edb85a1bee66a39b",
+    "path": "cache\\raw\\doj.gov.in_document_order-of-appointment-of-shri-justice-biswaroop-chowdhury-and-06-others-addl-judges-as-addl-judges-of-calcutta-hc-for-a-fresh-term-of-one-year-08-08-2025.html"
+  },
+  "https://doj.gov.in/document/order-of-appointment-of-shri-justice-partha-sarathi-sen-and-01-other-addl-judges-as-permanent-judges-of-calcutta-high-court-08-08-2025": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "f505c05571da87539b3b1fa37b50d258e36c1b55b13f1b5687acf1c4ced459cb",
+    "path": "cache\\raw\\doj.gov.in_document_order-of-appointment-of-shri-justice-partha-sarathi-sen-and-01-other-addl-judges-as-permanent-judges-of-calcutta-high-court-08-08-2025.html"
+  },
+  "https://doj.gov.in/allocation-of-business-rules-1961": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "d300fab07cea756189cb99395f971a992b2d1a6019a326f944b62dd93e090e9b",
+    "path": "cache\\raw\\doj.gov.in_allocation-of-business-rules-1961.html"
+  },
+  "https://doj.gov.in/hi/%e0%a4%95%e0%a4%be%e0%a4%b0%e0%a5%8d%e0%a4%af-%e0%a4%86%e0%a4%b5%e0%a4%82%e0%a4%9f%e0%a4%a8-%e0%a4%a8%e0%a4%bf%e0%a4%af%e0%a4%ae": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "3f5b4a6e614773894aa9c6874544c754b319945ec9f51dec9d43614708e4ddd6",
+    "path": "cache\\raw\\doj.gov.in_hi__e0_a4_95_e0_a4_be_e0_a4_b0_e0_a5_8d_e0_a4_af-_e0_a4_86_e0_a4_b5_e0_a4_82_e0_a4_9f_e0_a4_a8-_e0_a4_a8_e0_a4_bf_e0_a4_af_e0_a4_ae.html"
+  },
+  "https://doj.gov.in/document/grant-of-dearness-allowance-da-to-the-judges-of-supreme-court-and-high-courts-revised-rates-effective-from-01-07-2024": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "5c2a374dee20d679d19dd936baf2548dc2cde7dfd90c076b96a19b671e0639c1",
+    "path": "cache\\raw\\doj.gov.in_document_grant-of-dearness-allowance-da-to-the-judges-of-supreme-court-and-high-courts-revised-rates-effective-from-01-07-2024.html"
+  },
+  "https://doj.gov.in/document/grant-of-additional-instalment-of-dearness-relief-dr-to-the-retired-judges-of-supreme-court-high-courts-and-family-pensioners-of-such-judges-revised-rates-effective-from-01-01-2025": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "483bef156872d59c676ff36073897e9ca154772e99221f54e33fff51bae5e7ce",
+    "path": "cache\\raw\\doj.gov.in_document_grant-of-additional-instalment-of-dearness-relief-dr-to-the-retired-judges-of-supreme-court-high-courts-and-family-pensioners-of-such-judges-revised-rates-effective-from-01-01-2025.html"
+  },
+  "https://doj.gov.in/document/nomination-of-the-executive-chairman-national-legal-services-authority": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "45be2c958c13842de2510c2cd167356a32b9ccfe9101aabc6d4d2ea6d2f2d05b",
+    "path": "cache\\raw\\doj.gov.in_document_nomination-of-the-executive-chairman-national-legal-services-authority.html"
+  },
+  "https://doj.gov.in/document/nyayika-patrika-was-released-by-secretary-justice": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "f783d076f57965f65b6563346cf336069fa12b42ae505d4d2b8c240532b69013",
+    "path": "cache\\raw\\doj.gov.in_document_nyayika-patrika-was-released-by-secretary-justice.html"
+  },
+  "https://doj.gov.in/hi/document/%e0%a4%a8%e0%a5%8d%e0%a4%af%e0%a4%be%e0%a4%af%e0%a4%bf%e0%a4%95%e0%a4%be-%e0%a4%aa%e0%a4%a4%e0%a5%8d%e0%a4%b0%e0%a4%bf%e0%a4%95%e0%a4%be-%e0%a4%95%e0%a4%be-%e0%a4%b5%e0%a4%bf%e0%a4%ae%e0%a5%8b": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "5cd19fa859e4c3a399c2fa0d1599464684b0b364e286597fd2b89c56449d65ec",
+    "path": "cache\\raw\\doj.gov.in_hi_document__e0_a4_a8_e0_a5_8d_e0_a4_af_e0_a4_be_e0_a4_af_e0_a4_bf_e0_a4_95_e0_a4_be-_e0_a4_aa_e0_a4_a4_e0_a5_8d_e0_a4_b0_e0_a4_bf_e0_a4_95_e0_a4_be-_e0_a4_95_e0_a4_be-_e0_a4_b5_e0_a4_bf_e0_a4_ae_e0_a5_8b.html"
+  },
+  "https://doj.gov.in/notice/notice-inviting-tender-nit-for-evaluation-of-legal-aid-defense-counsel-system-scheme-reg": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "4f582d4443c07c46809f185a0dfc50adee09b8e1a1ed1d5e9675793e8346e7e0",
+    "path": "cache\\raw\\doj.gov.in_notice_notice-inviting-tender-nit-for-evaluation-of-legal-aid-defense-counsel-system-scheme-reg.html"
+  }
+}

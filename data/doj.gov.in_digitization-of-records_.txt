@@ -1,0 +1,7 @@
+Last updated: 13-03-2025
+The eCommittee of the Supreme Court of India had formed a Sub Committee for the formulation of the SOP on Digitization of Records. The SOP has recently been finalized and circulated to the High Courts for their comments.
+The SOP plans to establish dedicated Judicial Digital Repositories (JDRs) at the High Court level to manage and preserve the digital records of the HCs as well as the district courts under its administrative control. Similar JDR is planned for the Supreme Court.
+The SOP recommends defining and implementing a comprehensive Information Governance (IG) policy considering the enormous volume of e-filing and production of digital records by the courts. It provides comprehensive technical specifications, open standard based file formats and guidelines for digitization. It provides guidelines for preparation of Submission Information Package (SIP) and method for transfer of digitized records to JDR. The Judicial Digital Repositories (JDRs) have to be audited and certified as per the ISO 16363 for their overall trustworthiness and reliability in the long-term considering the need for legal admissibility of digital records. As on 14.06.2024, 311.10 Cr. pages have been digitized across High Courts and District Courts.
+Content Owned by DEPARTMENT OF JUSTICE, Ministry of Law and Justice, GOI
+Developed and hosted byNational Informatics Centre,Ministry of Electronics & Information Technology, Government of India
+Last Updated:Aug 11, 2025

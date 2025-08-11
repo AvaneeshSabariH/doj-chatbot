@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fast Track Court | Department of Justice</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.15/proj4.js"></script>
+<script src="https://cdn.anychart.com/releases/v8/js/anychart-base.min.js"></script>
+<script src="https://cdn.anychart.com/releases/v8/js/anychart-map.min.js"></script>
+<script src="https://cdn.anychart.com/releases/v8/js/anychart-exports.min.js"></script>
+<script src="https://cdn.anychart.com/releases/v8/js/anychart-ui.min.js"></script>
+<script src="https://cdn.anychart.com/geodata/2.1.1/countries/india/india.js"></script>
+  <style>
+  html, body, #container {
+    width: 100%;
+    height: 750px;
+    margin: 0;
+    padding: 0;
+}
+  </style>
+   <style>
+    div.scrollmenu {
+      overflow: auto;
+      white-space: nowrap;
+    }
+
+    div.scrollmenu a {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px;
+      text-decoration: none;
+    }
+
+    div.scrollmenu a:hover {
+      background-color: #777;
+    }
+  </style>
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="assets/newassets/plugins/fontawesome-free/css/all.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Tempusdominus Bootstrap 4 -->
+  <link rel="stylesheet" href="assets/newassets/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+  <!-- iCheck -->
+  <link rel="stylesheet" href="assets/newassets/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <!-- JQVMap -->
+  <link rel="stylesheet" href="assets/newassets/plugins/jqvmap/jqvmap.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="assets/newassets/dist/css/adminlte.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="assets/newassets/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="assets/newassets/plugins/daterangepicker/daterangepicker.css">
+  <!-- summernote -->
+  <link rel="stylesheet" href="assets/newassets/plugins/summernote/summernote-bs4.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+</head>
+<body class="hold-transition sidebar-mini layout-fixed">
+<div class="wrapper">
+
+  <!-- Preloader -->
+<!--   <div class="preloader flex-column justify-content-center align-items-center">
+    <img class="animation__shake" src="assets/newassets/dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
+  </div> -->
+
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light" style="background-image: linear-gradient(to right, tomato, #541CDD); color: #fff; height: 100px;">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" style="color: #fff;" data-widget="pushmenu" href="#" role="button" style="color: #fff;"><i class="fas fa-bars"></i></a>
+      </li>
+      <li>
+        <h1 style="margin-left: 550px;">Fast Track Court</h>
+      </li>
+    </ul>
+
+    <!-- Right navbar links -->
+  </nav>
+  <!-- /.navbar -->
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4" style="background:tomato; font-size:18px;">
+    <!-- Brand Logo -->
+    <a href="index.php" class="brand-link" style= "background:tomato;">
+      <img src="assets/newassets/dist/img/doj_white.png" alt="AdminLTE Logo" style="height: 70px;">
+      <!-- <span class="brand-text font-weight-light">Reports</span> -->
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user panel (optional) -->
+     <!--  <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+          <img src="assets/newassets/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+        </div>
+        <div class="info">
+          <a href="#" class="d-block">Alexander Pierce</a>
+        </div>
+      </div> -->
+
+      <!-- SidebarSearch Form -->
+      <!-- <div class="form-inline">
+        <div class="input-group" data-widget="sidebar-search">
+          <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
+          <div class="input-group-append">
+            <button class="btn btn-sidebar">
+              <i class="fas fa-search fa-fw"></i>
+            </button>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+          <li class="nav-item">
+            <a href="index.php" class="nav-link" style="color: #fff;">
+              <i class='bx bx-grid-alt' ></i>
+              <p>
+                Dashboard
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="ftc_functional" class="nav-link" style="color: #fff;">
+              <i class='bx bx-list-ul' ></i>
+              <p>
+                No. of  Court Functional
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="ftc_disposed" class="nav-link" style="color: #fff;">
+              <i class='bx bx-pie-chart-alt-2' ></i>
+              <p>
+                No. of cases disposed during the Month
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="ftc_pending" class="nav-link" style="color: #fff;">
+              <i class='bx bx-coin-stack' ></i>
+              <p>
+                No. of cases pending
+              </p>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper" style="background: #fff;">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 class="m-0">Dashboard</h1>
+          </div><!-- /.col -->
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <a href="signin"><button type="button" class="btn-primary" >Sign In</button></a>
+            </ol>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+        <!-- Small boxes (Stat box) -->
+
+        <!-- /.row -->
+        <div id="container">
+        </div>
+
+         <p><b>DISCLAIMER:</b> Setting up and functioning of the FTSCs, Family Courts, Special Courts for MP/MLA and Fast Track Courts falls within the domain of State Govt. in consultation with their respective High Courts which are set up as per their need and resources. Information furnished above is as reported by the concerned High Courts.</p>
+      </div><!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+<footer class="main-footer">
+    <strong>Copyright &copy; 2021.</strong>
+    All rights reserved.
+    <div class="float-right d-none d-sm-inline-block">
+      <b>Version</b> 3.1.0
+    </div>
+  </footer>
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="assets/newassets/plugins/jquery/jquery.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="assets/newassets/plugins/jquery-ui/jquery-ui.min.js"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+  $.widget.bridge('uibutton', $.ui.button)
+</script>
+<!-- Bootstrap 4 -->
+<script src="assets/newassets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- ChartJS -->
+<script src="assets/newassets/plugins/chart.js/Chart.min.js"></script>
+<!-- Sparkline -->
+<script src="assets/newassets/plugins/sparklines/sparkline.js"></script>
+<!-- JQVMap -->
+<script src="assets/newassets/plugins/jqvmap/jquery.vmap.min.js"></script>
+<script src="assets/newassets/plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+<!-- jQuery Knob Chart -->
+<script src="assets/newassets/plugins/jquery-knob/jquery.knob.min.js"></script>
+<!-- daterangepicker -->
+<script src="assets/newassets/plugins/moment/moment.min.js"></script>
+<script src="assets/newassets/plugins/daterangepicker/daterangepicker.js"></script>
+<!-- Tempusdominus Bootstrap 4 -->
+<script src="assets/newassets/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<!-- Summernote -->
+<script src="assets/newassets/plugins/summernote/summernote-bs4.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="assets/newassets/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="assets/newassets/dist/js/adminlte.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="assets/newassets/dist/js/demo.js"></script>
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<script src="assets/newassets/dist/js/pages/dashboard.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<script type="text/javascript">
+  
+  anychart.onDocumentReady(function() {
+  // create map
+  var map = anychart.map();
+
+  // create data set
+  var dynamicData = [{"id":"IN.AN","fill":"#ff99c2","label":"Andaman and Nicobar","No of Court Functional":"0","No of Cases Disposed":"0","No of Cases Pending":"0"},{"id":"IN.AP","fill":"#b3ffff","label":"Andhra Pradesh","No of Court Functional":"22","No of Cases Disposed":"328","No of Cases Pending":"7519"},{"id":"IN.AR","fill":"#d699ff","label":"Arunachal Pradesh","No of Court Functional":"0","No of Cases Disposed":"0","No of Cases Pending":"0"},{"id":"IN.AS","fill":"#c2d6d6","label":"Assam","No of Court Functional":"15","No of Cases Disposed":"695","No of Cases Pending":"12079"},{"id":"IN.BR","fill":"#f5f5f5","label":"Bihar","No of Court Functional":"0","No of Cases Disposed":"0","No of Cases Pending":"0"},{"id":"IN.CH","fill":"#ddddbb","label":"Chandigarh","No of Court Functional":"0","No of Cases Disposed":"0","No of Cases Pending":"0"},{"id":"IN.CT","fill":"#ffff99","label":"Chhattisgarh","No of Court Functional":"27","No of Cases Disposed":"396","No of Cases Pending":"4834"},{"id":"IN.DN","fill":"#ffad99","label":"Dadra and Nagar Haveli","No of Court Functional":"0","No of Cases Disposed":"0","No of Cases Pending":"0"},{"id":"IN.DD","fill":"#ffad99","label":"Daman and Diu","No of Court Functional":"0","No of Cases Disposed":"0","No of Cases Pending":"0"},{"id":"IN.DL","fill":"#c2d6d6","label":"Delhi","No of Court Functional":"26","No of Cases Disposed":"418","No of Cases Pending":"7135"},{"id":"IN.GA","fill":"#ffffff","label":"Goa","No of Court Functional":"4","No of Cases Disposed":"16","No of Cases Pending":"1828"},{"id":"IN.GJ","fill":"#ffd480","label":"Gujarat","No of Court Functional":"54","No of Cases Disposed":"456","No of Cases Pending":"6131"},{"id":"IN.HR","fill":"#b3ffe6","label":"Haryana","No of Court Functional":"6","No of Cases Disposed":"35","No of Cases Pending":"798"},{"id":"IN.HP","fill":"#99ff99","label":"Himachal Pradesh","No of Court Functional":"3","No of Cases Disposed":"24","No of Cases Pending":"347"},{"id":"IN.JK","fill":"#00e639","label":"Jammu and Kashmir","No of Court Functional":"8","No of Cases Disposed":"7","No of Cases Pending":"1482"},{"id":"IN.JH","fill":"#ffcc99","label":"Jharkhand","No of Court Functional":"39","No of Cases Disposed":"231","No of Cases Pending":"8211"},{"id":"IN.KA","fill":"#e699ff","label":"Karnataka","No of Court Functional":"0","No of Cases Disposed":"0","No of Cases Pending":"0"},{"id":"IN.KL","fill":"#c2c2d6","label":"Kerala","No of Court Functional":"0","No of Cases Disposed":"0","No of Cases Pending":"0"},{"id":"IN.LA","fill":"#ffc299","label":"Ladakh","No of Court Functional":"0","No of Cases Disposed":"0","No of Cases Pending":"0"},{"id":"IN.LD","fill":"#c2c2d6","label":"Lakshadweep","No of Court Functional":"0","No of Cases Disposed":"0","No of Cases Pending":"0"},{"id":"IN.MP","fill":"#097969","label":"Madhya Pradesh","No of Court Functional":"0","No of Cases Disposed":"0","No of Cases Pending":"0"},{"id":"IN.MH","fill":"#ffad99","label":"Maharashtra","No of Court Functional":"102","No of Cases Disposed":"6651","No of Cases Pending":"173237"},{"id":"IN.MNL","fill":"#99ffff","label":"Manipur","No of Court Functional":"6","No of Cases Disposed":"9","No of Cases Pending":"242"},{"id":"IN.ML","fill":"#1ac6ff","label":"Meghalaya","No of Court Functional":"0","No of Cases Disposed":"0","No of Cases Pending":"0"},{"id":"IN.MZ","fill":"#ff80ff","label":"Mizoram","No of Court Functional":"2","No of Cases Disposed":"48","No of Cases Pending":"279"},{"id":"IN.NL","fill":"#d0e2bc","label":"Nagaland","No of Court Functional":"0","No of Cases Disposed":"0","No of Cases Pending":"0"},{"id":"IN.OR","fill":"#ff6666","label":"Odisha","No of Court Functional":"0","No of Cases Disposed":"0","No of Cases Pending":"0"},{"id":"IN.PY","fill":"#3366cc","label":"Puducherry","No of Court Functional":"0","No of Cases Disposed":"0","No of Cases Pending":"0"},{"id":"IN.PB","fill":"#ddddbb","label":"Punjab","No of Court Functional":"7","No of Cases Disposed":"16","No of Cases Pending":"149"},{"id":"IN.RJ","fill":"#ff66b3","label":"Rajasthan","No of Court Functional":"0","No of Cases Disposed":"0","No of Cases Pending":"0"},{"id":"IN.SK","fill":"#ffff99","label":"Sikkim","No of Court Functional":"2","No of Cases Disposed":"1","No of Cases Pending":"17"},{"id":"IN.TN","fill":"#3366cc","label":"Tamil Nadu","No of Court Functional":"72","No of Cases Disposed":"3713","No of Cases Pending":"80460"},{"id":"IN.TG","fill":"#99ff99","label":"Telangana","No of Court Functional":"0","No of Cases Disposed":"0","No of Cases Pending":"0"},{"id":"IN.TR","fill":"#ff9900","label":"Tripura","No of Court Functional":"3","No of Cases Disposed":"21","No of Cases Pending":"1319"},{"id":"IN.UP","fill":"#b3d9ff","label":"Uttar Pradesh","No of Court Functional":"372","No of Cases Disposed":"89316","No of Cases Pending":"999909"},{"id":"IN.UT","fill":"#9999ff","label":"Uttarakhand","No of Court Functional":"4","No of Cases Disposed":"44","No of Cases Pending":"979"},{"id":"IN.WB","fill":"#ff99c2","label":"West Bengal","No of Court Functional":"88","No of Cases Disposed":"1840","No of Cases Pending":"80562"}];
+  console.log("dynamicData");
+  var dataSet = anychart.data.set(dynamicData);
+    /*[   
+          {"id":"IN.AN","value":0, label: 'Andaman and Nicobar', "court_functional": 0, "cases_disposed": 0, "cases_pending": 0, "fill": '#ff99c2'}, //andaman & nicobar
+
+          {"id":"IN.AP","value":1, label: 'Andhra Pradesh', "court_functional": 22, "cases_disposed": 221, "cases_pending": 8373, "fill": '#b3ffff'}, // andhra pradesh
+
+          {"id":"IN.AR","value":2, label: 'Arunachal Pradesh', "court_functional": 8, "cases_disposed": 4, "cases_pending": 181, "fill": '#d699ff'}, // arunachal pradesh
+
+          {"id":"IN.AS","value":3, label: 'Assam', "court_functional": 16, "cases_disposed": 660, "cases_pending": 12212, "fill": '#c2d6d6'}, //assam
+
+          {"id":"IN.BR","value":4, label: 'Bihar', "court_functional": 0, "cases_disposed": 0, "cases_pending": 0, "fill": '#f5f5f5'}, //bihar
+
+          {"id":"IN.CH","value":5, label: 'Chandigarh', "court_functional": 0, "cases_disposed": 0, "cases_pending": 0, "fill": '#ddddbb'}, //chandigarh
+
+          {"id":"IN.CT","value":6, label: 'Chhattisgarh', "court_functional": 23, "cases_disposed": 364, "cases_pending": 5305, "fill": '#ffff99'}, //chhattisgrah
+
+          {"id":"IN.DN","value":7, label: 'Dadra and Nagar Haveli', "court_functional": 0, "cases_disposed": 0, "cases_pending": 0, "fill": '#ffad99'}, // dadra & nagar haveli
+
+          {"id":"IN.DD","value":8, label: 'Daman and Diu', "court_functional": 0, "cases_disposed": 0, "cases_pending": 0, "fill": '#ffad99'}, //daman diu
+
+          {"id":"IN.DL","value":9, label: 'Delhi', "court_functional": 18, "cases_disposed": 516, "cases_pending": 5683, "fill": '#c2d6d6'}, // delhi
+
+           {"id":"IN.GA","value":10, label: 'Goa', "court_functional": 4, "cases_disposed": 1426, "cases_pending": 838, "fill": '#ffffff'}, //goa
+
+           {"id":"IN.GJ","value":11, label: 'Gujarat', "court_functional": 54, "cases_disposed": 297, "cases_pending": 6484, "fill": '#ffd480',}, // gujarat
+
+           {"id":"IN.HR","value":12, label: 'Haryana', "court_functional": 6, "cases_disposed": 37, "cases_pending": 778, "fill": '#b3ffe6'}, // haryana
+
+           {"id":"IN.HP","value":13, label: 'Himachal Pradesh', "court_functional": 3, "cases_disposed": 20, "cases_pending": 488, "fill": '#99ff99'}, // himachal pradesh
+
+           {"id":"IN.JH","value":14, label: 'Jharkhand', "court_functional": 34, "cases_disposed": 163, "cases_pending": 8062, "fill": '#ffcc99'}, // jharkhand
+
+           {"id":"IN.KA","value":15, label: 'Karnataka', "court_functional": 0, "cases_disposed": 0, "cases_pending": 0, "fill": '#e699ff'}, // karnataka
+
+           {"id":"IN.KL","value":16, label: 'Kerala', "court_functional": 0, "cases_disposed": 0, "cases_pending": 0, "fill": '#c2c2d6'}, // kerala
+
+           {"id":"IN.LD","value":17, label: 'Lakshadweep', "court_functional": 0, "cases_disposed": 0, "cases_pending": 0, "fill": '#c2c2d6'}, // lakshadweep
+
+           {"id":"IN.MP","value":18, label: 'Madhya Pradesh', "court_functional": 0, "cases_disposed": 0, "cases_pending": 0, "fill": '#097969'}, // madhya pradesh
+
+           {"id":"IN.MH","value":19, label: 'Maharashtra', "court_functional": 96, "cases_disposed": 4506, "cases_pending": 141105, "fill": '#ffad99'}, // maharsahtra
+
+            {"id":"IN.MNL","value":20, label: 'Manipur', "court_functional": 6, "cases_disposed": 4, "cases_pending": 290, "fill": '#99ffff'}, // manipur
+
+           {"id":"IN.ML","value":21, label: 'Meghalaya', "court_functional": 0, "cases_disposed": 0, "cases_pending": 0, "fill": '#1ac6ff'}, // meghalaya
+
+           {"id":"IN.MZ","value":22, label: 'Mizoram', "court_functional": 2, "cases_disposed": 28, "cases_pending": 224, "fill": '#ff80ff'}, // mizoram
+
+           {"id":"IN.NL","value":23, label: {x: 1, y: 1, positionMode: "relative", format: 'Nagaland'}, "court_functional": 0, "cases_disposed": 0, "cases_pending": 0, "fill": '#d0e2bc'}, // nagaland
+
+           {"id":"IN.OR","value":24, label: 'Odisha', "court_functional": 0, "cases_disposed": 0, "cases_pending": 0, "fill": '#ff6666'}, // orissa
+
+           {"id":"IN.PY","value":25, label: 'Puducherry', "court_functional": 0, "cases_disposed": 0, "cases_pending": 0, "fill": '#3366cc'}, // puducherry
+
+           {"id":"IN.PB","value":26, label: 'Punjab',  "court_functional": 7, "cases_disposed": 13, "cases_pending": 204, "fill": '#ddddbb'}, // punjab
+
+           {"id":"IN.RJ","value":27, label: 'Rajasthan',  "court_functional": 0, "cases_disposed": 0, "cases_pending": 0, "fill": '#ff66b3'}, // rajasthan
+
+           {"id":"IN.SK","value":28, label: 'Sikkim', "court_functional": 2, "cases_disposed": 1, "cases_pending": 18, "fill": '#ffff99'}, // sikkim
+
+           {"id":"IN.TN","value":29, label: 'Tamil Nadu',  "court_functional": 72, "cases_disposed": 1831, "cases_pending": 90911, "fill": '#3366cc'}, // tamil nadu
+
+           {"id":"IN.TR","value":30, label: 'Tripura', "court_functional": 3, "cases_disposed": 30, "cases_pending": 1381, "fill": '#ff9900'}, // tripura
+
+           {"id":"IN.UP","value":31, label: 'Uttar Pradesh', "court_functional": 372, "cases_disposed": 201752, "cases_pending": 1280828, "fill": '#b3d9ff'}, // uttar pradesh
+
+           {"id":"IN.UT","value":32, label: 'Uttarakhand', "court_functional": 4, "cases_disposed": 37, "cases_pending": 935, "fill": '#9999ff'}, // uttarakhand
+
+           {"id":"IN.WB","value":33, label: 'West Bengal', "court_functional": 88, "cases_disposed": 17858, "cases_pending": 94121, "fill": '#ff99c2'}, // west bengal
+
+           {"id":"IN.TG","value":34, label: 'Telangana',  "court_functional": 0, "cases_disposed": 0, "cases_pending": 0, "fill": '#99ff99'}, // teleangana
+
+           {"id":"IN.JK","value":35, label: 'Jammu and Kashmir', "court_functional": 8, "cases_disposed": 9, "cases_pending": 1469, "fill": '#00e639'}, // jammu & Kashmir
+
+           {"id":"IN.LA","value":36, label: 'Ladakh',"court_functional": 0, "cases_disposed": 0, "cases_pending": 0, "fill": '#ffc299'}] //ladakh
+  );*/
+
+
+
+
+  // create choropleth series
+  series = map.choropleth(dataSet);
+
+  // set geoIdField to 'id', this field contains in geo data meta properties
+  series.geoIdField('id');
+
+  // set map color settings
+  series.colorScale(anychart.scales.linearColor('#deebf7', '#3182bd'));
+  series.hovered().fill('#F5F5F5');
+  series.labels(true);
+  series.overlapMode("allow-overlap");
+
+  series.tooltip().format(function() {
+    // here return the desired content
+    return `No of Court Functional: ${this.getData('No of Court Functional')}
+  No of Cases Disposed: ${this.getData('No of Cases Disposed')}
+  No of Cases Pending: ${this.getData('No of Cases Pending')}`;
+  });
+
+  // set geo data, you can find this map in our geo maps collection
+  // https://cdn.anychart.com/#maps-collection
+  map.geoData(anychart.maps['india']);
+
+  map.tooltip().titleFormat('{%label}');
+  series.labels().enabled(true).format('{%label}');
+
+  //set map container id (div)
+  map.container('container');
+
+  //initiate map drawing
+  map.draw();
+});
+</script>
+
+</body>
+</html>
