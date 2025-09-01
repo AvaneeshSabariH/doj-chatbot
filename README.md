@@ -23,18 +23,6 @@ This project was developed to address the Smart India Hackathon (SIH) problem st
 -   **Frontend:** HTML, CSS, JavaScript
 -   **Environment:** `uv`
 
-## Project Structure
-── 📂 chroma_db/      # Persisted ChromaDB vector store
-├── 📂 data/          # Cleaned .txt files used for the knowledge base
-├── 📂 static/         # Frontend CSS and JavaScript
-├── 📂 templates/      # Frontend HTML file
-├── 📜 .env            # Environment variables (API Key)
-├── 📜 .gitignore      # Specifies files for Git to ignore
-├── 📜 main.py         # The main Flask application that runs the web server
-├── 📜 doj_pipeline.py  # The complete data ingestion and RAG testing pipeline
-├── 📜 requirements.txt # Project dependencies
-└── 📜 README.md        # This file
-
 ## Setup and Installation
 
 Follow these steps to set up and run the project locally.
@@ -99,3 +87,4 @@ Modularize Pipeline: Break down doj_pipeline.py into separate modules for crawli
 Streaming Responses: Implement response streaming on the frontend for a more interactive, "typing" effect.
 
 Cloud Deployment: Deploy the application to a cloud service
+
