@@ -782,7 +782,7 @@
   "https://doj.gov.in/hi": {
     "etag": null,
     "last_modified": null,
-    "sha256": "afdcf3df64da192f77d2e06c374fe44e3f029305fb24b980c011ec7e9b9497e6",
+    "sha256": "719528e6d0d5bf42e888d6fba2121bdbd24066b1b7c33f116405744b11583753",
     "path": "cache\\raw\\doj.gov.in_hi.html"
   },
   "https://doj.gov.in/hi/%e0%a4%af%e0%a5%8b%e0%a4%9c%e0%a4%a8%e0%a4%be-%e0%a4%b8%e0%a4%ae%e0%a5%87%e0%a4%95%e0%a4%bf%e0%a4%a4-%e0%a4%a6%e0%a4%bf%e0%a4%b6%e0%a4%be%e0%a4%a8%e0%a4%bf%e0%a4%b0%e0%a5%8d%e0%a4%a6": {
@@ -1250,13 +1250,13 @@
   "https://doj.gov.in/hi/\u0938\u0939\u093e\u092f\u0924\u093e": {
     "etag": null,
     "last_modified": null,
-    "sha256": "42d138cb3f6aa7bb955db4f4972d188507d5530f8af45d3641f058a42f90b718",
+    "sha256": "68757b95852c3cb28713074474d3b7d7f2a14177155a7843b646eb0ba059d311",
     "path": "cache\\raw\\doj.gov.in_hi.html"
   },
   "https://doj.gov.in/hi/\u0938\u093e\u0907\u091f\u092e\u0948\u092a": {
     "etag": null,
     "last_modified": null,
-    "sha256": "e9c895e8ba607d00b19baf577ebe2a2ab540439b8d7ab5e7e262aba18105a9e8",
+    "sha256": "a7e959f61866bb911678aba52a133c5eb4f7071175640f95577782384467039f",
     "path": "cache\\raw\\doj.gov.in_hi.html"
   },
   "https://doj.gov.in/chairman-parliamentary-standing-committee": {
@@ -1480,5 +1480,65 @@
     "last_modified": null,
     "sha256": "4f582d4443c07c46809f185a0dfc50adee09b8e1a1ed1d5e9675793e8346e7e0",
     "path": "cache\\raw\\doj.gov.in_notice_notice-inviting-tender-nit-for-evaluation-of-legal-aid-defense-counsel-system-scheme-reg.html"
+  },
+  "https://doj.gov.in/document/order-of-appointment-of-shri-a-b-kadethankar-and-02-other-advocates-as-addl-judges-of-bombay-high-court-13-08-2025": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "87bcdb11f8e2d2698f46b531dd356f78fbfeb86a349710d0df206849f0ef0987",
+    "path": "cache\\raw\\doj.gov.in_document_order-of-appointment-of-shri-a-b-kadethankar-and-02-other-advocates-as-addl-judges-of-bombay-high-court-13-08-2025.html"
+  },
+  "https://doj.gov.in/document/order-of-appointment-of-smt-ramesh-kumari-jo-as-an-addl-judge-of-punjab-haryana-high-court-18-08-2025": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "4f41bd7679ca08a1301afebac17f00e8423ab273afc59e25b363d65de70dec21",
+    "path": "cache\\raw\\doj.gov.in_document_order-of-appointment-of-smt-ramesh-kumari-jo-as-an-addl-judge-of-punjab-haryana-high-court-18-08-2025.html"
+  },
+  "https://doj.gov.in/document/order-of-appointment-of-shri-justice-alok-aradhe-chief-justice-of-bombay-high-court-as-a-judge-of-the-supreme-court-of-india-27-08-2025": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "fc365507ba78d7913521821037434c92148d998d97517fcfc60d39e9de03ab40",
+    "path": "cache\\raw\\doj.gov.in_document_order-of-appointment-of-shri-justice-alok-aradhe-chief-justice-of-bombay-high-court-as-a-judge-of-the-supreme-court-of-india-27-08-2025.html"
+  },
+  "https://doj.gov.in/document/order-of-appointment-of-shri-justice-vipul-manubhai-pancholi-chief-justice-of-patna-high-court-as-a-judge-of-supreme-court-of-india-27-08-2025": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "c608be23ea3531f40bbeaca7135e366f1c1e46f9d26f185990838cae198f99c6",
+    "path": "cache\\raw\\doj.gov.in_document_order-of-appointment-of-shri-justice-vipul-manubhai-pancholi-chief-justice-of-patna-high-court-as-a-judge-of-supreme-court-of-india-27-08-2025.html"
+  },
+  "https://doj.gov.in/document/order-of-appointment-of-shri-justice-shree-chandrashekhar-judge-of-bombay-high-court-as-acting-cj-of-bombay-high-court-27-08-2025": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "465f50be5e543849d069fbbdaa77d9d4ba1f7fae20bd674a459b915c31b59f7c",
+    "path": "cache\\raw\\doj.gov.in_document_order-of-appointment-of-shri-justice-shree-chandrashekhar-judge-of-bombay-high-court-as-acting-cj-of-bombay-high-court-27-08-2025.html"
+  },
+  "https://doj.gov.in/document/order-of-appointment-of-shri-p-b-bajanthri-judge-of-patna-high-as-acting-chief-justice-of-patna-high-court-27-08-2025": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "f6d35ca95656c9eb3d1b2b378fac4bdb6a47141ba5386b8fa86bed5e8746ec8a",
+    "path": "cache\\raw\\doj.gov.in_document_order-of-appointment-of-shri-p-b-bajanthri-judge-of-patna-high-as-acting-chief-justice-of-patna-high-court-27-08-2025.html"
+  },
+  "https://doj.gov.in/document/order-of-appointment-of-shri-s-s-thombre-and-13-other-advocates-as-addl-judges-of-the-bombay-high-court-27-08-2025": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "76af7373b21f688c1a9217c803d08e0dad2912104dcfdbedd32dd17411b90aff",
+    "path": "cache\\raw\\doj.gov.in_document_order-of-appointment-of-shri-s-s-thombre-and-13-other-advocates-as-addl-judges-of-the-bombay-high-court-27-08-2025.html"
+  },
+  "https://doj.gov.in/document/order-of-appointment-of-shri-justice-budi-habung-and-01-other-additional-judges-of-the-gauhati-high-court-as-permanent-judges-of-that-high-court-29-08-2025": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "cde2a96354c6bc77960007c17258c3c91dc37afbd557c0b19a304bf17877e37d",
+    "path": "cache\\raw\\doj.gov.in_document_order-of-appointment-of-shri-justice-budi-habung-and-01-other-additional-judges-of-the-gauhati-high-court-as-permanent-judges-of-that-high-court-29-08-2025.html"
+  },
+  "https://doj.gov.in/document/order-of-appointment-of-shri-justice-kaushik-goswami-additional-judge-of-the-gauhati-high-court-as-an-additional-judge-of-that-high-court-for-a-period-of-one-year-w-e-f-10-11-2025-29-08-2025": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "511e27e93596bf7539ae324e3898dab1c49f793bc66f19196147e59b727b8603",
+    "path": "cache\\raw\\doj.gov.in_document_order-of-appointment-of-shri-justice-kaushik-goswami-additional-judge-of-the-gauhati-high-court-as-an-additional-judge-of-that-high-court-for-a-period-of-one-year-w-e-f-10-11-2025-29-08-2025.html"
+  },
+  "https://doj.gov.in/document/order-of-appointment-of-shri-arun-kumar-advocate-as-a-judge-of-allahabad-high-court-01-09-2025": {
+    "etag": null,
+    "last_modified": null,
+    "sha256": "9c92a7fbe2e798400b6154f85dad5a775275bbd38c27b2ec3947d6a255971a18",
+    "path": "cache\\raw\\doj.gov.in_document_order-of-appointment-of-shri-arun-kumar-advocate-as-a-judge-of-allahabad-high-court-01-09-2025.html"
   }
 }

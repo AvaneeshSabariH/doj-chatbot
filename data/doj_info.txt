@@ -3,3 +3,5 @@ The Tele-Law service provides legal advice to citizens through video conferencin
 eFiling allows for the electronic filing of case documents in courts across the country through the official web portal.
 
 Fast Track Special Courts are set up for the speedy trial and disposal of sensitive cases, particularly those related to rape and the POCSO Act.
+
+The Tele-Law scheme, initiated by the Department of Justice, aims to address cases at the pre-litigation stage. Its main purpose is to connect citizens, especially the marginalized and disadvantaged in rural and remote areas, with Panel Lawyers for timely and valuable legal advice. This is done for free through video conferencing facilities available at Common Service Centres (CSCs) located at the panchayat level. This service ensures that people get access to justice without having to spend significant time or money on travel.

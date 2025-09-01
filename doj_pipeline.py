@@ -58,16 +58,24 @@ HASH_CACHE_FILE = os.path.join(CACHE_DIR, "hash_cache.json")
 SKIP_UNCHANGED = True
 REQUESTS_HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
 TEST_QUESTIONS = [
-    "What are Fast Track Special Courts?",
-    "What is the purpose of the Tele-Law service?",
-    "Explain the role of the National Judicial Data Grid.",
-    "What is Nyaya Bandhu and who can use it?",
-    "What are the objectives of the eCourts project?",
-    "What is the Citizens’ Charter?",
-    "What does the Gram Nyayalaya scheme aim to do?",
-    "List some services offered under eCourt Services.",
-    "What is the Memorandum of procedure of appointment of Supreme Court Judges?",
-    "What is the function of the National Legal Services Authority (NALSA)?"
+    # About the Department
+    "What are the main functions of the Department of Justice?",
+    "When was the Department of Justice placed under the Ministry of Law & Justice?",
+
+    # Key Schemes & Services
+    "What is the main purpose of the Tele-Law service?",
+    "How does the Nyaya Bandhu (Pro Bono Legal Services) scheme work?",
+    "What is the goal of the Gram Nyayalaya scheme?",
+    "What is the function of the National Legal Services Authority (NALSA)?",
+
+    # eCourts and Digital Infrastructure
+    "What are the primary objectives of the eCourts project?",
+    "Explain the role and function of the National Judicial Data Grid (NJDG).",
+    "List some of the services provided under the eCourts Services umbrella.",
+
+    # Specific Topics
+    "What is the specific purpose of Fast Track Special Courts (FTSCs)?",
+    "What does the Citizens’ Charter for the Department of Justice outline?"
 ]
 MIN_TEXT_WORDS = 8   # keep short but meaningful content threshold
 
@@ -431,15 +439,24 @@ def build_vectorstore_and_chain():
     llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0.3)
 
     prompt = PromptTemplate(
-        template="""You are an assistant for the Department of Justice, India.
-Answer the user's question based only on the provided context.
-If the information is not in the context, say so.
+        template="""You are a helpful and friendly assistant for the Department of Justice, India.
+Your main goal is to answer the user's question accurately using the provided context.
+
+Follow these rules:
+1.  First, try to find a direct answer in the context.
+2.  If the context does not contain a direct answer, do not simply say 'I don't know'.
+3.  Instead, first state what specific information is missing (e.g., "The context does not provide the exact number of...").
+4.  Then, provide the most relevant, related information that IS available in the context (e.g., "However, it does mention that...").
+5.  If the context is completely irrelevant to the question, then state that you cannot answer from the provided documents.
+6.  Base your entire response only on the facts given in the context.
 
 Context:
 {context}
 
 Question:
 {input}
+
+Helpful Answer:
 """,
         input_variables=["context", "input"],
     )

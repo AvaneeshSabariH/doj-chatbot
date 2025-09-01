@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoJ AI Assistant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h3>DoJ AI Assistant</h3>
+            <p>Your guide to the Department of Justice, India</p>
+        </div>
+        <div class="chat-window" id="chat-window">
+            <div class="chat-message bot">
+                <p>Hello! How can I help you today?</p>
+            </div>
+        </div>
+        <div class="chat-input-container">
+            <form id="chat-form" class="chat-form">
+                <textarea id="user-input" placeholder="Ask a question about the DoJ..." required></textarea>
+                <button type="submit" id="send-btn" aria-label="Send Message">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                </button>
+            </form>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
